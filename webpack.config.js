@@ -6,7 +6,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'la-components.js',
         library: 'LAComponents',
-        libraryTarget: "umd",
+        libraryTarget: 'umd',
     },
     module: {
         rules: [
