@@ -2,7 +2,6 @@
   "name": "la-data-vis-components",
   "version": "0.0.0",
   "main": "dist/la-components.js",
-  "module": "src/index.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack",
