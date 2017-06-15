@@ -24,6 +24,12 @@ module.exports = {
             amd: "react",
             root: "React",
         },
+        "lodash": {
+            commonjs: "lodash",
+            commonjs2: "lodash",
+            amd: "lodash",
+            root: "_",
+        },
     },
     watchOptions: {
         ignored: /node_modules/,

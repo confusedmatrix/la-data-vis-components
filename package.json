@@ -9,6 +9,7 @@
     "build:watch": "webpack --watch"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "react": "^15.5.4"
   },
   "devDependencies": {

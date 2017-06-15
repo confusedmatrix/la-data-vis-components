@@ -1,3 +1,8 @@
-import DummyComponent from './components/DummyComponent'
+import ComponentSuite from './components/ComponentSuite'
 
-export const dummy = DummyComponent
+import { Timeline }  from './components/Timeline'
+
+export {
+    ComponentSuite,
+    Timeline
+}
