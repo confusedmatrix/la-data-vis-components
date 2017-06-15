@@ -4,5 +4,5 @@ import { Timeline }  from './components/Timeline'
 
 export {
     ComponentSuite,
-    Timeline
+    Timeline,
 }

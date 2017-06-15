@@ -1,5 +1,7 @@
+import MotivatorDynamicImage from './dynamicImages/MotivatorDynamicImage'
 import MotivatorIcon from './icons/MotivatorIcon'
 
 export {
-    MotivatorIcon
+    MotivatorDynamicImage,
+    MotivatorIcon,
 }

@@ -1,6 +1,7 @@
 import Timeline from './Timeline'
 
 export {
-    Timeline
+    Timeline,
 }
+
 export default Timeline
