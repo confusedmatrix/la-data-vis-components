@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const FearOfFailureMotivatorIcon = () => (
-    <div></div>
+    <div>FOF</div>
 )
 
 export default FearOfFailureMotivatorIcon

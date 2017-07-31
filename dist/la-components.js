@@ -335,7 +335,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var AttainmentMotivatorIcon = exports.AttainmentMotivatorIcon = function AttainmentMotivatorIcon() {
-    return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        'ATTAINMENT'
+    );
 };
 
 exports.default = AttainmentMotivatorIcon;
@@ -359,7 +363,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var CareerMotivatorIcon = exports.CareerMotivatorIcon = function CareerMotivatorIcon() {
-    return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        'CAREER'
+    );
 };
 
 exports.default = CareerMotivatorIcon;
@@ -383,7 +391,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var FamilyMotivatorIcon = exports.FamilyMotivatorIcon = function FamilyMotivatorIcon() {
-    return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        'FAMILY'
+    );
 };
 
 exports.default = FamilyMotivatorIcon;
@@ -407,7 +419,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var FearOfFailureMotivatorIcon = exports.FearOfFailureMotivatorIcon = function FearOfFailureMotivatorIcon() {
-    return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        'FOF'
+    );
 };
 
 exports.default = FearOfFailureMotivatorIcon;
@@ -431,7 +447,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var MasteryMotivatorIcon = exports.MasteryMotivatorIcon = function MasteryMotivatorIcon() {
-    return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        'MASTERY'
+    );
 };
 
 exports.default = MasteryMotivatorIcon;
@@ -483,7 +503,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var OptionsMotivatorIcon = exports.OptionsMotivatorIcon = function OptionsMotivatorIcon() {
-    return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        'OPTIONS'
+    );
 };
 
 exports.default = OptionsMotivatorIcon;
@@ -507,7 +531,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ProfessionalCommunityMotivatorIcon = exports.ProfessionalCommunityMotivatorIcon = function ProfessionalCommunityMotivatorIcon() {
-    return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        'PC'
+    );
 };
 
 exports.default = ProfessionalCommunityMotivatorIcon;
@@ -531,7 +559,11 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var SelfDevelopmentMotivatorIcon = exports.SelfDevelopmentMotivatorIcon = function SelfDevelopmentMotivatorIcon() {
-    return _react2.default.createElement('div', null);
+    return _react2.default.createElement(
+        'div',
+        null,
+        'SD'
+    );
 };
 
 exports.default = SelfDevelopmentMotivatorIcon;

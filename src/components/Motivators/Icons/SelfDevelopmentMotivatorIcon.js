@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const SelfDevelopmentMotivatorIcon = () => (
-    <div></div>
+    <div>SD</div>
 )
 
 export default SelfDevelopmentMotivatorIcon

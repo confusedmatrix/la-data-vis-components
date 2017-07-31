@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const AttainmentMotivatorIcon = () => (
-    <div></div>
+    <div>ATTAINMENT</div>
 )
 
 export default AttainmentMotivatorIcon

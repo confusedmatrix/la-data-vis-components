@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const FamilyMotivatorIcon = () => (
-    <div></div>
+    <div>FAMILY</div>
 )
 
 export default FamilyMotivatorIcon

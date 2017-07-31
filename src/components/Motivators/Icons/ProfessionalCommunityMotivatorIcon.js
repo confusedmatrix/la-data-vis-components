@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const ProfessionalCommunityMotivatorIcon = () => (
-    <div></div>
+    <div>PC</div>
 )
 
 export default ProfessionalCommunityMotivatorIcon

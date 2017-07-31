@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const MasteryMotivatorIcon = () => (
-    <div></div>
+    <div>MASTERY</div>
 )
 
 export default  MasteryMotivatorIcon
