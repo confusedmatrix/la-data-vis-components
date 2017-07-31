@@ -23,8 +23,7 @@ const motivatorMap = {
 }
 
 export const MotivatorIcon = ({ motivator, size }) => {
-    const component = motivatorMap[motivator]
-    return ( <component /> )
+    return motivatorMap[motivator]
 }
 
 export default MotivatorIcon
