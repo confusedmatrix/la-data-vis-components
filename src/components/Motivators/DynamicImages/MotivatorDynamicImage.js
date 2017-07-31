@@ -23,8 +23,8 @@ const motivatorMap = {
 }
 
 export const MotivatorDynamicImage = ({ motivator, scale }) => {
-    const component = motivatorMap[motivator]
-    return ( <component scale={scale} /> )
+    const Component = motivatorMap[motivator]
+    return <Component scale={scale} />
 }
 
 export default MotivatorDynamicImage

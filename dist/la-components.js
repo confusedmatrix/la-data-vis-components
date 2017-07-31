@@ -118,6 +118,82 @@ exports.default = _Timeline2.default;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
+exports.MotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _AttainmentMotivatorIcon = __webpack_require__(8);
+
+var _AttainmentMotivatorIcon2 = _interopRequireDefault(_AttainmentMotivatorIcon);
+
+var _CareerMotivatorIcon = __webpack_require__(9);
+
+var _CareerMotivatorIcon2 = _interopRequireDefault(_CareerMotivatorIcon);
+
+var _FamilyMotivatorIcon = __webpack_require__(10);
+
+var _FamilyMotivatorIcon2 = _interopRequireDefault(_FamilyMotivatorIcon);
+
+var _FearOfFailureMotivatorIcon = __webpack_require__(11);
+
+var _FearOfFailureMotivatorIcon2 = _interopRequireDefault(_FearOfFailureMotivatorIcon);
+
+var _MasteryMotivatorIcon = __webpack_require__(12);
+
+var _MasteryMotivatorIcon2 = _interopRequireDefault(_MasteryMotivatorIcon);
+
+var _MoneyMotivatorIcon = __webpack_require__(13);
+
+var _MoneyMotivatorIcon2 = _interopRequireDefault(_MoneyMotivatorIcon);
+
+var _OptionsMotivatorIcon = __webpack_require__(14);
+
+var _OptionsMotivatorIcon2 = _interopRequireDefault(_OptionsMotivatorIcon);
+
+var _ProfessionalCommunityMotivatorIcon = __webpack_require__(15);
+
+var _ProfessionalCommunityMotivatorIcon2 = _interopRequireDefault(_ProfessionalCommunityMotivatorIcon);
+
+var _SelfDevelopmentMotivatorIcon = __webpack_require__(16);
+
+var _SelfDevelopmentMotivatorIcon2 = _interopRequireDefault(_SelfDevelopmentMotivatorIcon);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var motivatorMap = {
+    "attainment": _AttainmentMotivatorIcon2.default,
+    "career": _CareerMotivatorIcon2.default,
+    "family": _FamilyMotivatorIcon2.default,
+    "fear-of-failure": _FearOfFailureMotivatorIcon2.default,
+    "mastery": _MasteryMotivatorIcon2.default,
+    "money": _MoneyMotivatorIcon2.default,
+    "options": _OptionsMotivatorIcon2.default,
+    "professional-community": _ProfessionalCommunityMotivatorIcon2.default,
+    "self-development": _SelfDevelopmentMotivatorIcon2.default
+};
+
+var MotivatorIcon = exports.MotivatorIcon = function MotivatorIcon(_ref) {
+    var motivator = _ref.motivator,
+        size = _ref.size;
+
+    var Component = motivatorMap[motivator];
+    return _react2.default.createElement(Component, { size: size });
+};
+
+exports.default = MotivatorIcon;
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 exports.Avatar = undefined;
 
 var _react = __webpack_require__(0);
@@ -133,7 +209,7 @@ var Avatar = exports.Avatar = function Avatar() {
 exports.default = Avatar;
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -150,20 +226,25 @@ var _react2 = _interopRequireDefault(_react);
 
 var _Timeline = __webpack_require__(1);
 
+var _MotivatorIcon = __webpack_require__(2);
+
+var _MotivatorIcon2 = _interopRequireDefault(_MotivatorIcon);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ComponentSuite = exports.ComponentSuite = function ComponentSuite() {
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_Timeline.Timeline, { numWeeks: 12 })
+        _react2.default.createElement(_Timeline.Timeline, { numWeeks: 12 }),
+        _react2.default.createElement(_MotivatorIcon2.default, { motivator: 'money' })
     );
 };
 
 exports.default = ComponentSuite;
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -187,7 +268,7 @@ var Graph = exports.Graph = function Graph() {
 exports.default = Graph;
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -198,11 +279,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.MotivatorIcon = exports.MotivatorDynamicImage = undefined;
 
-var _MotivatorDynamicImage = __webpack_require__(13);
+var _MotivatorDynamicImage = __webpack_require__(23);
 
 var _MotivatorDynamicImage2 = _interopRequireDefault(_MotivatorDynamicImage);
 
-var _MotivatorIcon = __webpack_require__(23);
+var _MotivatorIcon = __webpack_require__(2);
 
 var _MotivatorIcon2 = _interopRequireDefault(_MotivatorIcon);
 
@@ -212,7 +293,7 @@ exports.MotivatorDynamicImage = _MotivatorDynamicImage2.default;
 exports.MotivatorIcon = _MotivatorIcon2.default;
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -236,7 +317,227 @@ var Tree = exports.Tree = function Tree() {
 exports.default = Tree;
 
 /***/ }),
-/* 7 */
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.AttainmentMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var AttainmentMotivatorIcon = exports.AttainmentMotivatorIcon = function AttainmentMotivatorIcon() {
+    return _react2.default.createElement('div', null);
+};
+
+exports.default = AttainmentMotivatorIcon;
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.CareerMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var CareerMotivatorIcon = exports.CareerMotivatorIcon = function CareerMotivatorIcon() {
+    return _react2.default.createElement('div', null);
+};
+
+exports.default = CareerMotivatorIcon;
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.FamilyMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var FamilyMotivatorIcon = exports.FamilyMotivatorIcon = function FamilyMotivatorIcon() {
+    return _react2.default.createElement('div', null);
+};
+
+exports.default = FamilyMotivatorIcon;
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.FearOfFailureMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var FearOfFailureMotivatorIcon = exports.FearOfFailureMotivatorIcon = function FearOfFailureMotivatorIcon() {
+    return _react2.default.createElement('div', null);
+};
+
+exports.default = FearOfFailureMotivatorIcon;
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.MasteryMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var MasteryMotivatorIcon = exports.MasteryMotivatorIcon = function MasteryMotivatorIcon() {
+    return _react2.default.createElement('div', null);
+};
+
+exports.default = MasteryMotivatorIcon;
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.MoneyMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var MoneyMotivatorIcon = exports.MoneyMotivatorIcon = function MoneyMotivatorIcon() {
+    return _react2.default.createElement(
+        'div',
+        null,
+        'MONEY'
+    );
+};
+
+exports.default = MoneyMotivatorIcon;
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.OptionsMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var OptionsMotivatorIcon = exports.OptionsMotivatorIcon = function OptionsMotivatorIcon() {
+    return _react2.default.createElement('div', null);
+};
+
+exports.default = OptionsMotivatorIcon;
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.ProfessionalCommunityMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ProfessionalCommunityMotivatorIcon = exports.ProfessionalCommunityMotivatorIcon = function ProfessionalCommunityMotivatorIcon() {
+    return _react2.default.createElement('div', null);
+};
+
+exports.default = ProfessionalCommunityMotivatorIcon;
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.SelfDevelopmentMotivatorIcon = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SelfDevelopmentMotivatorIcon = exports.SelfDevelopmentMotivatorIcon = function SelfDevelopmentMotivatorIcon() {
+    return _react2.default.createElement('div', null);
+};
+
+exports.default = SelfDevelopmentMotivatorIcon;
+
+/***/ }),
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -261,7 +562,7 @@ var AttainmentMotivatorDynamicImage = exports.AttainmentMotivatorDynamicImage = 
 exports.default = AttainmentMotivatorDynamicImage;
 
 /***/ }),
-/* 8 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -286,7 +587,7 @@ var CareerMotivatorDynamicImage = exports.CareerMotivatorDynamicImage = function
 exports.default = CareerMotivatorDynamicImage;
 
 /***/ }),
-/* 9 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -311,7 +612,7 @@ var FamilyMotivatorDynamicImage = exports.FamilyMotivatorDynamicImage = function
 exports.default = FamilyMotivatorDynamicImage;
 
 /***/ }),
-/* 10 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -336,7 +637,7 @@ var FearOfFailureMotivatorDynamicImage = exports.FearOfFailureMotivatorDynamicIm
 exports.default = FearOfFailureMotivatorDynamicImage;
 
 /***/ }),
-/* 11 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -361,7 +662,7 @@ var MasteryMotivatorDynamicImage = exports.MasteryMotivatorDynamicImage = functi
 exports.default = MasteryMotivatorDynamicImage;
 
 /***/ }),
-/* 12 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -386,7 +687,7 @@ var MoneyMotivatorDynamicImage = exports.MoneyMotivatorDynamicImage = function M
 exports.default = MoneyMotivatorDynamicImage;
 
 /***/ }),
-/* 13 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -401,39 +702,39 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _AttainmentMotivatorDynamicImage = __webpack_require__(7);
+var _AttainmentMotivatorDynamicImage = __webpack_require__(17);
 
 var _AttainmentMotivatorDynamicImage2 = _interopRequireDefault(_AttainmentMotivatorDynamicImage);
 
-var _CareerMotivatorDynamicImage = __webpack_require__(8);
+var _CareerMotivatorDynamicImage = __webpack_require__(18);
 
 var _CareerMotivatorDynamicImage2 = _interopRequireDefault(_CareerMotivatorDynamicImage);
 
-var _FamilyMotivatorDynamicImage = __webpack_require__(9);
+var _FamilyMotivatorDynamicImage = __webpack_require__(19);
 
 var _FamilyMotivatorDynamicImage2 = _interopRequireDefault(_FamilyMotivatorDynamicImage);
 
-var _FearOfFailureMotivatorDynamicImage = __webpack_require__(10);
+var _FearOfFailureMotivatorDynamicImage = __webpack_require__(20);
 
 var _FearOfFailureMotivatorDynamicImage2 = _interopRequireDefault(_FearOfFailureMotivatorDynamicImage);
 
-var _MasteryMotivatorDynamicImage = __webpack_require__(11);
+var _MasteryMotivatorDynamicImage = __webpack_require__(21);
 
 var _MasteryMotivatorDynamicImage2 = _interopRequireDefault(_MasteryMotivatorDynamicImage);
 
-var _MoneyMotivatorDynamicImage = __webpack_require__(12);
+var _MoneyMotivatorDynamicImage = __webpack_require__(22);
 
 var _MoneyMotivatorDynamicImage2 = _interopRequireDefault(_MoneyMotivatorDynamicImage);
 
-var _OptionsMotivatorDynamicImage = __webpack_require__(14);
+var _OptionsMotivatorDynamicImage = __webpack_require__(24);
 
 var _OptionsMotivatorDynamicImage2 = _interopRequireDefault(_OptionsMotivatorDynamicImage);
 
-var _ProfessionalCommunityMotivatorDynamicImage = __webpack_require__(15);
+var _ProfessionalCommunityMotivatorDynamicImage = __webpack_require__(25);
 
 var _ProfessionalCommunityMotivatorDynamicImage2 = _interopRequireDefault(_ProfessionalCommunityMotivatorDynamicImage);
 
-var _SelfDevelopmentMotivatorDynamicImage = __webpack_require__(16);
+var _SelfDevelopmentMotivatorDynamicImage = __webpack_require__(26);
 
 var _SelfDevelopmentMotivatorDynamicImage2 = _interopRequireDefault(_SelfDevelopmentMotivatorDynamicImage);
 
@@ -455,14 +756,14 @@ var MotivatorDynamicImage = exports.MotivatorDynamicImage = function MotivatorDy
     var motivator = _ref.motivator,
         scale = _ref.scale;
 
-    var component = motivatorMap[motivator];
-    return _react2.default.createElement('component', { scale: scale });
+    var Component = motivatorMap[motivator];
+    return _react2.default.createElement(Component, { scale: scale });
 };
 
 exports.default = MotivatorDynamicImage;
 
 /***/ }),
-/* 14 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -487,7 +788,7 @@ var OptionsMotivatorDynamicImage = exports.OptionsMotivatorDynamicImage = functi
 exports.default = OptionsMotivatorDynamicImage;
 
 /***/ }),
-/* 15 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -512,7 +813,7 @@ var ProfessionalCommunityMotivatorDynamicImage = exports.ProfessionalCommunityMo
 exports.default = ProfessionalCommunityMotivatorDynamicImage;
 
 /***/ }),
-/* 16 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -535,297 +836,6 @@ var SelfDevelopmentMotivatorDynamicImage = exports.SelfDevelopmentMotivatorDynam
 };
 
 exports.default = SelfDevelopmentMotivatorDynamicImage;
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.AttainmentMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var AttainmentMotivatorIcon = exports.AttainmentMotivatorIcon = function AttainmentMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = AttainmentMotivatorIcon;
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.CareerMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var CareerMotivatorIcon = exports.CareerMotivatorIcon = function CareerMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = CareerMotivatorIcon;
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.FamilyMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var FamilyMotivatorIcon = exports.FamilyMotivatorIcon = function FamilyMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = FamilyMotivatorIcon;
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.FearOfFailureMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var FearOfFailureMotivatorIcon = exports.FearOfFailureMotivatorIcon = function FearOfFailureMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = FearOfFailureMotivatorIcon;
-
-/***/ }),
-/* 21 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.MasteryMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var MasteryMotivatorIcon = exports.MasteryMotivatorIcon = function MasteryMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = MasteryMotivatorIcon;
-
-/***/ }),
-/* 22 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.MoneyMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var MoneyMotivatorIcon = exports.MoneyMotivatorIcon = function MoneyMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = MoneyMotivatorIcon;
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.MotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _AttainmentMotivatorIcon = __webpack_require__(17);
-
-var _AttainmentMotivatorIcon2 = _interopRequireDefault(_AttainmentMotivatorIcon);
-
-var _CareerMotivatorIcon = __webpack_require__(18);
-
-var _CareerMotivatorIcon2 = _interopRequireDefault(_CareerMotivatorIcon);
-
-var _FamilyMotivatorIcon = __webpack_require__(19);
-
-var _FamilyMotivatorIcon2 = _interopRequireDefault(_FamilyMotivatorIcon);
-
-var _FearOfFailureMotivatorIcon = __webpack_require__(20);
-
-var _FearOfFailureMotivatorIcon2 = _interopRequireDefault(_FearOfFailureMotivatorIcon);
-
-var _MasteryMotivatorIcon = __webpack_require__(21);
-
-var _MasteryMotivatorIcon2 = _interopRequireDefault(_MasteryMotivatorIcon);
-
-var _MoneyMotivatorIcon = __webpack_require__(22);
-
-var _MoneyMotivatorIcon2 = _interopRequireDefault(_MoneyMotivatorIcon);
-
-var _OptionsMotivatorIcon = __webpack_require__(24);
-
-var _OptionsMotivatorIcon2 = _interopRequireDefault(_OptionsMotivatorIcon);
-
-var _ProfessionalCommunityMotivatorIcon = __webpack_require__(25);
-
-var _ProfessionalCommunityMotivatorIcon2 = _interopRequireDefault(_ProfessionalCommunityMotivatorIcon);
-
-var _SelfDevelopmentMotivatorIcon = __webpack_require__(26);
-
-var _SelfDevelopmentMotivatorIcon2 = _interopRequireDefault(_SelfDevelopmentMotivatorIcon);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var motivatorMap = {
-    "attainment": _AttainmentMotivatorIcon2.default,
-    "career": _CareerMotivatorIcon2.default,
-    "family": _FamilyMotivatorIcon2.default,
-    "fear-of-failure": _FearOfFailureMotivatorIcon2.default,
-    "mastery": _MasteryMotivatorIcon2.default,
-    "money": _MoneyMotivatorIcon2.default,
-    "options": _OptionsMotivatorIcon2.default,
-    "professional-community": _ProfessionalCommunityMotivatorIcon2.default,
-    "self-development": _SelfDevelopmentMotivatorIcon2.default
-};
-
-var MotivatorIcon = exports.MotivatorIcon = function MotivatorIcon(_ref) {
-    var motivator = _ref.motivator,
-        size = _ref.size;
-
-    return motivatorMap[motivator];
-};
-
-exports.default = MotivatorIcon;
-
-/***/ }),
-/* 24 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.OptionsMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var OptionsMotivatorIcon = exports.OptionsMotivatorIcon = function OptionsMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = OptionsMotivatorIcon;
-
-/***/ }),
-/* 25 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.ProfessionalCommunityMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ProfessionalCommunityMotivatorIcon = exports.ProfessionalCommunityMotivatorIcon = function ProfessionalCommunityMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = ProfessionalCommunityMotivatorIcon;
-
-/***/ }),
-/* 26 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.SelfDevelopmentMotivatorIcon = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var SelfDevelopmentMotivatorIcon = exports.SelfDevelopmentMotivatorIcon = function SelfDevelopmentMotivatorIcon() {
-    return _react2.default.createElement('div', null);
-};
-
-exports.default = SelfDevelopmentMotivatorIcon;
 
 /***/ }),
 /* 27 */
@@ -918,23 +928,23 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Tree = exports.TimelineItem = exports.Timeline = exports.MotivatorIcon = exports.MotivatorDynamicImage = exports.Graph = exports.ComponentSuite = exports.Avatar = undefined;
 
-var _Avatar = __webpack_require__(2);
+var _Avatar = __webpack_require__(3);
 
 var _Avatar2 = _interopRequireDefault(_Avatar);
 
-var _ComponentSuite = __webpack_require__(3);
+var _ComponentSuite = __webpack_require__(4);
 
 var _ComponentSuite2 = _interopRequireDefault(_ComponentSuite);
 
-var _Graph = __webpack_require__(4);
+var _Graph = __webpack_require__(5);
 
 var _Graph2 = _interopRequireDefault(_Graph);
 
-var _Motivators = __webpack_require__(5);
+var _Motivators = __webpack_require__(6);
 
 var _Timeline = __webpack_require__(1);
 
-var _Tree = __webpack_require__(6);
+var _Tree = __webpack_require__(7);
 
 var _Tree2 = _interopRequireDefault(_Tree);
 
