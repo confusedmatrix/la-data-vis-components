@@ -750,8 +750,7 @@ var MotivatorIcon = exports.MotivatorIcon = function MotivatorIcon(_ref) {
     var motivator = _ref.motivator,
         size = _ref.size;
 
-    var component = motivatorMap[motivator];
-    return _react2.default.createElement('component', null);
+    return motivatorMap[motivator];
 };
 
 exports.default = MotivatorIcon;
