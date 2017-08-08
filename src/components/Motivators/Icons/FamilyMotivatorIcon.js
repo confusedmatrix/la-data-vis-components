@@ -1,7 +1,13 @@
 import React from 'react'
 
-export const FamilyMotivatorIcon = () => (
-    <div>FAMILY</div>
+import './FamilyMotivatorIcon.scss'
+import FamilyMotivatorSVG from './svg/family.svg'
+
+export const FamilyMotivatorIcon = ({ height, width }) => (
+    <FamilyMotivatorSVG
+        className="family-motivator-icon"
+        height={height}
+        width={width} />
 )
 
 export default FamilyMotivatorIcon

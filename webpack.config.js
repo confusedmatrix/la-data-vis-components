@@ -15,6 +15,31 @@ module.exports = {
                 use: [ 'babel-loader' ],
                 exclude: /node_modules/,
             },
+            {
+                test: /(\.sass|\.scss)$/,
+                use: [
+                    'style-loader',
+                    'css-loader',
+                    'sass-loader',
+                ],
+            },
+            {
+                test: /\.svg$/,
+                use: [
+                    'babel-loader',
+                    {
+                        loader: 'react-svg-loader',
+                        options: {
+                            svgo: {
+                                plugins: [{
+
+                                }]
+                            }
+                        }
+                    }
+                ],
+                exclude: /node_modules/,
+            }
         ],
     },
     externals: {

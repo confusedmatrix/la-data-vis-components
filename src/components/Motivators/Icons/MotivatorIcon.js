@@ -22,9 +22,25 @@ const motivatorMap = {
     "self-development": SelfDevelopmentMotivatorIcon,
 }
 
+const sizes = {
+    "small": {
+        height: "80px",
+        width: "80px",
+    },
+    "medium": {
+        height: "120px",
+        width: "120px",
+    },
+    "large": {
+        height: "160px",
+        width: "160px",
+    },
+}
+
 export const MotivatorIcon = ({ motivator, size }) => {
     const Component = motivatorMap[motivator]
-    return <Component size={size} />
+    const { height, width } = size ? sizes[size] : sizes['medium']
+    return <Component height={height} width={width} />
 }
 
 export default MotivatorIcon

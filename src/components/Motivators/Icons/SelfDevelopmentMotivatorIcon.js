@@ -1,7 +1,13 @@
 import React from 'react'
 
-export const SelfDevelopmentMotivatorIcon = () => (
-    <div>SD</div>
+import './SelfDevelopmentMotivatorIcon.scss'
+import SelfDevelopmentMotivatorSVG from './svg/self-development.svg'
+
+export const SelfDevelopmentMotivatorIcon = ({ height, width }) => (
+    <SelfDevelopmentMotivatorSVG
+        className="self-development-motivator-icon"
+        height={height}
+        width={width} />
 )
 
 export default SelfDevelopmentMotivatorIcon
