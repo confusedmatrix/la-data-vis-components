@@ -4339,7 +4339,7 @@ var Character = exports.Character = function Character(_ref) {
         shoeColor = _ref$shoeColor === undefined ? [255, 0, 255] : _ref$shoeColor;
     return _react2.default.createElement(
         'svg',
-        { id: 'character', viewBox: '0 0 300 300' },
+        { id: 'character' },
         _react2.default.createElement(_FreeArm2.default, {
             armStyle: armStyle,
             skinColor: skinColor,
