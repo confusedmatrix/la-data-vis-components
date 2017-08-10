@@ -1,8 +1,224 @@
 #character-head {
-  .st0{fill:#D88B71;}
-  .st1{fill:#F4A17E;}
-  .st2{fill:#B25352;}
-  .st3{fill:#1D1D1B;}
-  .st4{fill:#E20613;}
-  .st5{fill:#F8B133;}
+
+  &.female-head-1 {
+    .skin-shadow {
+      fill: #D88B71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #B25352;
+    }
+    .st3 {
+      fill: #1D1D1B;
+    }
+    .st4 {
+      fill: #E20613;
+    }
+    .hair {
+      fill: #F8B133;
+    }
+  }
+
+  &.female-head-2 {
+    .skin-shadow {
+      fill: #D88B71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #B25352;
+    }
+    .st3 {
+      fill: #1D1D1B;
+    }
+    .st4 {
+      fill: #E20613;
+    }
+    .hair {
+      fill: #F8B133;
+    }
+  }
+
+  &.female-head-3 {
+    .skin-shadow {
+      fill: #D88B71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #B25352;
+    }
+    .st3 {
+      fill: #1D1D1B;
+    }
+    .st4 {
+      fill: #E20613;
+    }
+    .hair {
+      fill: #F8B133;
+    }
+  }
+
+  &.female-head-4 {
+    .skin-shadow {
+      fill: #D88B71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #B25352;
+    }
+    .st3 {
+      fill: #1D1D1B;
+    }
+    .st4 {
+      fill: #E20613;
+    }
+    .hair {
+      fill: #F8B133;
+    }
+  }
+
+  &.male-head-1 {
+    .skin-shadow {
+      fill: #D98A71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #1D1E1C;
+    }
+    .hair {
+      fill: #422918;
+    }
+    .st4 {
+      fill: none;
+      stroke: #000000;
+      stroke-width: 0.4148;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+    .st5 {
+      fill: #D88A71;
+    }
+    .st6 {
+      fill: #B25353;
+    }
+  }
+
+  &.male-head-2 {
+    .skin-shadow {
+      fill: #D98A71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #1D1E1C;
+    }
+    .hair {
+      fill: #422918;
+    }
+    .st4 {
+      fill: none;
+      stroke: #000000;
+      stroke-width: 0.4148;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+    .st5 {
+      fill: #D88A71;
+    }
+    .st6 {
+      fill: #B25353;
+    }
+  }
+
+  &.male-head-3 {
+    .skin-shadow {
+      fill: #D98A71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #1D1E1C;
+    }
+    .hair {
+      fill: #422918;
+    }
+    .st4 {
+      fill: none;
+      stroke: #000000;
+      stroke-width: 0.4148;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+    .st5 {
+      fill: #D88A71;
+    }
+    .st6 {
+      fill: #B25353;
+    }
+  }
+
+  &.male-head-4 {
+    .skin-shadow {
+      fill: #D98A71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #1D1E1C;
+    }
+    .hair {
+      fill: #422918;
+    }
+    .st4 {
+      fill: #D88A71;
+    }
+    .st5 {
+      fill: #B25353;
+    }
+  }
+  &.male-head-5 {
+    .skin-shadow {
+      fill: #D98A71;
+    }
+    .skin {
+      fill: #F4A17E;
+    }
+    .st2 {
+      fill: #1D1E1C;
+    }
+    .hair {
+      fill: #422918;
+    }
+    .st4 {
+      fill: #D88A71;
+    }
+    .st5 {
+      fill: #B25353;
+    }
+    .st6 {
+      opacity: 0.2;
+    }
+    .st7 {
+      fill: #A1877A;
+    }
+    .st8 {
+      fill: none;
+      stroke: #000000;
+      stroke-width: 0.4148;
+      stroke-linecap: round;
+      stroke-miterlimit: 10;
+    }
+  }
 }

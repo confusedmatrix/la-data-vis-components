@@ -7,7 +7,7 @@
 		exports["LAComponents"] = factory(require("react"), require("lodash"));
 	else
 		root["LAComponents"] = factory(root["React"], root["_"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_83__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_104__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 51);
+/******/ 	return __webpack_require__(__webpack_require__.s = 72);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -211,7 +211,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(82);
+var	fixUrls = __webpack_require__(103);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -535,7 +535,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.colorValsToRGB = exports.darken = undefined;
 
-var _color = __webpack_require__(55);
+var _color = __webpack_require__(76);
 
 var _color2 = _interopRequireDefault(_color);
 
@@ -560,11 +560,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TimelineItem = exports.Timeline = undefined;
 
-var _Timeline = __webpack_require__(49);
+var _Timeline = __webpack_require__(70);
 
 var _Timeline2 = _interopRequireDefault(_Timeline);
 
-var _TimelineItem = __webpack_require__(50);
+var _TimelineItem = __webpack_require__(71);
 
 var _TimelineItem2 = _interopRequireDefault(_TimelineItem);
 
@@ -590,39 +590,39 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _AttainmentMotivatorIcon = __webpack_require__(30);
+var _AttainmentMotivatorIcon = __webpack_require__(51);
 
 var _AttainmentMotivatorIcon2 = _interopRequireDefault(_AttainmentMotivatorIcon);
 
-var _CareerMotivatorIcon = __webpack_require__(31);
+var _CareerMotivatorIcon = __webpack_require__(52);
 
 var _CareerMotivatorIcon2 = _interopRequireDefault(_CareerMotivatorIcon);
 
-var _FamilyMotivatorIcon = __webpack_require__(32);
+var _FamilyMotivatorIcon = __webpack_require__(53);
 
 var _FamilyMotivatorIcon2 = _interopRequireDefault(_FamilyMotivatorIcon);
 
-var _FearOfFailureMotivatorIcon = __webpack_require__(33);
+var _FearOfFailureMotivatorIcon = __webpack_require__(54);
 
 var _FearOfFailureMotivatorIcon2 = _interopRequireDefault(_FearOfFailureMotivatorIcon);
 
-var _MasteryMotivatorIcon = __webpack_require__(34);
+var _MasteryMotivatorIcon = __webpack_require__(55);
 
 var _MasteryMotivatorIcon2 = _interopRequireDefault(_MasteryMotivatorIcon);
 
-var _MoneyMotivatorIcon = __webpack_require__(35);
+var _MoneyMotivatorIcon = __webpack_require__(56);
 
 var _MoneyMotivatorIcon2 = _interopRequireDefault(_MoneyMotivatorIcon);
 
-var _OptionsMotivatorIcon = __webpack_require__(36);
+var _OptionsMotivatorIcon = __webpack_require__(57);
 
 var _OptionsMotivatorIcon2 = _interopRequireDefault(_OptionsMotivatorIcon);
 
-var _ProfessionalCommunityMotivatorIcon = __webpack_require__(37);
+var _ProfessionalCommunityMotivatorIcon = __webpack_require__(58);
 
 var _ProfessionalCommunityMotivatorIcon2 = _interopRequireDefault(_ProfessionalCommunityMotivatorIcon);
 
-var _SelfDevelopmentMotivatorIcon = __webpack_require__(38);
+var _SelfDevelopmentMotivatorIcon = __webpack_require__(59);
 
 var _SelfDevelopmentMotivatorIcon2 = _interopRequireDefault(_SelfDevelopmentMotivatorIcon);
 
@@ -1742,7 +1742,7 @@ var _MotivatorIcon = __webpack_require__(5);
 
 var _MotivatorIcon2 = _interopRequireDefault(_MotivatorIcon);
 
-var _Character = __webpack_require__(29);
+var _Character = __webpack_require__(50);
 
 var _Character2 = _interopRequireDefault(_Character);
 
@@ -1804,7 +1804,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.MotivatorIcon = exports.MotivatorDynamicImage = undefined;
 
-var _MotivatorDynamicImage = __webpack_require__(45);
+var _MotivatorDynamicImage = __webpack_require__(66);
 
 var _MotivatorDynamicImage2 = _interopRequireDefault(_MotivatorDynamicImage);
 
@@ -1883,12 +1883,12 @@ var SVG = function (_React$Component) {
       return _react2.default.createElement(
         "svg",
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
-        _react2.default.createElement("path", { className: "st0", d: "M81 99.3c-.4 0-.7-.2-.9-.5-2.9-4.4-2.3-8-1.3-10.2 1.5-3.1 4.5-5.1 6.6-5.3.6-.1 1.2.4 1.3 1 .1.6-.4 1.2-1 1.3-1.3.1-3.6 1.5-4.8 4-1.1 2.4-.7 5.2 1.1 8 .3.5.2 1.2-.3 1.6-.3 0-.5.1-.7.1z" }),
-        _react2.default.createElement("path", { className: "st0", d: "M83.1 100.9l-.3-1.5v-.2c.1-.8-.4-1.6-1.3-1.8s-1.6.4-1.8 1.3l-.5 3.1c0 .3.1.5.4.6.3 0 .5-.1.6-.4l-.1.5c0 .3.1.5.4.6.3 0 .5-.1.6-.4l.1-.5c0 .3.1.5.4.6s.5-.1.6-.4l.1-.8h.2c.5-.2.7-.4.6-.7zM90 128.2c-.8-.1-1.4-.7-1.3-1.4 1.1-11.9-.3-25-.3-25.1-.1-.7.5-1.4 1.2-1.5s1.4.5 1.5 1.2c0 .1 1.4 13.5.3 25.6-.2.7-.8 1.2-1.4 1.2zM82.6 128.3h-.3c-.7-.1-1.2-.8-1-1.6 2.3-11.7 2.5-24.9 2.5-25 0-.7.6-1.3 1.3-1.3.7 0 1.3.6 1.3 1.3 0 .1-.2 13.6-2.6 25.5 0 .7-.6 1.1-1.2 1.1z" }),
-        _react2.default.createElement("path", { className: "st1", d: "M87.3 126.2c-3.2 0-5.9-2.6-5.9-5.9V99.7c0-3.2 2.6-5.9 5.9-5.9s5.9 2.6 5.9 5.9v20.7c-.1 3.2-2.7 5.8-5.9 5.8z" }),
-        _react2.default.createElement("path", { d: "M84.1 126.7l3.1 3.1h.2c.4 0 .7.1.9.4v-3.5h2.9l3.1 3.1h.2c.7 0 1.3.6 1.3 1.3h-5.3l-1.5-2.3v2.3h-.5v.1h-5.3l-1.5-2.3v2.3h-.9v-4.3h3.3v-.2z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M95.7 88.8c-1-2.6-3.1-4.5-5-5.5-.9-.9-2.1-1.5-3.4-1.5-1 0-1.9.3-2.7.8-2.2.5-5 2.4-6.5 5.4-.4 1-.1 2.1.9 2.6.3.1.6.2.8.2.7 0 1.4-.4 1.7-1.1.2-.5.5-.9.8-1.2v.3c0 .4.1.8.2 1.2v4.6c0 2.6 2.1 4.7 4.7 4.7s4.7-2.1 4.7-4.7v-3.8c.1-.1.2-.3.3-.4.3.6 1 1 1.7 1 .2 0 .5 0 .7-.1 1-.4 1.5-1.5 1.1-2.5z" }),
-        _react2.default.createElement("path", { className: "st0", d: "M87.5 86.7c.5-.6 1.3-.9 2.1-1 .1-.2.1-.4.1-.6v-.9c0-1.4-1.1-2.5-2.5-2.5s-2.5 1.1-2.5 2.5v.9c0 .2 0 .5.1.7h.4c1-.1 1.8.3 2.3.9z" })
+        _react2.default.createElement("path", { className: "skin", d: "M81 99.3c-.4 0-.7-.2-.9-.5-2.9-4.4-2.3-8-1.3-10.2 1.5-3.1 4.5-5.1 6.6-5.3.6-.1 1.2.4 1.3 1 .1.6-.4 1.2-1 1.3-1.3.1-3.6 1.5-4.8 4-1.1 2.4-.7 5.2 1.1 8 .3.5.2 1.2-.3 1.6-.3 0-.5.1-.7.1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M83.1 100.9l-.3-1.5v-.2c.1-.8-.4-1.6-1.3-1.8s-1.6.4-1.8 1.3l-.5 3.1c0 .3.1.5.4.6.3 0 .5-.1.6-.4l-.1.5c0 .3.1.5.4.6.3 0 .5-.1.6-.4l.1-.5c0 .3.1.5.4.6s.5-.1.6-.4l.1-.8h.2c.5-.2.7-.4.6-.7zM90 128.2c-.8-.1-1.4-.7-1.3-1.4 1.1-11.9-.3-25-.3-25.1-.1-.7.5-1.4 1.2-1.5s1.4.5 1.5 1.2c0 .1 1.4 13.5.3 25.6-.2.7-.8 1.2-1.4 1.2zM82.6 128.3h-.3c-.7-.1-1.2-.8-1-1.6 2.3-11.7 2.5-24.9 2.5-25 0-.7.6-1.3 1.3-1.3.7 0 1.3.6 1.3 1.3 0 .1-.2 13.6-2.6 25.5 0 .7-.6 1.1-1.2 1.1z" }),
+        _react2.default.createElement("path", { className: "clothing-bottom", d: "M87.3 126.2c-3.2 0-5.9-2.6-5.9-5.9V99.7c0-3.2 2.6-5.9 5.9-5.9s5.9 2.6 5.9 5.9v20.7c-.1 3.2-2.7 5.8-5.9 5.8z" }),
+        _react2.default.createElement("path", { className: "shoes", d: "M84.1 126.7l3.1 3.1h.2c.4 0 .7.1.9.4v-3.5h2.9l3.1 3.1h.2c.7 0 1.3.6 1.3 1.3h-5.3l-1.5-2.3v2.3h-.5v.1h-5.3l-1.5-2.3v2.3h-.9v-4.3h3.3v-.2z" }),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M95.7 88.8c-1-2.6-3.1-4.5-5-5.5-.9-.9-2.1-1.5-3.4-1.5-1 0-1.9.3-2.7.8-2.2.5-5 2.4-6.5 5.4-.4 1-.1 2.1.9 2.6.3.1.6.2.8.2.7 0 1.4-.4 1.7-1.1.2-.5.5-.9.8-1.2v.3c0 .4.1.8.2 1.2v4.6c0 2.6 2.1 4.7 4.7 4.7s4.7-2.1 4.7-4.7v-3.8c.1-.1.2-.3.3-.4.3.6 1 1 1.7 1 .2 0 .5 0 .7-.1 1-.4 1.5-1.5 1.1-2.5z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M87.5 86.7c.5-.6 1.3-.9 2.1-1 .1-.2.1-.4.1-.6v-.9c0-1.4-1.1-2.5-2.5-2.5s-2.5 1.1-2.5 2.5v.9c0 .2 0 .5.1.7h.4c1-.1 1.8.3 2.3.9z" })
       );
     }
   }]);
@@ -1940,16 +1940,11 @@ var SVG = function (_React$Component) {
       return _react2.default.createElement(
         "svg",
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
-        _react2.default.createElement("path", { className: "st0", d: "M86.5 84.8c-.2 0-.5 0-.7-.2-.9-.4-1.2-1.4-.8-2.2 0 0 .6-1.4.2-2.9-.2-.9.4-1.8 1.3-2 .9-.2 1.8.4 2 1.3.6 2.6-.4 4.8-.5 5-.2.7-.8 1-1.5 1z" }),
-        _react2.default.createElement("path", { className: "st1", d: "M78.9 72.4c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7L79 74c-.6-.3-.6-1.1-.1-1.6z" }),
-        _react2.default.createElement("path", { className: "st0", d: "M87.7 82.4c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M79.2 72.7c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6-.1-.1 0-.4.2-.5zM95.4 72.5c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.2-.1.2-.1z" }),
-        _react2.default.createElement("path", { className: "st0", d: "M89.3 75.7c0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8h1.6z" }),
-        _react2.default.createElement("circle", { className: "st3", cx: "92.6", cy: "74.3", r: ".4" }),
-        _react2.default.createElement("circle", { className: "st3", cx: "84.7", cy: "74.3", r: ".4" }),
-        _react2.default.createElement("path", { className: "st4", d: "M89.6 79.5c0-.5-.3-.8-.7-.8-.1 0-.2 0-.3.1-.1 0-.2-.1-.3-.1-.4 0-.7.4-.7.8 0 .7.5 1.3 1 1.3s.8-.4 1-1v-.3z" }),
-        _react2.default.createElement("path", { className: "st5", d: "M87 62c-.2 0-.4.1-.5.3-.7-.1-2 .3-2.4.9 0 .1-.1.1-.1.2s0 .2-.1.3c-.2-.1-.3-.1-.5 0a7.11 7.11 0 0 0-3.9 6.3c0 .2.1.4.3.5.1.1.2.1.3.1.1 0 .2 0 .3-.1 1.7-.9 3-2.4 3.5-4.2.5 2.6 2.5 4.9 5.2 5.6h.1c.2 0 .4-.1.5-.3.1-.2.1-.5-.1-.7-1.5-1.3-2.4-3.2-2.6-5.1 1.3 3.3 4.5 5.7 8.3 5.7.3 0 .6-.3.6-.6 0-4.9-4-8.9-8.9-8.9z" }),
-        _react2.default.createElement("path", { d: "M94.5 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.2.1-.3 0-.4 0zM86.6 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.3.1-.3 0-.4 0z" })
+        _react2.default.createElement("path", { className: "skin", d: "M85.3 83.3c-2.1.2-5.1 2.2-6.6 5.3-1 2.2-1.6 5.6 1.1 10 0 .1 0 .1-.1.2l-.5 3.1c0 .3.1.5.4.6.3 0 .5-.1.6-.4l-.1.5c0 .3.1.5.4.6.3 0 .5-.1.6-.4l.1-.5c0 .3.1.5.4.6s.5-.1.6-.4l.1-.8h.2c.3-.1.5-.3.4-.6l-.3-1.5v-.2c.1-.7-.3-1.4-1-1.7-1.8-2.8-2.2-5.6-1.1-8 1.2-2.5 3.6-3.9 4.8-4 .6-.1 1.1-.6 1-1.3.2-.7-.4-1.2-1-1.1zM90 128.3h-.1c-.7-.1-1.3-.7-1.2-1.4 1.1-11.9-.3-25-.3-25.1-.1-.7.5-1.4 1.2-1.5.7-.1 1.4.5 1.5 1.2 0 .1 1.4 13.5.3 25.6-.2.7-.8 1.2-1.4 1.2zM82.6 128.4h-.3c-.7-.1-1.2-.8-1-1.6 2.3-11.7 2.5-24.9 2.5-25 0-.7.6-1.3 1.3-1.3.7 0 1.3.6 1.3 1.3 0 .1-.2 13.6-2.6 25.5 0 .6-.6 1.1-1.2 1.1z" }),
+        _react2.default.createElement("path", { className: "clothing-bottom", d: "M87.3 111.8c-3.2 0-5.9-2.6-5.9-5.9v-6.1c0-3.2 2.6-5.9 5.9-5.9s5.9 2.6 5.9 5.9v6.1c-.1 3.3-2.7 5.9-5.9 5.9z" }),
+        _react2.default.createElement("path", { className: "shoes", d: "M84.1 126.8l3.1 3.1h.2c.4 0 .7.1.9.4v-3.5h2.9l3.1 3.1h.2c.7 0 1.3.6 1.3 1.3h-5.3l-1.5-2.3v2.3h-.5v.1h-5.3l-1.5-2.3v2.3h-.9V127h3.3z" }),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M92.7 88.8c0-.8-.3-1.5-.8-2v-.3c0-2.6-2.1-4.7-4.7-4.7s-4.7 2.1-4.7 4.7v1.1c-.2.4-.2.8-.2 1.2s.1.8.2 1.2v4.6c0 2.6 2.1 4.7 4.7 4.7s4.7-2.1 4.7-4.7v-3.8c.6-.5.8-1.2.8-2z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M87.5 86.8c.5-.6 1.3-.9 2.1-1 .1-.2.1-.4.1-.6v-.9c0-1.4-1.1-2.5-2.5-2.5s-2.5 1.1-2.5 2.5v.9c0 .2 0 .5.1.7h.4c1-.1 1.8.3 2.3.9z" })
       );
     }
   }]);
@@ -2001,7 +1996,12 @@ var SVG = function (_React$Component) {
       return _react2.default.createElement(
         "svg",
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
-        _react2.default.createElement("path", { className: "st0", d: "M95.6 98.1c2.2-4 1.7-7.2.7-9.2-1.5-3.1-4.5-5.1-6.6-5.3-.6-.1-1.2.4-1.3 1-.1.6.4 1.2 1 1.3 1.2.1 3.6 1.5 4.8 4 1.1 2.4.7 5.2-1.1 8-.1.2-.2.4-.2.6-.1.2-.1.4-.1.7v.2l-.5 1.5c-.1.3.1.6.3.7h.2v.8c0 .3.3.5.5.5.3 0 .5-.3.5-.5v.5c0 .3.3.5.5.5.3 0 .5-.3.5-.5v-.5c0 .3.3.5.5.5s.5-.3.5-.5l-.2-3.1c.3-.7.2-1 0-1.2z" })
+        _react2.default.createElement("path", { className: "skin", d: "M85.3 83.2c-2.1.2-5.1 2.2-6.6 5.3-1 2.2-1.6 5.6 1.1 10 0 .1 0 .1-.1.2l-.5 3.1c0 .3.1.5.4.6.3 0 .5-.1.6-.4l-.1.5c0 .3.1.5.4.6.3 0 .5-.1.6-.4l.1-.5c0 .3.1.5.4.6s.5-.1.6-.4l.1-.8h.2c.3-.1.5-.3.4-.6l-.3-1.5v-.2c.1-.7-.3-1.4-1-1.7-1.8-2.8-2.2-5.6-1.1-8 1.2-2.5 3.6-3.9 4.8-4 .6-.1 1.1-.6 1-1.3.2-.7-.4-1.2-1-1.1z" }),
+        _react2.default.createElement("path", { className: "legs", d: "M82.2 125.4s0 1.6-.3 3.2M90.5 125.4s0 1.6-.3 3.2" }),
+        _react2.default.createElement("path", { className: "shoes", d: "M87.7 130.1c0-1.2 1-2.1 2.1-2.1h4.4c1.2 0 2.1 1 2.1 2.1h-8.6zM78.6 130.1c0-1.2 1-2.1 2.1-2.1h4.4c1.2 0 2.1 1 2.1 2.1h-8.6z" }),
+        _react2.default.createElement("path", { className: "clothing-bottom", d: "M92.4 102.2c0-.1 0-.1 0 0 .2-.7.4-1.5.4-2.2v-.2c0-3-2.5-5.5-5.5-5.5s-5.5 2.5-5.5 5.5v.2c0 .8.2 1.5.5 2.2-.1.3-.1.6-.1 1 0 .1.9 8.3-2.3 21.2-.3 1.3.5 2.7 1.8 3h.2c1.2.2 2.5-.6 2.8-1.8 2.3-9.3 2.6-16.4 2.6-20h.1c.3 0 .5 0 .8-.1.6 3.1 1.4 9.9.6 19.4-.1 1.4.9 2.5 2.2 2.7h.2c1.3 0 2.3-1 2.4-2.2 1.2-14.4-1.1-22.9-1.2-23.2z" }),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M92.8 88.8c0-.8-.3-1.5-.8-2v-.3c0-2.6-2.1-4.7-4.7-4.7s-4.7 2.1-4.7 4.7v1.1c-.2.4-.2.8-.2 1.2s.1.8.2 1.2v4.6c0 2.6 2.1 4.7 4.7 4.7s4.7-2.1 4.7-4.7v-3.8c.5-.6.8-1.3.8-2z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M87.6 86.7c.5-.6 1.3-.9 2.1-1 .1-.2.1-.4.1-.6v-.9c0-1.4-1.1-2.5-2.5-2.5s-2.5 1.1-2.5 2.5v.9c0 .2 0 .5.1.7h.4c1-.1 1.7.3 2.3.9z" })
       );
     }
   }]);
@@ -2013,6 +2013,1254 @@ exports.default = SVG;
 
 /***/ }),
 /* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M86.5 84.8c-.2 0-.5 0-.7-.2-.9-.4-1.2-1.4-.8-2.2 0 0 .6-1.4.2-2.9-.2-.9.4-1.8 1.3-2 .9-.2 1.8.4 2 1.3.6 2.6-.4 4.8-.5 5-.2.7-.8 1-1.5 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M78.9 72.4c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7L79 74c-.6-.3-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.7 82.4c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M79.2 72.7c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6-.1-.1 0-.4.2-.5zM95.4 72.5c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.2-.1.2-.1zM89.3 75.7c0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8h1.6z" }),
+        _react2.default.createElement("circle", { className: "st3", cx: "92.6", cy: "74.3", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st3", cx: "84.7", cy: "74.3", r: ".4" }),
+        _react2.default.createElement("path", { className: "st4", d: "M89.6 79.5c0-.5-.3-.8-.7-.8-.1 0-.2 0-.3.1-.1 0-.2-.1-.3-.1-.4 0-.7.4-.7.8 0 .7.5 1.3 1 1.3s.8-.4 1-1v-.3z" }),
+        _react2.default.createElement("path", { className: "hair", d: "M87 62c-.2 0-.4.1-.5.3-.7-.1-2 .3-2.4.9 0 .1-.1.1-.1.2s0 .2-.1.3c-.2-.1-.3-.1-.5 0a7.11 7.11 0 0 0-3.9 6.3c0 .2.1.4.3.5.1.1.2.1.3.1.1 0 .2 0 .3-.1 1.7-.9 3-2.4 3.5-4.2.5 2.6 2.5 4.9 5.2 5.6h.1c.2 0 .4-.1.5-.3.1-.2.1-.5-.1-.7-1.5-1.3-2.4-3.2-2.6-5.1 1.3 3.3 4.5 5.7 8.3 5.7.3 0 .6-.3.6-.6 0-4.9-4-8.9-8.9-8.9z" }),
+        _react2.default.createElement("path", { d: "M94.5 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.2.1-.3 0-.4 0zM86.6 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.3.1-.3 0-.4 0z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M86.5 84.8c-.2 0-.5 0-.7-.2-.9-.4-1.2-1.4-.8-2.2 0 0 .6-1.4.2-2.9-.2-.9.4-1.8 1.3-2 .9-.2 1.8.4 2 1.3.6 2.6-.4 4.8-.5 5-.2.7-.8 1-1.5 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M78.9 72.4c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7L79 74c-.6-.3-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.7 82.4c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M79.2 72.7c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6-.1-.1 0-.4.2-.5zM95.4 72.5c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.2-.1.2-.1zM89.3 75.7c0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8h1.6z" }),
+        _react2.default.createElement("circle", { className: "st3", cx: "92.6", cy: "74.3", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st3", cx: "84.7", cy: "74.3", r: ".4" }),
+        _react2.default.createElement("path", { className: "st4", d: "M89.6 79.5c0-.5-.3-.8-.7-.8-.1 0-.2 0-.3.1-.1 0-.2-.1-.3-.1-.4 0-.7.4-.7.8 0 .7.5 1.3 1 1.3s.8-.4 1-1v-.3z" }),
+        _react2.default.createElement("path", { className: "hair", d: "M90.9 62.9c.3-.4.4-.9.4-1.4 0-2-2.2-3.5-5.1-3.5s-5.1 1.5-5.1 3.5c0 1 .6 1.9 1.6 2.6-2 1.3-3.2 3.5-3.2 5.9 0 .2.1.4.3.5.1.1.2.1.3.1.1 0 .2 0 .3-.1 1.7-.9 3-2.4 3.5-4.2.5 2.6 2.5 4.9 5.2 5.6h.1c.2 0 .4-.1.5-.3.1-.2.1-.5-.1-.7-1.5-1.3-2.4-3.2-2.6-5.1 1.3 3.3 4.5 5.7 8.3 5.7.3 0 .6-.3.6-.6 0-3.5-2.1-6.5-5-8z" }),
+        _react2.default.createElement("path", { d: "M94.5 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.2.1-.3 0-.4 0zM86.6 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.3.1-.3 0-.4 0z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "hair", d: "M98.8 77.3c-1.1-.2-2.1-.9-2.8-1.8-.3-.5-.6-1-.7-1.6.5.1 1 .2 1.5.2.6 0 1.1-.1 1.7-.3.2-.1.4-.3.4-.6s-.2-.5-.5-.5c-1.1-.2-2.1-.9-2.8-1.8-.7-1-.9-2.1-.7-3.3.1-.3-.1-.6-.5-.7-.3-.1-.6.1-.7.5-.1.3-.1.5-.1.8l-1.3 1.4c-.1-.1-.3-.2-.5-.1-.3.1-.5.4-.4.7l.3.6c-.1.2-.2.4-.2.6l-.2-.2v-.6c0-.3-.3-.6-.6-.6s-.6.3-.6.6c0 1.5.1 2.7.3 3.9-.8 4.1.5 6.9 4 8.9.1 0 .2.1.3.1.2 0 .4-.1.5-.2.2-.2.1-.6-.1-.8-.8-.7-1.3-1.6-1.5-2.6 1.1.7 2.4 1.2 4.1 1.3h.1c.3 0 .5-.2.6-.5.1-.3-.1-.6-.4-.6-1-.3-1.8-.9-2.3-1.7.5.1 1 .2 1.4.2.6 0 1.1-.1 1.7-.3.2-.1.4-.3.4-.6 0-.1-.2-.4-.4-.4zM93 72.5c.3.2.5.5.8.7l-.3.3-.3-.3-.2-.7zM86.9 71.3c-.3 0-.6.3-.5.6v.6L85 74c.2-1 .2-2.1.2-3.4 0-.3-.3-.6-.6-.6h-.1c.1-.2.2-.5.3-.7.1-.3-.1-.6-.4-.7-.2-.1-.4 0-.5.1l-1.2-1.4c0-.3 0-.6-.1-.8-.1-.3-.4-.5-.7-.5-.3.1-.5.4-.5.7.4 2.4-1.1 4.6-3.5 5.1-.3 0-.4.3-.5.5 0 .3.1.5.4.6.6.2 1.1.3 1.7.3.5 0 1-.1 1.5-.2-.3.9-.8 1.7-1.6 2.2-.9.7-2.1 1-3.2.8-.3 0-.5.1-.6.3-.1.2 0 .5.2.7 1 .7 2.1 1.1 3.3 1.1.2 0 .5 0 .7-.1h.1c-.5.9-1.4 1.7-2.6 2-.3.1-.5.4-.4.6.1.3.3.5.6.5h.1c2.2-.2 3.9-.9 5.1-2.2-.4 1.2-1.4 2.1-2.6 2.6-.3.1-.4.4-.4.7.1.3.3.4.6.4h.1c5.1-.7 7.4-4.2 7-10.9.1-.2-.2-.4-.5-.4zm-2.8 0l-1.9 2c.1-.2.1-.5.2-.7v-.1c.7-.4 1.3-.9 1.7-1.6v.4z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M86.5 84.8c-.2 0-.5 0-.7-.2-.9-.4-1.2-1.4-.8-2.2 0 0 .6-1.4.2-2.9-.2-.9.4-1.8 1.3-2 .9-.2 1.8.4 2 1.3.6 2.6-.4 4.8-.5 5-.2.7-.8 1-1.5 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M78.9 72.4c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7L79 74c-.6-.3-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.7 82.4c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M79.2 72.7c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6-.1-.1 0-.4.2-.5zM95.4 72.5c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.2-.1.2-.1zM89.3 75.7c0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8h1.6z" }),
+        _react2.default.createElement("circle", { className: "st3", cx: "92.6", cy: "74.3", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st3", cx: "84.7", cy: "74.3", r: ".4" }),
+        _react2.default.createElement("path", { className: "st4", d: "M89.6 79.5c0-.5-.3-.8-.7-.8-.1 0-.2 0-.3.1-.1 0-.2-.1-.3-.1-.4 0-.7.4-.7.8 0 .7.5 1.3 1 1.3s.8-.4 1-1v-.3z" }),
+        _react2.default.createElement("path", { className: "hair", d: "M87 62c-.2 0-.4.1-.5.3-.7-.1-2 .3-2.4.9 0 .1-.1.1-.1.2s0 .2-.1.3c-.2-.1-.3-.1-.5 0a7.11 7.11 0 0 0-3.9 6.3c0 .2.1.4.3.5.1.1.2.1.3.1.1 0 .2 0 .3-.1 1.7-.9 3-2.4 3.5-4.2.5 2.6 2.5 4.9 5.2 5.6h.1c.2 0 .4-.1.5-.3.1-.2.1-.5-.1-.7-1.5-1.3-2.4-3.2-2.6-5.1 1.3 3.3 4.5 5.7 8.3 5.7.3 0 .6-.3.6-.6 0-4.9-4-8.9-8.9-8.9z" }),
+        _react2.default.createElement("path", { d: "M94.5 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.2.1-.3 0-.4 0zM86.6 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.3.1-.3 0-.4 0z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M86.5 84.8c-.2 0-.5 0-.7-.2-.9-.4-1.2-1.4-.8-2.2 0 0 .6-1.4.2-2.9-.2-.9.4-1.8 1.3-2 .9-.2 1.8.4 2 1.3.6 2.6-.4 4.8-.5 5-.2.7-.8 1-1.5 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M78.9 72.4c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7L79 74c-.6-.3-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.7 82.4c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M79.2 72.7c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6-.1-.1 0-.4.2-.5zM95.4 72.5c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.2-.1.2-.1zM89.3 75.7c0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8h1.6z" }),
+        _react2.default.createElement("path", { d: "M94.5 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.2.1-.3 0-.4 0zM86.6 72.5c-.1 0-.1.1-.1.1 0 .4-.4.8-.8.8h-.1c.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8.2-.2.4-.5.4-.8 0-.1-.1-.1-.1-.1l-.1.1c0 .4-.4.8-.8.8-.1 0-.1.1-.1.1l.1.1h1.5c.6 0 1.1-.5 1.1-1.1-.3.1-.3 0-.4 0z" }),
+        _react2.default.createElement("circle", { className: "st3", cx: "92.6", cy: "74.3", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st3", cx: "84.7", cy: "74.3", r: ".4" }),
+        _react2.default.createElement("path", { className: "st4", d: "M89.6 79.5c0-.5-.3-.8-.7-.8-.1 0-.2 0-.3.1-.1 0-.2-.1-.3-.1-.4 0-.7.4-.7.8 0 .7.5 1.3 1 1.3s.8-.4 1-1v-.3z" }),
+        _react2.default.createElement("path", { className: "hair", d: "M79.1 67.8c0-.2-.1-.4-.1-.6 0-.6.2-1.2.6-1.6 0-.2-.1-.3-.1-.5 0-1.2 1-2.2 2.2-2.2.2-1 1-1.7 2-1.7.5 0 1 .2 1.4.5.4-.3.8-.5 1.3-.5s.9.2 1.3.5c.5-.7 1.3-1.1 2.1-1.1 1.2 0 2.2.8 2.5 1.9.2-.1.4-.1.6-.1 1.2 0 2.2 1 2.2 2.2 0 .6-.2 1.1-.6 1.5 1.1.3 1.9 1.4 1.9 2.6 0 1.5-1.2 2.7-2.7 2.7-1.3 0-2.4-1-2.7-2.2-.2 0-.3-.1-.5-.1-.2.9-1.1 1.6-2.1 1.6-.9 0-1.7-.6-2-1.4-.4.3-.8.5-1.3.5-.6 0-1.2-.3-1.5-.7-.3.3-.7.5-1.1.7-.1 1.1-1 1.9-2.1 1.9-1.2 0-2.2-1-2.2-2.2 0-.7.4-1.4.9-1.7z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin", d: "M95.6 98.1c2.2-4 1.7-7.2.7-9.2-1.5-3.1-4.5-5.1-6.6-5.3-.6-.1-1.2.4-1.3 1-.1.6.4 1.2 1 1.3 1.2.1 3.6 1.5 4.8 4 1.1 2.4.7 5.2-1.1 8-.1.2-.2.4-.2.6-.1.2-.1.4-.1.7v.2l-.5 1.5c-.1.3.1.6.3.7h.2v.8c0 .3.3.5.5.5.3 0 .5-.3.5-.5v.5c0 .3.3.5.5.5.3 0 .5-.3.5-.5v-.5c0 .3.3.5.5.5s.5-.3.5-.5l-.2-3.1c.3-.7.2-1 0-1.2z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin", d: "M100.5 97.7c-4.7-.4-7-4.9-8.6-8.2-.8-1.6-1.8-3.6-2.5-3.7-.6-.1-1.1-.6-1-1.3.1-.6.6-1.1 1.3-1 1.9.2 3 2.4 4.3 5 1.6 3.1 3.3 6.7 6.7 7 .6 0 1.1.6 1 1.2-.1.5-.6 1-1.2 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.7 94.9l-3.1.5-.1-.5c-1 .2-1.6 1.1-1.5 2 .2 1 1.1 1.6 2 1.5l.8-.1c.3 0 .5-.3.5-.6 0-.1 0-.2-.1-.2 0 0-.1-.2 0 0 .3 0 .5-.3.5-.6s-.3-.5-.6-.5l1.8-.3c.3 0 .5-.3.5-.6-.1-.4-.4-.6-.7-.6z" }),
+        _react2.default.createElement("path", { className: "st1", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin", d: "M100.5 97.7c-4.7-.4-7-4.9-8.6-8.2-.8-1.6-1.8-3.6-2.5-3.7-.6-.1-1.1-.6-1-1.3.1-.6.6-1.1 1.3-1 1.9.2 3 2.4 4.3 5 1.6 3.1 3.3 6.7 6.7 7 .6 0 1.1.6 1 1.2-.1.5-.6 1-1.2 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.7 94.9l-3.1.5-.1-.5c-1 .2-1.6 1.1-1.5 2 .2 1 1.1 1.6 2 1.5l.8-.1c.3 0 .5-.3.5-.6 0-.1 0-.2-.1-.2 0 0-.1-.2 0 0 .3 0 .5-.3.5-.6s-.3-.5-.6-.5l1.8-.3c.3 0 .5-.3.5-.6-.1-.4-.4-.6-.7-.6z" }),
+        _react2.default.createElement("path", { className: "st1", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin", d: "M100.5 97.7c-4.7-.4-7-4.9-8.6-8.2-.8-1.6-1.8-3.6-2.5-3.7-.6-.1-1.1-.6-1-1.3.1-.6.6-1.1 1.3-1 1.9.2 3 2.4 4.3 5 1.6 3.1 3.3 6.7 6.7 7 .6 0 1.1.6 1 1.2-.1.5-.6 1-1.2 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.7 94.9l-3.1.5-.1-.5c-1 .2-1.6 1.1-1.5 2 .2 1 1.1 1.6 2 1.5l.8-.1c.3 0 .5-.3.5-.6 0-.1 0-.2-.1-.2 0 0-.1-.2 0 0 .3 0 .5-.3.5-.6s-.3-.5-.6-.5l1.8-.3c.3 0 .5-.3.5-.6-.1-.4-.4-.6-.7-.6z" }),
+        _react2.default.createElement("path", { className: "st1", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st7", d: "M110.4 96.3c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1s-.7-2.6-2.1-2.8z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin", d: "M100.5 97.7c-4.7-.4-7-4.9-8.6-8.2-.8-1.6-1.8-3.6-2.5-3.7-.6-.1-1.1-.6-1-1.3.1-.6.6-1.1 1.3-1 1.9.2 3 2.4 4.3 5 1.6 3.1 3.3 6.7 6.7 7 .6 0 1.1.6 1 1.2-.1.5-.6 1-1.2 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.7 94.9l-3.1.5-.1-.5c-1 .2-1.6 1.1-1.5 2 .2 1 1.1 1.6 2 1.5l.8-.1c.3 0 .5-.3.5-.6 0-.1 0-.2-.1-.2 0 0-.1-.2 0 0 .3 0 .5-.3.5-.6s-.3-.5-.6-.5l1.8-.3c.3 0 .5-.3.5-.6-.1-.4-.4-.6-.7-.6z" }),
+        _react2.default.createElement("path", { className: "st1", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st7", d: "M106.2 103c.1-.2.2-.5.2-.7.2-1.4-.8-2.6-2.1-2.8s-2.6.8-2.8 2.1c-.2 1.4.8 2.6 2.1 2.8.8.1 1.6-.2 2.2-.8h.6c.1 0 .1-.1.1-.2l-.3-.4z" }),
+        _react2.default.createElement("path", { className: "st8", d: "M110.4 96.3c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1s-.7-2.6-2.1-2.8z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "legs", d: "M98.3 126.5s0 1.6-.3 3.2" }),
+        _react2.default.createElement("path", { className: "shoes", d: "M104.2 131.1c0-1.2-1-2.1-2.1-2.1h-4.4c-1.2 0-2.1 1-2.1 2.1h8.6z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M76.7 104.1l-.5-1.7v-.2c.1-1-.6-1.8-1.6-1.9s-1.8.6-1.9 1.6l-.4 3.6c0 .3.2.6.5.6s.6-.2.6-.5l-.1.6c0 .3.2.6.5.6s.6-.2.6-.5l.1-.6c0 .3.2.6.5.6s.6-.2.6-.5l.1-.9h.3c.6-.2.8-.5.7-.8z" }),
+        _react2.default.createElement("path", { className: "legs", d: "M81.7 126.5s0 1.6-.3 3.2" }),
+        _react2.default.createElement("path", { className: "clothing-bottom", d: "M92.3 103.3c.1-.2.1-.4.1-.5H81.7c0 .1 0 .2.1.2-.1.3-.2.7-.1 1.1 0 .1.9 8.3-2.3 21.2-.3 1.3.5 2.7 1.8 3h.2c1.2.2 2.5-.6 2.8-1.8 2.2-8.7 2.6-15.4 2.6-19.2h.4c.3 0 .5 0 .8-.1.4-.1.8-.2 1.1-.3 2.5 2 7.2 7.2 6.9 18.7 0 1.4 1 2.5 2.4 2.5h.1c1.3 0 2.4-1.1 2.5-2.4.1-13-5.3-19.5-8.7-22.4z" }),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M93.2 101.3c0-.1-.8-5.9-.2-12.8.3-3.4-2.2-6.4-5.6-6.6-1-.1-1.9.1-2.8.4-.4-.3-.9-.4-1.4-.3-3 .3-5.3 3.5-6.7 6.1-1.8 3.3-3.2 7.6-3.9 12-.2 1.2.6 2.3 1.8 2.4h.3c1 0 2-.8 2.1-1.8.8-5 2.3-8.8 3.8-11.3-.4 7.5.4 13.4.5 13.7v.2h12.1c.1-.7.1-1.3 0-2z" }),
+        _react2.default.createElement("path", { className: "shoes", d: "M85.3 131.1c0-1.2-1-2.1-2.1-2.1h-2.9c-1.2 0-2.1 1-2.1 2.1h7.1z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin", d: "M76.7 104.1l-.5-1.7v-.2c.1-1-.6-1.8-1.6-1.9s-1.8.6-1.9 1.6l-.4 3.6c0 .3.2.6.5.6s.6-.2.6-.5l-.1.6c0 .3.2.6.5.6s.6-.2.6-.5l.1-.6c0 .3.2.6.5.6s.6-.2.6-.5l.1-.9h.3c.6-.2.8-.5.7-.8z" }),
+        _react2.default.createElement("path", { className: "legs", d: "M81.7 126.5s0 1.6-.3 3.2M90 126.5s0 1.6-.3 3.2" }),
+        _react2.default.createElement("path", { className: "shoes", d: "M87.2 131.1c0-1.2 1-2.1 2.1-2.1h4.4c1.2 0 2.1 1 2.1 2.1h-9.1" }),
+        _react2.default.createElement("path", { className: "shoes", d: "M86.8 131.1c0-1.2-1-2.1-2.1-2.1h-4.4c-1.2 0-2.1 1-2.1 2.1" }),
+        _react2.default.createElement("path", { className: "clothing-bottom", d: "M92.1 104c.2-.4.3-.8.4-1.2H81.7c0 .1 0 .2.1.2-.1.3-.2.7-.1 1.1 0 .1.9 8.3-2.3 21.2-.3 1.3.5 2.7 1.8 3h.2c1.2.2 2.5-.6 2.8-1.8 2.2-8.7 2.6-15.4 2.6-19.2h1c.5 3.4 1.2 9.8.4 18.5-.1 1.4.9 2.5 2.2 2.7h.2c1.3 0 2.3-1 2.4-2.2 1.1-12-.3-19.8-.9-22.3z" }),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M93.2 101.3c0-.1-.8-5.9-.2-12.8.3-3.4-2.2-6.4-5.6-6.6-1-.1-1.9.1-2.8.4-.4-.3-.9-.4-1.4-.3-3 .3-5.3 3.5-6.7 6.1-1.8 3.3-3.2 7.6-3.9 12-.2 1.2.6 2.3 1.8 2.4h.3c1 0 2-.8 2.1-1.8.8-5 2.3-8.8 3.8-11.3-.4 7.5.4 13.4.5 13.7v.2h12.1c.1-.7.1-1.3 0-2z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.3 86.1c-.4 0-.7-.1-1.1-.2-1.3-.6-1.9-2.2-1.3-3.5 0-.1.5-1.1.2-2.3-.3-1.4.6-2.8 2-3.2 1.4-.3 2.8.6 3.2 2 .7 2.9-.4 5.3-.5 5.6-.5 1-1.5 1.6-2.5 1.6z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M79.1 73.1c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7l-1.3-1.3c-.6-.4-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "92", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "84.1", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("path", { className: "hair", d: "M93.4 74h-2.3M93.4 74.4h-2.3c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.3c.2 0 .4.2.4.4s-.2.4-.4.4zM85.4 72.3l-2.3.4M83.1 73.1c-.2 0-.3-.1-.4-.3 0-.2.1-.4.3-.4l2.3-.4c.2 0 .4.1.4.3 0 .2-.1.4-.3.4l-2.3.4c.1 0 .1 0 0 0z" }),
+        _react2.default.createElement("path", { className: "st4", d: "M88 80.1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5v-.5H88h1.7" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.9 83c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6z" }),
+        _react2.default.createElement("path", { d: "M88 80.1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5v-.5H88" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M79.3 73.4c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6 0-.2.1-.4.2-.5zM95.6 73.1c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.1-.1.2-.1zM88.9 76.4c0 .4-.3.8-.8.8s-.8-.3-.8-.8h1.6z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.3 86.1c-.4 0-.7-.1-1.1-.2-1.3-.6-1.9-2.2-1.3-3.5 0-.1.5-1.1.2-2.3-.3-1.4.6-2.8 2-3.2 1.4-.3 2.8.6 3.2 2 .7 2.9-.4 5.3-.5 5.6-.5 1-1.5 1.6-2.5 1.6z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M79.1 73.1c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7l-1.3-1.3c-.6-.4-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "92", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "84.1", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("path", { className: "hair", d: "M93.4 74.4h-2.3c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.3c.2 0 .4.2.4.4s-.2.4-.4.4zM83.1 73.1c-.2 0-.3-.1-.4-.3 0-.2.1-.4.3-.4l2.3-.4c.2 0 .4.1.4.3 0 .2-.1.4-.3.4l-2.3.4c.1 0 .1 0 0 0z" }),
+        _react2.default.createElement("path", { className: "st4", d: "M88 80.1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5v-.5H88h1.7" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.9 83c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6z" }),
+        _react2.default.createElement("path", { d: "M88 80.1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5v-.5H88" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M79.3 73.4c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6 0-.2.1-.4.2-.5zM95.6 73.1c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.1-.1.2-.1z" }),
+        _react2.default.createElement("path", { className: "hair", d: "M80.5 65.6c.5-.6 1.1-1.2 1.8-1.5l-.1-.1c-.4-.7-.5-1.6-.3-2.4.1-.2.3-.4.5-.4s.4.2.5.4c.3 1.1 1.3 1.8 2.4 1.6.4-.6.4-1.4.1-2.1-.1-.2 0-.5.1-.6.2-.1.4-.2.6 0 .9.7 1.4 1.7 1.4 2.7 2-.1 3.7-1.5 4.1-3.5 0-.3.3-.4.5-.5.3 0 .5.1.6.4.5 1.5.3 3.1-.5 4.4.9.1 1.8-.1 2.6-.5 1-.6 1.8-1.5 2.1-2.6.1-.3.4-.5.6-.4.3.1.5.3.5.6-.2 2.6-1.2 4.6-3.1 5.8 1.7.8 3.8.3 5.1-1.2.2-.2.5-.3.8-.1.2.2.3.5.2.7-1.4 2.7-4.3 4-7.8 4-2.4 0-5.2-.7-7.9-2.1 0 .5.1 1 .3 1.6.1.2.1.5-.1.7-.1.1-.2.1-.4.1-.1 0-.2 0-.3-.1-.9-.7-1.5-1.4-1.8-2.3-.6.8-.9 1.8-.2 3.1.1.2.1.5-.1.7-.1.1-.2.1-.4.1-.1 0-.2 0-.3-.1-.4-.3-.7-.5-.9-.8.1.5.2 1 .3 1.4.1.3 0 .6-.3.7h-.2c-.2 0-.4-.1-.5-.4-1.4-2.8-1.2-5.4.1-7.3z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M88.9 76.4c0 .4-.3.8-.8.8s-.8-.3-.8-.8h1.6z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.3 86.1c-.4 0-.7-.1-1.1-.2-1.3-.6-1.9-2.2-1.3-3.5 0-.1.5-1.1.2-2.3-.3-1.4.6-2.8 2-3.2 1.4-.3 2.8.6 3.2 2 .7 2.9-.4 5.3-.5 5.6-.5 1-1.5 1.6-2.5 1.6z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M79.1 73.1c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7l-1.3-1.3c-.6-.4-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "92", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "84.1", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("path", { className: "hair", d: "M93.4 74.4h-2.3c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.3c.2 0 .4.2.4.4s-.2.4-.4.4zM83.1 73.1c-.2 0-.3-.1-.4-.3 0-.2.1-.4.3-.4l2.3-.4c.2 0 .4.1.4.3 0 .2-.1.4-.3.4l-2.3.4c.1 0 .1 0 0 0z" }),
+        _react2.default.createElement("path", { className: "st4", d: "M88 80.1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5v-.5H88h1.7" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.9 83c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6z" }),
+        _react2.default.createElement("path", { d: "M88 80.1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5v-.5H88" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M79.3 73.4c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6 0-.2.1-.4.2-.5zM95.6 73.1c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.1-.1.2-.1z" }),
+        _react2.default.createElement("path", { className: "hair", d: "M87.2 62.6c-.2 0-.4.1-.5.3-.7-.1-2 .3-2.4.9 0 .1-.1.1-.1.2s0 .2-.1.3c-.2-.1-.3-.1-.5 0a7.11 7.11 0 0 0-3.9 6.3c0 .2.1.4.3.5.1.1.2.1.3.1.1 0 .2 0 .3-.1 1.7-.9 3-2.4 3.5-4.2.5 2.6 2.5 4.9 5.2 5.6h.1c.2 0 .4-.1.5-.3.1-.2.1-.5-.1-.7-1.5-1.3-2.4-3.2-2.6-5.1 1.3 3.3 4.5 5.7 8.3 5.7.3 0 .6-.3.6-.6 0-4.9-4-8.9-8.9-8.9z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M88.9 76.4c0 .4-.3.8-.8.8s-.8-.3-.8-.8h1.6z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.3 86.1c-.4 0-.7-.1-1.1-.2-1.3-.6-1.9-2.2-1.3-3.5 0-.1.5-1.1.2-2.3-.3-1.4.6-2.8 2-3.2 1.4-.3 2.8.6 3.2 2 .7 2.9-.4 5.3-.5 5.6-.5 1-1.5 1.6-2.5 1.6z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M79.1 73.1c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7l-1.3-1.3c-.6-.4-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "92", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "84.1", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("path", { className: "hair", d: "M93.4 74.4h-2.3c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.3c.2 0 .4.2.4.4s-.2.4-.4.4zM83.1 73.1c-.2 0-.3-.1-.4-.3 0-.2.1-.4.3-.4l2.3-.4c.2 0 .4.1.4.3 0 .2-.1.4-.3.4l-2.3.4c.1 0 .1 0 0 0z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.9 83c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6zM79.3 73.4c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6 0-.2.1-.4.2-.5zM95.6 73.1c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.1-.1.2-.1z" }),
+        _react2.default.createElement("path", { className: "hair", d: "M94.6 74.3c-.6 0-1.1.5-1.1 1.1 0 1.9-1 3.6-2.5 4.6v-.3c0-1.8-1.5-3.3-3.3-3.3s-3.3 1.5-3.3 3.3v.1c-1.3-1-2.2-2.6-2.2-4.5 0-.6-.5-1.1-1.1-1.1s-1.1.6-1.1 1.3c0 4.4 3.5 7.9 7.9 7.9s7.9-3.5 7.9-7.9c0-.7-.5-1.2-1.2-1.2zm-6.9 4.2c.7 0 1.2.6 1.2 1.2v.8c-.3-.4-.7-.6-1.2-.6s-1 .3-1.2.6v-.8c0-.6.6-1.2 1.2-1.2z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M88.5 76.4c0 .4-.3.8-.8.8s-.7-.4-.7-.8h1.5z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.3 86.1c-.4 0-.7-.1-1.1-.2-1.3-.6-1.9-2.2-1.3-3.5 0-.1.5-1.1.2-2.3-.3-1.4.6-2.8 2-3.2 1.4-.3 2.8.6 3.2 2 .7 2.9-.4 5.3-.5 5.6-.5 1-1.5 1.6-2.5 1.6z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M79.1 73.1c.3-.3.8-.4 1.2-.3v-1.7c0-4.2 3.4-7.6 7.6-7.6s7.6 3.4 7.6 7.6v1.7c.4-.1.7 0 1 .3.5.5.5 1.2 0 1.7l-1 1c-.2 4-3.5 7.2-7.5 7.2s-7.2-3.1-7.5-7l-1.3-1.3c-.6-.4-.6-1.1-.1-1.6z" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "92", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("circle", { className: "st2", cx: "84.1", cy: "74.8", r: ".4" }),
+        _react2.default.createElement("path", { className: "hair", d: "M93.4 74.4h-2.3c-.2 0-.4-.2-.4-.4s.2-.4.4-.4h2.3c.2 0 .4.2.4.4s-.2.4-.4.4zM83.1 73.1c-.2 0-.3-.1-.4-.3 0-.2.1-.4.3-.4l2.3-.4c.2 0 .4.1.4.3 0 .2-.1.4-.3.4l-2.3.4c.1 0 .1 0 0 0z" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M87.9 83c-3.4 0-6.1-3.4-6.1-7.6v-4.3c0-4.2 2.7-7.6 6.1-7.6-4.2 0-7.6 3.4-7.6 7.6v4.3c0 4.2 3.4 7.6 7.6 7.6zM79.3 73.4c.2-.2.4-.2.6-.2.1 0 .3 0 .4.1v2.2l-1-1c-.2-.2-.2-.4-.2-.6 0-.2.1-.4.2-.5zM95.6 73.1c.2 0 .4.1.6.2s.2.4.2.6c0 .2-.1.4-.2.6l-.8.8v-2.1c.1-.1.1-.1.2-.1z" }),
+        _react2.default.createElement("path", { className: "st6 hair", d: "M87.9 83c3.6 0 6.6-2.5 7.4-5.8H80.5c.8 3.4 3.8 5.8 7.4 5.8z" }),
+        _react2.default.createElement("path", { className: "st8", d: "M89.3 79.6c-.3.9-1.3 1.3-2.2.9" }),
+        _react2.default.createElement("path", { className: "skin-shadow", d: "M88.9 76.4c0 .4-.3.8-.8.8s-.8-.3-.8-.8h1.6z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M95.9 102.4c-2.7-3.9-3.9-7.9-4.8-11.2-.5-1.7-1.1-3.9-1.6-4.3-1.1-.4-1.6-1.7-1.2-2.8.4-1.1 1.7-1.7 2.8-1.2 2.5.9 3.2 3.7 4.2 7.1.8 3 1.9 6.6 4.2 9.9.7 1 .5 2.3-.5 3-.4.3-.8.4-1.2.4-.9 0-1.5-.3-1.9-.9zm-6.4-15.5z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M101.2 102.5c.1-.3 0-.6-.3-.8l-1.7-.8c-.5-.6-1.4-.8-2.1-.4-.9.4-1.2 1.5-.8 2.4l1.6 3.2c.1.3.5.4.8.3s.4-.5.3-.8l.3.5c.1.3.5.4.8.3s.4-.5.3-.8l-.4-.6c.1.3.5.4.8.3s.4-.5.3-.8l-.9-1.9.3.1c.2.2.5.1.7-.2z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M98.8 92.6c-5 0-7.3-2.9-8.6-4.7-.2-.3-.6-.7-.7-.9-1.1-.5-1.5-1.8-1.1-2.9.5-1.1 1.8-1.7 2.9-1.2 1 .4 1.7 1.3 2.4 2.2 1.6 2 3.2 4 8.8 2.3 1.2-.4 2.4.3 2.8 1.5s-.3 2.4-1.5 2.8c-2 .6-3.6.9-5 .9zm-9.3-5.5z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M109.3 86.5l-4 .6-.1-.6c-1.2.2-2.1 1.4-1.9 2.6s1.4 2.1 2.6 1.9l1-.2c.4-.1.6-.4.6-.8 0-.1-.1-.2-.1-.3 0 0-.2-.2 0 0 .4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l2.3-.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6z" }),
+        _react2.default.createElement("path", { d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M98.8 92.6c-5 0-7.3-2.9-8.6-4.7-.2-.3-.6-.7-.7-.9-1.1-.5-1.5-1.8-1.1-2.9.5-1.1 1.8-1.7 2.9-1.2 1 .4 1.7 1.3 2.4 2.2 1.6 2 3.2 4 8.8 2.3 1.2-.4 2.4.3 2.8 1.5s-.3 2.4-1.5 2.8c-2 .6-3.6.9-5 .9zm-9.3-5.5z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M109.3 86.5l-4 .6-.1-.6c-1.2.2-2.1 1.4-1.9 2.6s1.4 2.1 2.6 1.9l1-.2c.4-.1.6-.4.6-.8 0-.1-.1-.2-.1-.3 0 0-.2-.2 0 0 .4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l2.3-.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6z" }),
+        _react2.default.createElement("path", { d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M98.8 92.6c-5 0-7.3-2.9-8.6-4.7-.2-.3-.6-.7-.7-.9-1.1-.5-1.5-1.8-1.1-2.9.5-1.1 1.8-1.7 2.9-1.2 1 .4 1.7 1.3 2.4 2.2 1.6 2 3.2 4 8.8 2.3 1.2-.4 2.4.3 2.8 1.5s-.3 2.4-1.5 2.8c-2 .6-3.6.9-5 .9zm-9.3-5.5z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M109.3 86.5l-4 .6-.1-.6c-1.2.2-2.1 1.4-1.9 2.6s1.4 2.1 2.6 1.9l1-.2c.4-.1.6-.4.6-.8 0-.1-.1-.2-.1-.3 0 0-.2-.2 0 0 .4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l2.3-.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6z" }),
+        _react2.default.createElement("path", { d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st7", d: "M114.1 88.6c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1.2-1.4-.7-2.6-2.1-2.8z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M98.8 92.6c-5 0-7.3-2.9-8.6-4.7-.2-.3-.6-.7-.7-.9-1.1-.5-1.5-1.8-1.1-2.9.5-1.1 1.8-1.7 2.9-1.2 1 .4 1.7 1.3 2.4 2.2 1.6 2 3.2 4 8.8 2.3 1.2-.4 2.4.3 2.8 1.5s-.3 2.4-1.5 2.8c-2 .6-3.6.9-5 .9zm-9.3-5.5z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M109.3 86.5l-4 .6-.1-.6c-1.2.2-2.1 1.4-1.9 2.6s1.4 2.1 2.6 1.9l1-.2c.4-.1.6-.4.6-.8 0-.1-.1-.2-.1-.3 0 0-.2-.2 0 0 .4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l2.3-.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6z" }),
+        _react2.default.createElement("path", { d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st7", d: "M109.8 95.3c.1-.2.2-.5.2-.7.2-1.4-.8-2.6-2.1-2.8-1.4-.2-2.6.8-2.8 2.1s.8 2.6 2.1 2.8c.8.1 1.6-.2 2.2-.8h.6c.1 0 .1-.1.1-.2l-.3-.4z" }),
+        _react2.default.createElement("path", { className: "st8", d: "M114.1 88.6c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1.2-1.4-.7-2.6-2.1-2.8z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2069,7 +3317,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 17 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2205,7 +3453,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 18 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2308,7 +3556,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 19 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2375,7 +3623,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 20 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2465,7 +3713,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 21 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2548,7 +3796,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 22 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2615,7 +3863,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 23 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2709,7 +3957,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 24 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2795,7 +4043,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 25 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2816,28 +4064,56 @@ var _femalebody = __webpack_require__(13);
 
 var _femalebody2 = _interopRequireDefault(_femalebody);
 
-__webpack_require__(70);
+var _femalebody3 = __webpack_require__(14);
+
+var _femalebody4 = _interopRequireDefault(_femalebody3);
+
+var _femalebody5 = __webpack_require__(15);
+
+var _femalebody6 = _interopRequireDefault(_femalebody5);
+
+var _malebody = __webpack_require__(25);
+
+var _malebody2 = _interopRequireDefault(_malebody);
+
+var _malebody3 = __webpack_require__(26);
+
+var _malebody4 = _interopRequireDefault(_malebody3);
+
+__webpack_require__(91);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var bodyStyles = {
+    "f1": _react2.default.createElement(_femalebody2.default, { id: 'character-body', className: 'female-body-1' }),
+    "f2": _react2.default.createElement(_femalebody4.default, { id: 'character-body', className: 'female-body-2' }),
+    "f3": _react2.default.createElement(_femalebody6.default, { id: 'character-body', className: 'female-body-3' }),
+    "m1": _react2.default.createElement(_malebody2.default, { id: 'character-body', className: 'male-body-1' }),
+    "m2": _react2.default.createElement(_malebody4.default, { id: 'character-body', className: 'male-body-2' })
+};
+
 var Body = exports.Body = function Body(_ref) {
-    var skinColor = _ref.skinColor;
+    var bodyStyle = _ref.bodyStyle,
+        skinColor = _ref.skinColor,
+        clothingTopColor = _ref.clothingTopColor,
+        clothingBottomColor = _ref.clothingBottomColor,
+        shoeColor = _ref.shoeColor;
     return _react2.default.createElement(
         'svg',
         null,
         _react2.default.createElement(
             'style',
             { type: 'text/css' },
-            '\n            #character-body .st0{fill: ' + (0, _helpers.colorValsToRGB)(skinColor) + ' !important};\n        '
+            '\n            #character-body .skin {fill: ' + (0, _helpers.colorValsToRGB)(skinColor) + ' !important}\n            #character-body .legs {stroke: ' + (0, _helpers.colorValsToRGB)(skinColor) + ' !important}\n            #character-body .clothing-top {fill: ' + (0, _helpers.colorValsToRGB)(clothingTopColor) + ' !important}\n            #character-body .clothing-bottom {fill: ' + (0, _helpers.colorValsToRGB)(clothingBottomColor) + ' !important}\n            #character-body .shoes {fill: ' + (0, _helpers.colorValsToRGB)(shoeColor) + ' !important}\n        '
         ),
-        _react2.default.createElement(_femalebody2.default, { id: 'character-body' })
+        bodyStyles[bodyStyle]
     );
 };
 
 exports.default = Body;
 
 /***/ }),
-/* 26 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2854,32 +4130,83 @@ var _react2 = _interopRequireDefault(_react);
 
 var _helpers = __webpack_require__(3);
 
-var _femalephone = __webpack_require__(15);
+var _femalephone = __webpack_require__(20);
 
 var _femalephone2 = _interopRequireDefault(_femalephone);
 
-__webpack_require__(71);
+var _femalephone3 = __webpack_require__(21);
+
+var _femalephone4 = _interopRequireDefault(_femalephone3);
+
+var _femalephone5 = __webpack_require__(22);
+
+var _femalephone6 = _interopRequireDefault(_femalephone5);
+
+var _femalephone7 = __webpack_require__(23);
+
+var _femalephone8 = _interopRequireDefault(_femalephone7);
+
+var _femalephone9 = __webpack_require__(24);
+
+var _femalephone10 = _interopRequireDefault(_femalephone9);
+
+var _phone = __webpack_require__(32);
+
+var _phone2 = _interopRequireDefault(_phone);
+
+var _phone3 = __webpack_require__(33);
+
+var _phone4 = _interopRequireDefault(_phone3);
+
+var _phone5 = __webpack_require__(34);
+
+var _phone6 = _interopRequireDefault(_phone5);
+
+var _phone7 = __webpack_require__(35);
+
+var _phone8 = _interopRequireDefault(_phone7);
+
+var _phone9 = __webpack_require__(36);
+
+var _phone10 = _interopRequireDefault(_phone9);
+
+__webpack_require__(92);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var armStyles = {
+    'f1': _react2.default.createElement(_femalephone2.default, { id: 'character-free-arm', className: 'female-free-arm-1' }),
+    'f2': _react2.default.createElement(_femalephone4.default, { id: 'character-free-arm', className: 'female-free-arm-2' }),
+    'f3': _react2.default.createElement(_femalephone6.default, { id: 'character-free-arm', className: 'female-free-arm-3' }),
+    'f4': _react2.default.createElement(_femalephone8.default, { id: 'character-free-arm', className: 'female-free-arm-4' }),
+    'f5': _react2.default.createElement(_femalephone10.default, { id: 'character-free-arm', className: 'female-free-arm-5' }),
+    'm1': _react2.default.createElement(_phone2.default, { id: 'character-free-arm', className: 'male-free-arm-1' }),
+    'm2': _react2.default.createElement(_phone4.default, { id: 'character-free-arm', className: 'male-free-arm-2' }),
+    'm3': _react2.default.createElement(_phone6.default, { id: 'character-free-arm', className: 'male-free-arm-3' }),
+    'm4': _react2.default.createElement(_phone8.default, { id: 'character-free-arm', className: 'male-free-arm-4' }),
+    'm5': _react2.default.createElement(_phone10.default, { id: 'character-free-arm', className: 'male-free-arm-5' })
+};
+
 var FreeArm = exports.FreeArm = function FreeArm(_ref) {
-    var skinColor = _ref.skinColor;
+    var armStyle = _ref.armStyle,
+        skinColor = _ref.skinColor,
+        clothingTopColor = _ref.clothingTopColor;
     return _react2.default.createElement(
         'svg',
         null,
         _react2.default.createElement(
             'style',
             { type: 'text/css' },
-            '\n            #character-free-arm .st0{fill: ' + (0, _helpers.colorValsToRGB)(skinColor) + ' !important};\n        '
+            '\n            #character-free-arm .skin {fill: ' + (0, _helpers.colorValsToRGB)(skinColor) + ' !important}\n            #character-free-arm .clothing-top {fill: ' + (0, _helpers.colorValsToRGB)(clothingTopColor) + ' !important}\n        '
         ),
-        _react2.default.createElement(_femalephone2.default, { id: 'character-free-arm' })
+        armStyles[armStyle]
     );
 };
 
 exports.default = FreeArm;
 
 /***/ }),
-/* 27 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2896,16 +4223,61 @@ var _react2 = _interopRequireDefault(_react);
 
 var _helpers = __webpack_require__(3);
 
-var _femalehead = __webpack_require__(14);
+var _femalehead = __webpack_require__(16);
 
 var _femalehead2 = _interopRequireDefault(_femalehead);
 
-__webpack_require__(72);
+var _femalehead3 = __webpack_require__(17);
+
+var _femalehead4 = _interopRequireDefault(_femalehead3);
+
+var _femalehead5 = __webpack_require__(18);
+
+var _femalehead6 = _interopRequireDefault(_femalehead5);
+
+var _femalehead7 = __webpack_require__(19);
+
+var _femalehead8 = _interopRequireDefault(_femalehead7);
+
+var _malehead = __webpack_require__(27);
+
+var _malehead2 = _interopRequireDefault(_malehead);
+
+var _malehead3 = __webpack_require__(28);
+
+var _malehead4 = _interopRequireDefault(_malehead3);
+
+var _malehead5 = __webpack_require__(29);
+
+var _malehead6 = _interopRequireDefault(_malehead5);
+
+var _malehead7 = __webpack_require__(30);
+
+var _malehead8 = _interopRequireDefault(_malehead7);
+
+var _malehead9 = __webpack_require__(31);
+
+var _malehead10 = _interopRequireDefault(_malehead9);
+
+__webpack_require__(93);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var headStyles = {
+    'f1': _react2.default.createElement(_femalehead2.default, { id: 'character-head', className: 'female-head-1' }),
+    'f2': _react2.default.createElement(_femalehead4.default, { id: 'character-head', className: 'female-head-2' }),
+    'f3': _react2.default.createElement(_femalehead6.default, { id: 'character-head', className: 'female-head-3' }),
+    'f4': _react2.default.createElement(_femalehead8.default, { id: 'character-head', className: 'female-head-4' }),
+    'm1': _react2.default.createElement(_malehead2.default, { id: 'character-head', className: 'male-head-1' }),
+    'm2': _react2.default.createElement(_malehead4.default, { id: 'character-head', className: 'male-head-2' }),
+    'm3': _react2.default.createElement(_malehead6.default, { id: 'character-head', className: 'male-head-3' }),
+    'm4': _react2.default.createElement(_malehead8.default, { id: 'character-head', className: 'male-head-4' }),
+    'm5': _react2.default.createElement(_malehead10.default, { id: 'character-head', className: 'male-head-5' })
+};
+
 var Head = exports.Head = function Head(_ref) {
-    var hairColor = _ref.hairColor,
+    var headStyle = _ref.headStyle,
+        hairColor = _ref.hairColor,
         skinColor = _ref.skinColor;
     return _react2.default.createElement(
         'svg',
@@ -2913,16 +4285,16 @@ var Head = exports.Head = function Head(_ref) {
         _react2.default.createElement(
             'style',
             { type: 'text/css' },
-            '\n            #character-head .st0{fill: ' + (0, _helpers.colorValsToRGB)((0, _helpers.darken)(skinColor)) + '}\n            #character-head .st1{fill: ' + (0, _helpers.colorValsToRGB)(skinColor) + '}\n        '
+            '\n            #character-head .skin-shadow {fill: ' + (0, _helpers.colorValsToRGB)((0, _helpers.darken)(skinColor)) + ' !important}\n            #character-head .skin {fill: ' + (0, _helpers.colorValsToRGB)(skinColor) + ' !important}\n            #character-head .hair {fill: ' + (0, _helpers.colorValsToRGB)(hairColor) + ' !important}\n        '
         ),
-        _react2.default.createElement(_femalehead2.default, { id: 'character-head' })
+        headStyles[headStyle]
     );
 };
 
 exports.default = Head;
 
 /***/ }),
-/* 28 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2937,37 +4309,61 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Head = __webpack_require__(27);
+var _Head = __webpack_require__(48);
 
 var _Head2 = _interopRequireDefault(_Head);
 
-var _Body = __webpack_require__(25);
+var _Body = __webpack_require__(46);
 
 var _Body2 = _interopRequireDefault(_Body);
 
-var _FreeArm = __webpack_require__(26);
+var _FreeArm = __webpack_require__(47);
 
 var _FreeArm2 = _interopRequireDefault(_FreeArm);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Character = exports.Character = function Character(_ref) {
-    var hairColor = _ref.hairColor,
+    var _ref$bodyStyle = _ref.bodyStyle,
+        bodyStyle = _ref$bodyStyle === undefined ? "m2" : _ref$bodyStyle,
+        _ref$headStyle = _ref.headStyle,
+        headStyle = _ref$headStyle === undefined ? "m2" : _ref$headStyle,
+        _ref$armStyle = _ref.armStyle,
+        armStyle = _ref$armStyle === undefined ? "m2" : _ref$armStyle,
+        _ref$hairColor = _ref.hairColor,
+        hairColor = _ref$hairColor === undefined ? [0, 0, 255] : _ref$hairColor,
         _ref$skinColor = _ref.skinColor,
-        skinColor = _ref$skinColor === undefined ? [100, 60, 20] : _ref$skinColor;
+        skinColor = _ref$skinColor === undefined ? [100, 60, 20] : _ref$skinColor,
+        _ref$clothingTopColor = _ref.clothingTopColor,
+        clothingTopColor = _ref$clothingTopColor === undefined ? [255, 0, 0] : _ref$clothingTopColor,
+        _ref$clothingBottomCo = _ref.clothingBottomColor,
+        clothingBottomColor = _ref$clothingBottomCo === undefined ? [0, 255, 0] : _ref$clothingBottomCo,
+        _ref$shoeColor = _ref.shoeColor,
+        shoeColor = _ref$shoeColor === undefined ? [255, 0, 255] : _ref$shoeColor;
     return _react2.default.createElement(
         'svg',
         { id: 'character', viewBox: '0 0 300 300' },
-        _react2.default.createElement(_Head2.default, { hairColor: hairColor, skinColor: skinColor }),
-        _react2.default.createElement(_FreeArm2.default, { skinColor: skinColor }),
-        _react2.default.createElement(_Body2.default, { skinColor: skinColor })
+        _react2.default.createElement(_FreeArm2.default, {
+            armStyle: armStyle,
+            skinColor: skinColor,
+            clothingTopColor: clothingTopColor }),
+        _react2.default.createElement(_Body2.default, {
+            bodyStyle: bodyStyle,
+            skinColor: skinColor,
+            clothingTopColor: clothingTopColor,
+            clothingBottomColor: clothingBottomColor,
+            shoeColor: shoeColor }),
+        _react2.default.createElement(_Head2.default, {
+            headStyle: headStyle,
+            hairColor: hairColor,
+            skinColor: skinColor })
     );
 };
 
 exports.default = Character;
 
 /***/ }),
-/* 29 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2978,7 +4374,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Character = undefined;
 
-var _Character = __webpack_require__(28);
+var _Character = __webpack_require__(49);
 
 var _Character2 = _interopRequireDefault(_Character);
 
@@ -2988,7 +4384,7 @@ exports.Character = _Character2.default;
 exports.default = _Character2.default;
 
 /***/ }),
-/* 30 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3003,9 +4399,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(73);
+__webpack_require__(94);
 
-var _attainment = __webpack_require__(16);
+var _attainment = __webpack_require__(37);
 
 var _attainment2 = _interopRequireDefault(_attainment);
 
@@ -3023,7 +4419,7 @@ var AttainmentMotivatorIcon = exports.AttainmentMotivatorIcon = function Attainm
 exports.default = AttainmentMotivatorIcon;
 
 /***/ }),
-/* 31 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3038,9 +4434,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(74);
+__webpack_require__(95);
 
-var _career = __webpack_require__(17);
+var _career = __webpack_require__(38);
 
 var _career2 = _interopRequireDefault(_career);
 
@@ -3058,7 +4454,7 @@ var CareerMotivatorIcon = exports.CareerMotivatorIcon = function CareerMotivator
 exports.default = CareerMotivatorIcon;
 
 /***/ }),
-/* 32 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3073,9 +4469,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(75);
+__webpack_require__(96);
 
-var _family = __webpack_require__(18);
+var _family = __webpack_require__(39);
 
 var _family2 = _interopRequireDefault(_family);
 
@@ -3093,7 +4489,7 @@ var FamilyMotivatorIcon = exports.FamilyMotivatorIcon = function FamilyMotivator
 exports.default = FamilyMotivatorIcon;
 
 /***/ }),
-/* 33 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3108,9 +4504,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(76);
+__webpack_require__(97);
 
-var _fearOfFailure = __webpack_require__(19);
+var _fearOfFailure = __webpack_require__(40);
 
 var _fearOfFailure2 = _interopRequireDefault(_fearOfFailure);
 
@@ -3128,7 +4524,7 @@ var FearOfFailureMotivatorIcon = exports.FearOfFailureMotivatorIcon = function F
 exports.default = FearOfFailureMotivatorIcon;
 
 /***/ }),
-/* 34 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3143,9 +4539,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(77);
+__webpack_require__(98);
 
-var _mastery = __webpack_require__(20);
+var _mastery = __webpack_require__(41);
 
 var _mastery2 = _interopRequireDefault(_mastery);
 
@@ -3163,7 +4559,7 @@ var MasteryMotivatorIcon = exports.MasteryMotivatorIcon = function MasteryMotiva
 exports.default = MasteryMotivatorIcon;
 
 /***/ }),
-/* 35 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3178,9 +4574,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(78);
+__webpack_require__(99);
 
-var _money = __webpack_require__(21);
+var _money = __webpack_require__(42);
 
 var _money2 = _interopRequireDefault(_money);
 
@@ -3198,7 +4594,7 @@ var MoneyMotivatorIcon = exports.MoneyMotivatorIcon = function MoneyMotivatorIco
 exports.default = MoneyMotivatorIcon;
 
 /***/ }),
-/* 36 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3213,9 +4609,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(79);
+__webpack_require__(100);
 
-var _options = __webpack_require__(22);
+var _options = __webpack_require__(43);
 
 var _options2 = _interopRequireDefault(_options);
 
@@ -3233,7 +4629,7 @@ var OptionsMotivatorIcon = exports.OptionsMotivatorIcon = function OptionsMotiva
 exports.default = OptionsMotivatorIcon;
 
 /***/ }),
-/* 37 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3248,9 +4644,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(80);
+__webpack_require__(101);
 
-var _professionalCommunity = __webpack_require__(23);
+var _professionalCommunity = __webpack_require__(44);
 
 var _professionalCommunity2 = _interopRequireDefault(_professionalCommunity);
 
@@ -3268,7 +4664,7 @@ var ProfessionalCommunityMotivatorIcon = exports.ProfessionalCommunityMotivatorI
 exports.default = ProfessionalCommunityMotivatorIcon;
 
 /***/ }),
-/* 38 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3283,9 +4679,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(81);
+__webpack_require__(102);
 
-var _selfDevelopment = __webpack_require__(24);
+var _selfDevelopment = __webpack_require__(45);
 
 var _selfDevelopment2 = _interopRequireDefault(_selfDevelopment);
 
@@ -3303,7 +4699,7 @@ var SelfDevelopmentMotivatorIcon = exports.SelfDevelopmentMotivatorIcon = functi
 exports.default = SelfDevelopmentMotivatorIcon;
 
 /***/ }),
-/* 39 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3328,7 +4724,7 @@ var AttainmentMotivatorDynamicImage = exports.AttainmentMotivatorDynamicImage = 
 exports.default = AttainmentMotivatorDynamicImage;
 
 /***/ }),
-/* 40 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3353,7 +4749,7 @@ var CareerMotivatorDynamicImage = exports.CareerMotivatorDynamicImage = function
 exports.default = CareerMotivatorDynamicImage;
 
 /***/ }),
-/* 41 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3378,7 +4774,7 @@ var FamilyMotivatorDynamicImage = exports.FamilyMotivatorDynamicImage = function
 exports.default = FamilyMotivatorDynamicImage;
 
 /***/ }),
-/* 42 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3403,7 +4799,7 @@ var FearOfFailureMotivatorDynamicImage = exports.FearOfFailureMotivatorDynamicIm
 exports.default = FearOfFailureMotivatorDynamicImage;
 
 /***/ }),
-/* 43 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3428,7 +4824,7 @@ var MasteryMotivatorDynamicImage = exports.MasteryMotivatorDynamicImage = functi
 exports.default = MasteryMotivatorDynamicImage;
 
 /***/ }),
-/* 44 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3453,7 +4849,7 @@ var MoneyMotivatorDynamicImage = exports.MoneyMotivatorDynamicImage = function M
 exports.default = MoneyMotivatorDynamicImage;
 
 /***/ }),
-/* 45 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3468,39 +4864,39 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _AttainmentMotivatorDynamicImage = __webpack_require__(39);
+var _AttainmentMotivatorDynamicImage = __webpack_require__(60);
 
 var _AttainmentMotivatorDynamicImage2 = _interopRequireDefault(_AttainmentMotivatorDynamicImage);
 
-var _CareerMotivatorDynamicImage = __webpack_require__(40);
+var _CareerMotivatorDynamicImage = __webpack_require__(61);
 
 var _CareerMotivatorDynamicImage2 = _interopRequireDefault(_CareerMotivatorDynamicImage);
 
-var _FamilyMotivatorDynamicImage = __webpack_require__(41);
+var _FamilyMotivatorDynamicImage = __webpack_require__(62);
 
 var _FamilyMotivatorDynamicImage2 = _interopRequireDefault(_FamilyMotivatorDynamicImage);
 
-var _FearOfFailureMotivatorDynamicImage = __webpack_require__(42);
+var _FearOfFailureMotivatorDynamicImage = __webpack_require__(63);
 
 var _FearOfFailureMotivatorDynamicImage2 = _interopRequireDefault(_FearOfFailureMotivatorDynamicImage);
 
-var _MasteryMotivatorDynamicImage = __webpack_require__(43);
+var _MasteryMotivatorDynamicImage = __webpack_require__(64);
 
 var _MasteryMotivatorDynamicImage2 = _interopRequireDefault(_MasteryMotivatorDynamicImage);
 
-var _MoneyMotivatorDynamicImage = __webpack_require__(44);
+var _MoneyMotivatorDynamicImage = __webpack_require__(65);
 
 var _MoneyMotivatorDynamicImage2 = _interopRequireDefault(_MoneyMotivatorDynamicImage);
 
-var _OptionsMotivatorDynamicImage = __webpack_require__(46);
+var _OptionsMotivatorDynamicImage = __webpack_require__(67);
 
 var _OptionsMotivatorDynamicImage2 = _interopRequireDefault(_OptionsMotivatorDynamicImage);
 
-var _ProfessionalCommunityMotivatorDynamicImage = __webpack_require__(47);
+var _ProfessionalCommunityMotivatorDynamicImage = __webpack_require__(68);
 
 var _ProfessionalCommunityMotivatorDynamicImage2 = _interopRequireDefault(_ProfessionalCommunityMotivatorDynamicImage);
 
-var _SelfDevelopmentMotivatorDynamicImage = __webpack_require__(48);
+var _SelfDevelopmentMotivatorDynamicImage = __webpack_require__(69);
 
 var _SelfDevelopmentMotivatorDynamicImage2 = _interopRequireDefault(_SelfDevelopmentMotivatorDynamicImage);
 
@@ -3529,7 +4925,7 @@ var MotivatorDynamicImage = exports.MotivatorDynamicImage = function MotivatorDy
 exports.default = MotivatorDynamicImage;
 
 /***/ }),
-/* 46 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3554,7 +4950,7 @@ var OptionsMotivatorDynamicImage = exports.OptionsMotivatorDynamicImage = functi
 exports.default = OptionsMotivatorDynamicImage;
 
 /***/ }),
-/* 47 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3579,7 +4975,7 @@ var ProfessionalCommunityMotivatorDynamicImage = exports.ProfessionalCommunityMo
 exports.default = ProfessionalCommunityMotivatorDynamicImage;
 
 /***/ }),
-/* 48 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3604,7 +5000,7 @@ var SelfDevelopmentMotivatorDynamicImage = exports.SelfDevelopmentMotivatorDynam
 exports.default = SelfDevelopmentMotivatorDynamicImage;
 
 /***/ }),
-/* 49 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3615,7 +5011,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Timeline = undefined;
 
-var _lodash = __webpack_require__(83);
+var _lodash = __webpack_require__(104);
 
 var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -3658,7 +5054,7 @@ var Timeline = exports.Timeline = function Timeline(_ref) {
 exports.default = Timeline;
 
 /***/ }),
-/* 50 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3683,7 +5079,7 @@ var TimelineItem = exports.TimelineItem = function TimelineItem(_ref) {
 exports.default = TimelineItem;
 
 /***/ }),
-/* 51 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3726,11 +5122,11 @@ exports.TimelineItem = _Timeline.TimelineItem;
 exports.Tree = _Tree2.default;
 
 /***/ }),
-/* 52 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var conversions = __webpack_require__(6);
-var route = __webpack_require__(53);
+var route = __webpack_require__(74);
 
 var convert = {};
 
@@ -3810,7 +5206,7 @@ module.exports = convert;
 
 
 /***/ }),
-/* 53 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var conversions = __webpack_require__(6);
@@ -3914,12 +5310,12 @@ module.exports = function (fromModel) {
 
 
 /***/ }),
-/* 54 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* MIT license */
 var colorNames = __webpack_require__(7);
-var swizzle = __webpack_require__(69);
+var swizzle = __webpack_require__(90);
 
 var reverseNames = {};
 
@@ -4153,14 +5549,14 @@ function hexDouble(num) {
 
 
 /***/ }),
-/* 55 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var colorString = __webpack_require__(54);
-var convert = __webpack_require__(52);
+var colorString = __webpack_require__(75);
+var convert = __webpack_require__(73);
 
 var _slice = [].slice;
 
@@ -4639,7 +6035,7 @@ module.exports = Color;
 
 
 /***/ }),
-/* 56 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4647,13 +6043,13 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "#character-body .st0 {\n  fill: #F5A17E; }\n\n#character-body .st1 {\n  fill: #878787; }\n\n#character-body .st2 {\n  fill: #2090A8; }\n", ""]);
+exports.push([module.i, "#character-body.female-body-1 .skin {\n  fill: #F5A17E; }\n\n#character-body.female-body-1 .clothing-bottom {\n  fill: #878787; }\n\n#character-body.female-body-1 .clothing-top {\n  fill: #2090A8; }\n\n#character-body.female-body-1 .shoes {\n  fill: #E20613; }\n\n#character-body.female-body-2 .skin {\n  fill: #F4A17E; }\n\n#character-body.female-body-2 .clothing-bottom {\n  fill: #868686; }\n\n#character-body.female-body-2 .shoes {\n  fill: #E20613; }\n\n#character-body.female-body-2 .clothing-top {\n  fill: #E5007E; }\n\n#character-body.female-body-3 .skin {\n  fill: #F5A17E; }\n\n#character-body.female-body-3 .legs {\n  fill: none;\n  stroke: #F5A17E;\n  stroke-width: 2.2687;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-miterlimit: 10; }\n\n#character-body.female-body-3 .shoes {\n  fill: #7D4E24; }\n\n#character-body.female-body-3 .clothing-bottom {\n  fill: #706F6F; }\n\n#character-body.female-body-3 .clothing-top {\n  fill: #E6007E; }\n\n#character-body.male-body-1 .legs {\n  fill: none;\n  stroke: #F39200;\n  stroke-width: 2.2687;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-miterlimit: 10; }\n\n#character-body.male-body-1 .shoes {\n  fill: #7D4E24; }\n\n#character-body.male-body-1 .skin {\n  fill: #F5A17E; }\n\n#character-body.male-body-1 .clothing-bottom {\n  fill: #706F6F; }\n\n#character-body.male-body-1 .clothing-top {\n  fill: #36A9E1; }\n\n#character-body.male-body-2 .skin {\n  fill: #F5A17E; }\n\n#character-body.male-body-2 .legs {\n  fill: none;\n  stroke: #95C11F;\n  stroke-width: 2.2687;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-miterlimit: 10; }\n\n#character-body.male-body-2 .shoes {\n  fill: #7D4E24; }\n\n#character-body.male-body-2 .clothing-bottom {\n  fill: #706F6F; }\n\n#character-body.male-body-2 .clothing-top {\n  fill: #95C11F; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 57 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4661,13 +6057,13 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "#character-free-arm .st0 {\n  fill: #F4A17E; }\n", ""]);
+exports.push([module.i, "#character-free-arm.female-free-arm-1 .skin {\n  fill: #F4A17E; }\n\n#character-free-arm.female-free-arm-2 .skin {\n  fill: #F4A17E; }\n\n#character-free-arm.female-free-arm-2 .st1 {\n  fill: #1D1D1B; }\n\n#character-free-arm.female-free-arm-2 .st2 {\n  fill: none;\n  stroke: #C0BFBF;\n  stroke-width: 0.4411;\n  stroke-miterlimit: 10; }\n\n#character-free-arm.female-free-arm-2 .st3 {\n  fill: #C0BFBF; }\n\n#character-free-arm.female-free-arm-2 .st4 {\n  fill: #FFFFFF; }\n\n#character-free-arm.female-free-arm-2 .st5 {\n  fill: #1E8FA7; }\n\n#character-free-arm.female-free-arm-3 .skin {\n  fill: #F4A17E; }\n\n#character-free-arm.female-free-arm-3 .st1 {\n  fill: #1D1D1B; }\n\n#character-free-arm.female-free-arm-3 .st2 {\n  fill: none;\n  stroke: #C0BFBF;\n  stroke-width: 0.4411;\n  stroke-miterlimit: 10; }\n\n#character-free-arm.female-free-arm-3 .st3 {\n  fill: #C0BFBF; }\n\n#character-free-arm.female-free-arm-3 .st4 {\n  fill: #FFFFFF; }\n\n#character-free-arm.female-free-arm-3 .st5 {\n  fill: #E5007E; }\n\n#character-free-arm.female-free-arm-3 .st6 {\n  fill: #1E8FA7; }\n\n#character-free-arm.female-free-arm-4 .skin {\n  fill: #F4A17E; }\n\n#character-free-arm.female-free-arm-4 .st1 {\n  fill: #1D1D1B; }\n\n#character-free-arm.female-free-arm-4 .st2 {\n  fill: none;\n  stroke: #C0BFBF;\n  stroke-width: 0.4411;\n  stroke-miterlimit: 10; }\n\n#character-free-arm.female-free-arm-4 .st3 {\n  fill: #C0BFBF; }\n\n#character-free-arm.female-free-arm-4 .st4 {\n  fill: #FFFFFF; }\n\n#character-free-arm.female-free-arm-4 .st5 {\n  fill: #E5007E; }\n\n#character-free-arm.female-free-arm-4 .st6 {\n  fill: #1E8FA7; }\n\n#character-free-arm.female-free-arm-4 .st7 {\n  fill: #E84E1B; }\n\n#character-free-arm.female-free-arm-5 .skin {\n  fill: #F4A17E; }\n\n#character-free-arm.female-free-arm-5 .st1 {\n  fill: #1D1D1B; }\n\n#character-free-arm.female-free-arm-5 .st2 {\n  fill: none;\n  stroke: #C0BFBF;\n  stroke-width: 0.4411;\n  stroke-miterlimit: 10; }\n\n#character-free-arm.female-free-arm-5 .st3 {\n  fill: #C0BFBF; }\n\n#character-free-arm.female-free-arm-5 .st4 {\n  fill: #FFFFFF; }\n\n#character-free-arm.female-free-arm-5 .st5 {\n  fill: #E5007E; }\n\n#character-free-arm.female-free-arm-5 .st6 {\n  fill: #1E8FA7; }\n\n#character-free-arm.female-free-arm-5 .st7 {\n  fill: #93C01F; }\n\n#character-free-arm.female-free-arm-5 .st8 {\n  fill: #E84E1B; }\n\n#character-free-arm.male-free-arm-1 .clothing-top {\n  fill: #7B992A; }\n\n#character-free-arm.male-free-arm-1 .skin {\n  fill: #F5A17E; }\n\n#character-free-arm.male-free-arm-2 .clothing-top {\n  fill: #7B992A; }\n\n#character-free-arm.male-free-arm-2 .skin {\n  fill: #F5A17E; }\n\n#character-free-arm.male-free-arm-2 .st2 {\n  fill: none;\n  stroke: #C0C0C0;\n  stroke-width: 0.4411;\n  stroke-miterlimit: 10; }\n\n#character-free-arm.male-free-arm-2 .st3 {\n  fill: #C0C0C0; }\n\n#character-free-arm.male-free-arm-2 .st4 {\n  fill: #FFFFFF; }\n\n#character-free-arm.male-free-arm-2 .st5 {\n  fill: #1F90A8; }\n\n#character-free-arm.male-free-arm-3 .clothing-top {\n  fill: #7B992A; }\n\n#character-free-arm.male-free-arm-3 .skin {\n  fill: #F5A17E; }\n\n#character-free-arm.male-free-arm-3 .st2 {\n  fill: none;\n  stroke: #C0C0C0;\n  stroke-width: 0.4411;\n  stroke-miterlimit: 10; }\n\n#character-free-arm.male-free-arm-3 .st3 {\n  fill: #C0C0C0; }\n\n#character-free-arm.male-free-arm-3 .st4 {\n  fill: #FFFFFF; }\n\n#character-free-arm.male-free-arm-3 .st5 {\n  fill: #E6007E; }\n\n#character-free-arm.male-free-arm-3 .st6 {\n  fill: #1F90A8; }\n\n#character-free-arm.male-free-arm-4 .clothing-top {\n  fill: #7B992A; }\n\n#character-free-arm.male-free-arm-4 .skin {\n  fill: #F5A17E; }\n\n#character-free-arm.male-free-arm-4 .st2 {\n  fill: none;\n  stroke: #C0C0C0;\n  stroke-width: 0.4411;\n  stroke-miterlimit: 10; }\n\n#character-free-arm.male-free-arm-4 .st3 {\n  fill: #C0C0C0; }\n\n#character-free-arm.male-free-arm-4 .st4 {\n  fill: #FFFFFF; }\n\n#character-free-arm.male-free-arm-4 .st5 {\n  fill: #E6007E; }\n\n#character-free-arm.male-free-arm-4 .st6 {\n  fill: #1F90A8; }\n\n#character-free-arm.male-free-arm-4 .st7 {\n  fill: #E94E1B; }\n\n#character-free-arm.male-free-arm-5 .clothing-top {\n  fill: #7B992A; }\n\n#character-free-arm.male-free-arm-5 .skin {\n  fill: #F5A17E; }\n\n#character-free-arm.male-free-arm-5 .st2 {\n  fill: none;\n  stroke: #C0C0C0;\n  stroke-width: 0.4411;\n  stroke-miterlimit: 10; }\n\n#character-free-arm.male-free-arm-5 .st3 {\n  fill: #C0C0C0; }\n\n#character-free-arm.male-free-arm-5 .st4 {\n  fill: #FFFFFF; }\n\n#character-free-arm.male-free-arm-5 .st5 {\n  fill: #E6007E; }\n\n#character-free-arm.male-free-arm-5 .st6 {\n  fill: #1F90A8; }\n\n#character-free-arm.male-free-arm-5 .st7 {\n  fill: #95C11F; }\n\n#character-free-arm.male-free-arm-5 .st8 {\n  fill: #E94E1B; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 58 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4675,13 +6071,13 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "#character-head .st0 {\n  fill: #D88B71; }\n\n#character-head .st1 {\n  fill: #F4A17E; }\n\n#character-head .st2 {\n  fill: #B25352; }\n\n#character-head .st3 {\n  fill: #1D1D1B; }\n\n#character-head .st4 {\n  fill: #E20613; }\n\n#character-head .st5 {\n  fill: #F8B133; }\n", ""]);
+exports.push([module.i, "#character-head.female-head-1 .skin-shadow {\n  fill: #D88B71; }\n\n#character-head.female-head-1 .skin {\n  fill: #F4A17E; }\n\n#character-head.female-head-1 .st2 {\n  fill: #B25352; }\n\n#character-head.female-head-1 .st3 {\n  fill: #1D1D1B; }\n\n#character-head.female-head-1 .st4 {\n  fill: #E20613; }\n\n#character-head.female-head-1 .hair {\n  fill: #F8B133; }\n\n#character-head.female-head-2 .skin-shadow {\n  fill: #D88B71; }\n\n#character-head.female-head-2 .skin {\n  fill: #F4A17E; }\n\n#character-head.female-head-2 .st2 {\n  fill: #B25352; }\n\n#character-head.female-head-2 .st3 {\n  fill: #1D1D1B; }\n\n#character-head.female-head-2 .st4 {\n  fill: #E20613; }\n\n#character-head.female-head-2 .hair {\n  fill: #F8B133; }\n\n#character-head.female-head-3 .skin-shadow {\n  fill: #D88B71; }\n\n#character-head.female-head-3 .skin {\n  fill: #F4A17E; }\n\n#character-head.female-head-3 .st2 {\n  fill: #B25352; }\n\n#character-head.female-head-3 .st3 {\n  fill: #1D1D1B; }\n\n#character-head.female-head-3 .st4 {\n  fill: #E20613; }\n\n#character-head.female-head-3 .hair {\n  fill: #F8B133; }\n\n#character-head.female-head-4 .skin-shadow {\n  fill: #D88B71; }\n\n#character-head.female-head-4 .skin {\n  fill: #F4A17E; }\n\n#character-head.female-head-4 .st2 {\n  fill: #B25352; }\n\n#character-head.female-head-4 .st3 {\n  fill: #1D1D1B; }\n\n#character-head.female-head-4 .st4 {\n  fill: #E20613; }\n\n#character-head.female-head-4 .hair {\n  fill: #F8B133; }\n\n#character-head.male-head-1 .skin-shadow {\n  fill: #D98A71; }\n\n#character-head.male-head-1 .skin {\n  fill: #F4A17E; }\n\n#character-head.male-head-1 .st2 {\n  fill: #1D1E1C; }\n\n#character-head.male-head-1 .hair {\n  fill: #422918; }\n\n#character-head.male-head-1 .st4 {\n  fill: none;\n  stroke: #000000;\n  stroke-width: 0.4148;\n  stroke-linecap: round;\n  stroke-miterlimit: 10; }\n\n#character-head.male-head-1 .st5 {\n  fill: #D88A71; }\n\n#character-head.male-head-1 .st6 {\n  fill: #B25353; }\n\n#character-head.male-head-2 .skin-shadow {\n  fill: #D98A71; }\n\n#character-head.male-head-2 .skin {\n  fill: #F4A17E; }\n\n#character-head.male-head-2 .st2 {\n  fill: #1D1E1C; }\n\n#character-head.male-head-2 .hair {\n  fill: #422918; }\n\n#character-head.male-head-2 .st4 {\n  fill: none;\n  stroke: #000000;\n  stroke-width: 0.4148;\n  stroke-linecap: round;\n  stroke-miterlimit: 10; }\n\n#character-head.male-head-2 .st5 {\n  fill: #D88A71; }\n\n#character-head.male-head-2 .st6 {\n  fill: #B25353; }\n\n#character-head.male-head-3 .skin-shadow {\n  fill: #D98A71; }\n\n#character-head.male-head-3 .skin {\n  fill: #F4A17E; }\n\n#character-head.male-head-3 .st2 {\n  fill: #1D1E1C; }\n\n#character-head.male-head-3 .hair {\n  fill: #422918; }\n\n#character-head.male-head-3 .st4 {\n  fill: none;\n  stroke: #000000;\n  stroke-width: 0.4148;\n  stroke-linecap: round;\n  stroke-miterlimit: 10; }\n\n#character-head.male-head-3 .st5 {\n  fill: #D88A71; }\n\n#character-head.male-head-3 .st6 {\n  fill: #B25353; }\n\n#character-head.male-head-4 .skin-shadow {\n  fill: #D98A71; }\n\n#character-head.male-head-4 .skin {\n  fill: #F4A17E; }\n\n#character-head.male-head-4 .st2 {\n  fill: #1D1E1C; }\n\n#character-head.male-head-4 .hair {\n  fill: #422918; }\n\n#character-head.male-head-4 .st4 {\n  fill: #D88A71; }\n\n#character-head.male-head-4 .st5 {\n  fill: #B25353; }\n\n#character-head.male-head-5 .skin-shadow {\n  fill: #D98A71; }\n\n#character-head.male-head-5 .skin {\n  fill: #F4A17E; }\n\n#character-head.male-head-5 .st2 {\n  fill: #1D1E1C; }\n\n#character-head.male-head-5 .hair {\n  fill: #422918; }\n\n#character-head.male-head-5 .st4 {\n  fill: #D88A71; }\n\n#character-head.male-head-5 .st5 {\n  fill: #B25353; }\n\n#character-head.male-head-5 .st6 {\n  opacity: 0.2; }\n\n#character-head.male-head-5 .st7 {\n  fill: #A1877A; }\n\n#character-head.male-head-5 .st8 {\n  fill: none;\n  stroke: #000000;\n  stroke-width: 0.4148;\n  stroke-linecap: round;\n  stroke-miterlimit: 10; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 59 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4695,7 +6091,7 @@ exports.push([module.i, ".attainment-motivator-icon .st0 {\n  fill: #3381B8; }\n
 
 
 /***/ }),
-/* 60 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4709,7 +6105,7 @@ exports.push([module.i, ".career-motivator-icon .st0 {\n  fill: #1E8FA7; }\n\n.c
 
 
 /***/ }),
-/* 61 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4723,7 +6119,7 @@ exports.push([module.i, ".family-motivator-icon .st0 {\n  fill: #3381B8; }\n\n.f
 
 
 /***/ }),
-/* 62 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4737,7 +6133,7 @@ exports.push([module.i, ".fear-of-failure-motivator-icon .st0 {\n  fill: #92B153
 
 
 /***/ }),
-/* 63 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4751,7 +6147,7 @@ exports.push([module.i, ".mastery-motivator-icon .st0 {\n  fill: #BCC6DF; }\n\n.
 
 
 /***/ }),
-/* 64 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4765,7 +6161,7 @@ exports.push([module.i, ".money-motivator-icon .st0 {\n  fill: #B25353; }\n\n.mo
 
 
 /***/ }),
-/* 65 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4779,7 +6175,7 @@ exports.push([module.i, ".options-motivator-icon .st0 {\n  fill: #BD1622; }\n\n.
 
 
 /***/ }),
-/* 66 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4793,7 +6189,7 @@ exports.push([module.i, ".professional-community-motivator-icon .st0 {\n  fill: 
 
 
 /***/ }),
-/* 67 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -4807,7 +6203,7 @@ exports.push([module.i, ".self-development-motivator-icon .st0 {\n  fill: #1E8FA
 
 
 /***/ }),
-/* 68 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4825,13 +6221,13 @@ module.exports = function isArrayish(obj) {
 
 
 /***/ }),
-/* 69 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var isArrayish = __webpack_require__(68);
+var isArrayish = __webpack_require__(89);
 
 var concat = Array.prototype.concat;
 var slice = Array.prototype.slice;
@@ -4861,13 +6257,13 @@ swizzle.wrap = function (fn) {
 
 
 /***/ }),
-/* 70 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(56);
+var content = __webpack_require__(77);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -4892,13 +6288,13 @@ if(false) {
 }
 
 /***/ }),
-/* 71 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(57);
+var content = __webpack_require__(78);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -4923,13 +6319,13 @@ if(false) {
 }
 
 /***/ }),
-/* 72 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(58);
+var content = __webpack_require__(79);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -4954,13 +6350,13 @@ if(false) {
 }
 
 /***/ }),
-/* 73 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(59);
+var content = __webpack_require__(80);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -4985,13 +6381,13 @@ if(false) {
 }
 
 /***/ }),
-/* 74 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(60);
+var content = __webpack_require__(81);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -5016,13 +6412,13 @@ if(false) {
 }
 
 /***/ }),
-/* 75 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(61);
+var content = __webpack_require__(82);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -5047,13 +6443,13 @@ if(false) {
 }
 
 /***/ }),
-/* 76 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(62);
+var content = __webpack_require__(83);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -5078,13 +6474,13 @@ if(false) {
 }
 
 /***/ }),
-/* 77 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(63);
+var content = __webpack_require__(84);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -5109,13 +6505,13 @@ if(false) {
 }
 
 /***/ }),
-/* 78 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(64);
+var content = __webpack_require__(85);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -5140,13 +6536,13 @@ if(false) {
 }
 
 /***/ }),
-/* 79 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(65);
+var content = __webpack_require__(86);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -5171,13 +6567,13 @@ if(false) {
 }
 
 /***/ }),
-/* 80 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(66);
+var content = __webpack_require__(87);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -5202,13 +6598,13 @@ if(false) {
 }
 
 /***/ }),
-/* 81 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(67);
+var content = __webpack_require__(88);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -5233,7 +6629,7 @@ if(false) {
 }
 
 /***/ }),
-/* 82 */
+/* 103 */
 /***/ (function(module, exports) {
 
 
@@ -5328,10 +6724,10 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 83 */
+/* 104 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_83__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_104__;
 
 /***/ })
 /******/ ]);

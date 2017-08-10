@@ -1,3 +1,245 @@
 #character-free-arm {
-  .st0{fill:#F4A17E;}
+
+  &.female-free-arm-1 {
+    .skin {
+      fill: #F4A17E;
+    }
+  }
+
+  &.female-free-arm-2 {
+    .skin {
+      fill: #F4A17E;
+    }
+    .st1 {
+      fill: #1D1D1B;
+    }
+    .st2 {
+      fill: none;
+      stroke: #C0BFBF;
+      stroke-width: 0.4411;
+      stroke-miterlimit: 10;
+    }
+    .st3 {
+      fill: #C0BFBF;
+    }
+    .st4 {
+      fill: #FFFFFF;
+    }
+    .st5 {
+      fill: #1E8FA7;
+    }
+  }
+
+  &.female-free-arm-3 {
+    .skin {
+      fill: #F4A17E;
+    }
+    .st1 {
+      fill: #1D1D1B;
+    }
+    .st2 {
+      fill: none;
+      stroke: #C0BFBF;
+      stroke-width: 0.4411;
+      stroke-miterlimit: 10;
+    }
+    .st3 {
+      fill: #C0BFBF;
+    }
+    .st4 {
+      fill: #FFFFFF;
+    }
+    .st5 {
+      fill: #E5007E;
+    }
+    .st6 {
+      fill: #1E8FA7;
+    }
+  }
+
+  &.female-free-arm-4 {
+    .skin {
+      fill: #F4A17E;
+    }
+    .st1 {
+      fill: #1D1D1B;
+    }
+    .st2 {
+      fill: none;
+      stroke: #C0BFBF;
+      stroke-width: 0.4411;
+      stroke-miterlimit: 10;
+    }
+    .st3 {
+      fill: #C0BFBF;
+    }
+    .st4 {
+      fill: #FFFFFF;
+    }
+    .st5 {
+      fill: #E5007E;
+    }
+    .st6 {
+      fill: #1E8FA7;
+    }
+    .st7 {
+      fill: #E84E1B;
+    }
+  }
+
+  &.female-free-arm-5 {
+    .skin {
+      fill: #F4A17E;
+    }
+    .st1 {
+      fill: #1D1D1B;
+    }
+    .st2 {
+      fill: none;
+      stroke: #C0BFBF;
+      stroke-width: 0.4411;
+      stroke-miterlimit: 10;
+    }
+    .st3 {
+      fill: #C0BFBF;
+    }
+    .st4 {
+      fill: #FFFFFF;
+    }
+    .st5 {
+      fill: #E5007E;
+    }
+    .st6 {
+      fill: #1E8FA7;
+    }
+    .st7 {
+      fill: #93C01F;
+    }
+    .st8 {
+      fill: #E84E1B;
+    }
+  }
+
+  &.male-free-arm-1 {
+    .clothing-top {
+      fill: #7B992A;
+    }
+    .skin {
+      fill: #F5A17E;
+    }
+  }
+
+  &.male-free-arm-2 {
+    .clothing-top {
+      fill: #7B992A;
+    }
+    .skin {
+      fill: #F5A17E;
+    }
+    .st2 {
+      fill: none;
+      stroke: #C0C0C0;
+      stroke-width: 0.4411;
+      stroke-miterlimit: 10;
+    }
+    .st3 {
+      fill: #C0C0C0;
+    }
+    .st4 {
+      fill: #FFFFFF;
+    }
+    .st5 {
+      fill: #1F90A8;
+    }
+  }
+
+  &.male-free-arm-3 {
+    .clothing-top {
+      fill: #7B992A;
+    }
+    .skin {
+      fill: #F5A17E;
+    }
+    .st2 {
+      fill: none;
+      stroke: #C0C0C0;
+      stroke-width: 0.4411;
+      stroke-miterlimit: 10;
+    }
+    .st3 {
+      fill: #C0C0C0;
+    }
+    .st4 {
+      fill: #FFFFFF;
+    }
+    .st5 {
+      fill: #E6007E;
+    }
+    .st6 {
+      fill: #1F90A8;
+    }
+  }
+
+  &.male-free-arm-4 {
+    .clothing-top {
+      fill: #7B992A;
+    }
+    .skin {
+      fill: #F5A17E;
+    }
+    .st2 {
+      fill: none;
+      stroke: #C0C0C0;
+      stroke-width: 0.4411;
+      stroke-miterlimit: 10;
+    }
+    .st3 {
+      fill: #C0C0C0;
+    }
+    .st4 {
+      fill: #FFFFFF;
+    }
+    .st5 {
+      fill: #E6007E;
+    }
+    .st6 {
+      fill: #1F90A8;
+    }
+    .st7 {
+      fill: #E94E1B;
+    }
+  }
+
+  &.male-free-arm-5 {
+    .clothing-top {
+      fill: #7B992A;
+    }
+    .skin {
+      fill: #F5A17E;
+    }
+    .st2 {
+      fill: none;
+      stroke: #C0C0C0;
+      stroke-width: 0.4411;
+      stroke-miterlimit: 10;
+    }
+    .st3 {
+      fill: #C0C0C0;
+    }
+    .st4 {
+      fill: #FFFFFF;
+    }
+    .st5 {
+      fill: #E6007E;
+    }
+    .st6 {
+      fill: #1F90A8;
+    }
+    .st7 {
+      fill: #95C11F;
+    }
+    .st8 {
+      fill: #E94E1B;
+    }
+  }
 }

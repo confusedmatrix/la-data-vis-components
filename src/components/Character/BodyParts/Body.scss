@@ -1,5 +1,101 @@
 #character-body {
-  .st0{fill: #F5A17E;}
-  .st1{fill: #878787;}
-  .st2{fill: #2090A8;}
+
+  &.female-body-1 {
+    .skin {
+      fill: #F5A17E;
+    }
+    .clothing-bottom {
+      fill: #878787;
+    }
+    .clothing-top {
+      fill: #2090A8;
+    }
+    .shoes {
+      fill: #E20613;
+    }
+  }
+
+  &.female-body-2 {
+    .skin {
+      fill: #F4A17E;
+    }
+    .clothing-bottom {
+      fill: #868686;
+    }
+    .shoes {
+      fill: #E20613;
+    }
+    .clothing-top {
+      fill: #E5007E;
+    }
+  }
+
+  &.female-body-3 {
+    .skin {
+      fill: #F5A17E;
+    }
+    .legs {
+      fill: none;
+      stroke: #F5A17E;
+      stroke-width: 2.2687;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+    }
+    .shoes {
+      fill: #7D4E24;
+    }
+    .clothing-bottom {
+      fill: #706F6F;
+    }
+    .clothing-top {
+      fill: #E6007E;
+    }
+  }
+
+  &.male-body-1 {
+    .legs {
+      fill: none;
+      stroke: #F39200;
+      stroke-width: 2.2687;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+    }
+    .shoes {
+      fill: #7D4E24;
+    }
+    .skin {
+      fill: #F5A17E;
+    }
+    .clothing-bottom {
+      fill: #706F6F;
+    }
+    .clothing-top {
+      fill: #36A9E1;
+    }
+  }
+
+  &.male-body-2 {
+    .skin {
+      fill: #F5A17E;
+    }
+    .legs {
+      fill: none;
+      stroke: #95C11F;
+      stroke-width: 2.2687;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+    }
+    .shoes {
+      fill: #7D4E24;
+    }
+    .clothing-bottom {
+      fill: #706F6F;
+    }
+    .clothing-top {
+      fill: #95C11F;
+    }
+  }
 }
