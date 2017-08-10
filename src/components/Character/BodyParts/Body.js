@@ -17,7 +17,7 @@ const bodyStyles = {
 }
 
 export const Body = ({ bodyStyle, skinColor, clothingTopColor, clothingBottomColor, shoeColor }) => (
-    <svg>
+    <svg height="180" width="180">
         <style type="text/css">{`
             #character-body .skin {fill: ${colorValsToRGB(skinColor)} !important}
             #character-body .legs {stroke: ${colorValsToRGB(skinColor)} !important}

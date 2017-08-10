@@ -27,7 +27,7 @@ const armStyles = {
 }
 
 export const FreeArm = ({ armStyle, skinColor, clothingTopColor }) => (
-    <svg>
+    <svg height="180" width="180">
         <style type="text/css">{`
             #character-free-arm .skin {fill: ${colorValsToRGB(skinColor)} !important}
             #character-free-arm .clothing-top {fill: ${colorValsToRGB(clothingTopColor)} !important}

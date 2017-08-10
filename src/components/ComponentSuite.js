@@ -17,8 +17,10 @@ export const ComponentSuite = () => (
         <MotivatorIcon motivator="options" />
         <MotivatorIcon motivator="professional-community" />
         <MotivatorIcon motivator="self-development" />
-            
-        <Character />
+
+        <svg height="500px" width="300px" viewBox="49 55 90 80" preserveAspectRatio="xMidYMax slice">
+                <Character />
+        </svg>
     </div>
 )
 

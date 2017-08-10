@@ -25,7 +25,7 @@ const headStyles = {
 }
 
 export const Head = ({ headStyle, hairColor, skinColor }) => (
-    <svg>
+    <svg height="180" width="180">
         <style type="text/css">{`
             #character-head .skin-shadow {fill: ${colorValsToRGB(darken(skinColor))} !important}
             #character-head .skin {fill: ${colorValsToRGB(skinColor)} !important}

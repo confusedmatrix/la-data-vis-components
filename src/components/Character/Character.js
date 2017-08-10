@@ -14,7 +14,7 @@ export const Character = ({
     clothingBottomColor=[0,255,0],
     shoeColor=[255,0,255],
 }) => (
-    <svg id="character">
+    <svg id="character" height="180" width="180">
         <FreeArm
             armStyle={armStyle}
             skinColor={skinColor}

@@ -606,7 +606,7 @@ var Body = exports.Body = function Body(_ref) {
         shoeColor = _ref.shoeColor;
     return _react2.default.createElement(
         'svg',
-        null,
+        { height: '180', width: '180' },
         _react2.default.createElement(
             'style',
             { type: 'text/css' },
@@ -699,7 +699,7 @@ var FreeArm = exports.FreeArm = function FreeArm(_ref) {
         clothingTopColor = _ref.clothingTopColor;
     return _react2.default.createElement(
         'svg',
-        null,
+        { height: '180', width: '180' },
         _react2.default.createElement(
             'style',
             { type: 'text/css' },
@@ -787,7 +787,7 @@ var Head = exports.Head = function Head(_ref) {
         skinColor = _ref.skinColor;
     return _react2.default.createElement(
         'svg',
-        null,
+        { height: '180', width: '180' },
         _react2.default.createElement(
             'style',
             { type: 'text/css' },
@@ -2010,7 +2010,11 @@ var ComponentSuite = exports.ComponentSuite = function ComponentSuite() {
         _react2.default.createElement(_MotivatorIcon2.default, { motivator: 'options' }),
         _react2.default.createElement(_MotivatorIcon2.default, { motivator: 'professional-community' }),
         _react2.default.createElement(_MotivatorIcon2.default, { motivator: 'self-development' }),
-        _react2.default.createElement(_Character2.default, null)
+        _react2.default.createElement(
+            'svg',
+            { height: '500px', width: '300px', viewBox: '49 55 90 80', preserveAspectRatio: 'xMidYMax slice' },
+            _react2.default.createElement(_Character2.default, null)
+        )
     );
 };
 
@@ -4339,7 +4343,7 @@ var Character = exports.Character = function Character(_ref) {
         shoeColor = _ref$shoeColor === undefined ? [255, 0, 255] : _ref$shoeColor;
     return _react2.default.createElement(
         'svg',
-        { id: 'character' },
+        { id: 'character', height: '180', width: '180' },
         _react2.default.createElement(_FreeArm2.default, {
             armStyle: armStyle,
             skinColor: skinColor,
