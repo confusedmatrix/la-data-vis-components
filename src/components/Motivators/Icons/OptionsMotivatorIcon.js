@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './OptionsMotivatorIcon.scss'
-import OptionsMotivatorSVG from './svg/options.svg'
+import OptionsMotivatorSVG from './svgs/options.svg'
 
 export const OptionsMotivatorIcon = ({ height, width }) => (
     <OptionsMotivatorSVG

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './CareerMotivatorIcon.scss'
-import CareerMotivatorSVG from './svg/career.svg'
+import CareerMotivatorSVG from './svgs/career.svg'
 
 export const CareerMotivatorIcon = ({ height, width }) => (
     <CareerMotivatorSVG

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './SelfDevelopmentMotivatorIcon.scss'
-import SelfDevelopmentMotivatorSVG from './svg/self-development.svg'
+import SelfDevelopmentMotivatorSVG from './svgs/self-development.svg'
 
 export const SelfDevelopmentMotivatorIcon = ({ height, width }) => (
     <SelfDevelopmentMotivatorSVG

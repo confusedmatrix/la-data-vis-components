@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './MasteryMotivatorIcon.scss'
-import MasteryMotivatorSVG from './svg/mastery.svg'
+import MasteryMotivatorSVG from './svgs/mastery.svg'
 
 export const MasteryMotivatorIcon = ({ height, width }) => (
     <MasteryMotivatorSVG

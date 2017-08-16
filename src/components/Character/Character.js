@@ -5,20 +5,21 @@ import Body from './BodyParts/Body'
 import FreeArm from './BodyParts/FreeArm'
 
 export const Character = ({
-    bodyStyle="m2",
-    headStyle="m2",
-    armStyle="m2",
-    hairColor=[0,0,255],
-    skinColor=[100,60,20],
-    clothingTopColor=[255,0,0],
-    clothingBottomColor=[0,255,0],
-    shoeColor=[255,0,255],
+    bodyStyle="f1",
+    headStyle="f1",
+    armStyle="f1",
+    hairColor=[106,78,66],
+    skinColor=[255,220,178],
+    clothingTopColor=[155,42,57],
+    clothingBottomColor=[141,165,135],
+    shoeColor=[96,65,53],
+    careerMotivatorImage=null
 }) => (
     <svg id="character" height="180" width="180">
         <FreeArm
             armStyle={armStyle}
             skinColor={skinColor}
-            clothingTopColor={clothingTopColor} />
+            clothingTopColor={clothingTopColor} />}
         <Body
             bodyStyle={bodyStyle}
             skinColor={skinColor}
@@ -29,6 +30,7 @@ export const Character = ({
             headStyle={headStyle}
             hairColor={hairColor}
             skinColor={skinColor} />
+        {careerMotivatorImage}
     </svg>
 )
 

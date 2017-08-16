@@ -1,0 +1,38 @@
+#career-motivator-image {
+
+  text {
+    fill: #1D1D1B;
+    font-family: 'Helvetica', 'Arial', 'Sans-serif';
+    text-anchor: middle;
+  }
+
+  &.career-motivator-image-f {
+    .st0 {
+      fill: #222222;
+    }
+    .st1 {
+      fill: #FFFFFF;
+      stroke: #000000;
+      stroke-width: 0.05px;
+    }
+
+    text {
+      transform: translate(90.9px, 96.2px) rotate(-8.2deg);
+    }
+  }
+
+  &.career-motivator-image-m {
+    .st0 {
+      fill: #222222;
+    }
+    .st1 {
+      fill: #FFFFFF;
+      stroke: #000000;
+      stroke-width: 0.05px;
+    }
+
+    text {
+      transform: translate(92px, 96.3px) rotate(-8.2deg);
+    }
+  }
+}

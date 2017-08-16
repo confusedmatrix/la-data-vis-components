@@ -1,14 +1,14 @@
 import React from 'react'
 
-import AttainmentMotivatorDynamicImage from './AttainmentMotivatorDynamicImage'
-import CareerMotivatorDynamicImage from './CareerMotivatorDynamicImage'
-import FamilyMotivatorDynamicImage from './FamilyMotivatorDynamicImage'
-import FearOfFailureMotivatorDynamicImage from './FearOfFailureMotivatorDynamicImage'
-import MasteryMotivatorDynamicImage from './MasteryMotivatorDynamicImage'
-import MoneyMotivatorDynamicImage from './MoneyMotivatorDynamicImage'
-import OptionsMotivatorDynamicImage from './OptionsMotivatorDynamicImage'
-import ProfessionalCommunityMotivatorDynamicImage from './ProfessionalCommunityMotivatorDynamicImage'
-import SelfDevelopmentMotivatorDynamicImage from './SelfDevelopmentMotivatorDynamicImage'
+import AttainmentMotivatorDynamicImage from './Attainment/AttainmentMotivatorDynamicImage'
+import CareerMotivatorDynamicImage from './Career/CareerMotivatorDynamicImage'
+import FamilyMotivatorDynamicImage from './Family/FamilyMotivatorDynamicImage'
+import FearOfFailureMotivatorDynamicImage from './FearOfFailure/FearOfFailureMotivatorDynamicImage'
+import MasteryMotivatorDynamicImage from './Mastery/MasteryMotivatorDynamicImage'
+import MoneyMotivatorDynamicImage from './Money/MoneyMotivatorDynamicImage'
+import OptionsMotivatorDynamicImage from './Options/OptionsMotivatorDynamicImage'
+import ProfessionalCommunityMotivatorDynamicImage from './ProfessionalCommunity/ProfessionalCommunityMotivatorDynamicImage'
+import SelfDevelopmentMotivatorDynamicImage from './SelfDevelopment/SelfDevelopmentMotivatorDynamicImage'
 
 const motivatorMap = {
     "attainment": AttainmentMotivatorDynamicImage,
@@ -22,9 +22,9 @@ const motivatorMap = {
     "self-development": SelfDevelopmentMotivatorDynamicImage,
 }
 
-export const MotivatorDynamicImage = ({ motivator, scale }) => {
-    const Component = motivatorMap[motivator]
-    return <Component scale={scale} />
+export const MotivatorDynamicImage = (props) => {
+    const Component = motivatorMap[props.motivator]
+    return <Component {...props} />
 }
 
 export default MotivatorDynamicImage

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './FearOfFailureMotivatorIcon.scss'
-import FearOfFailureMotivatorSVG from './svg/fear-of-failure.svg'
+import FearOfFailureMotivatorSVG from './svgs/fear-of-failure.svg'
 
 export const FearOfFailureMotivatorIcon = ({ height, width }) => (
     <FearOfFailureMotivatorSVG

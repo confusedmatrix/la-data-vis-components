@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './ProfessionalCommunityMotivatorIcon.scss'
-import ProfessionalCommunityMotivatorSVG from './svg/professional-community.svg'
+import ProfessionalCommunityMotivatorSVG from './svgs/professional-community.svg'
 
 export const ProfessionalCommunityMotivatorIcon = ({ height, width }) => (
     <ProfessionalCommunityMotivatorSVG

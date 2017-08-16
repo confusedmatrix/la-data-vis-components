@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './MoneyMotivatorIcon.scss'
-import MoneyMotivatorSVG from './svg/money.svg'
+import MoneyMotivatorSVG from './svgs/money.svg'
 
 export const MoneyMotivatorIcon = ({ height, width }) => (
     <MoneyMotivatorSVG
