@@ -25,7 +25,7 @@ export const ComponentSuite = () => (
             {/*<Character headStyle="f1" careerMotivatorImage={careerMotivatorImage} />*/}
         {/*</svg>*/}
 
-        <MotivatorImage motivator="attainment" score={5} />
+        <MotivatorImage motivator="fear-of-failure" score={1} />
     </div>
 )
 

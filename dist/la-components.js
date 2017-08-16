@@ -2079,7 +2079,7 @@ var ComponentSuite = exports.ComponentSuite = function ComponentSuite() {
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'attainment', score: 5 })
+        _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'fear-of-failure', score: 1 })
     );
 };
 
@@ -7307,7 +7307,21 @@ var SVG = function (_React$Component) {
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 100 100" }, this.props),
         _react2.default.createElement("path", { className: "st0", d: "M76.7 25.4H24L6.3 65.3h88.1z" }),
         _react2.default.createElement("path", { className: "st1", d: "M25.7 26.5L9.5 63.1h40.8V26.5z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M50.3 63.1h40.9L75 26.5H50.3z" })
+        _react2.default.createElement("path", { className: "st2", d: "M50.3 63.1h40.9L75 26.5H50.3z" }),
+        _react2.default.createElement("path", { className: "st3", d: "M50.3 4.7v20.1" }),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("ellipse", { transform: "rotate(-60 50.351 4.654)", className: "st4", cx: "50.3", cy: "4.7", rx: "4", ry: "4" }),
+          _react2.default.createElement("path", { className: "st5", d: "M48.1 3.3c.5-.8 1.3-1.3 2.1-1.3.5 0 1 .1 1.5.3" })
+        ),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("path", { className: "st6", d: "M56.3 24.8c0-3.3-2.7-6-6-6s-6 2.7-6 6v1h11.9v-1z" }),
+          _react2.default.createElement("path", { className: "st7", d: "M44.4 26.1c0-3.3 2.7-6 6-6s6 2.7 6 6" }),
+          _react2.default.createElement("path", { className: "st8", d: "M44.4 26.1c0 1.5 2.7 2.6 6 2.6s6-1.2 6-2.6" })
+        )
       );
     }
   }]);
@@ -7359,10 +7373,24 @@ var SVG = function (_React$Component) {
       return _react2.default.createElement(
         "svg",
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 100 100" }, this.props),
-        _react2.default.createElement("path", { className: "st0", d: "M76.7 25.4H24L6.3 65.3h88.1z" }),
+        _react2.default.createElement("path", { className: "st0", d: "M55.9 5.4l-5.6 19.4" }),
+        _react2.default.createElement("path", { className: "st1", d: "M76.7 25.4H24L6.3 65.3h88.1z" }),
         _react2.default.createElement("path", { d: "M53.5 34.5l21.5-8H25.7l21.5 8-2.9 28.6h12.1z" }),
-        _react2.default.createElement("path", { className: "st1", d: "M25.7 26.5L9.5 63.1h34.8l2.9-28.6z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M56.4 63.1h34.8L75 26.5l-21.5 8z" })
+        _react2.default.createElement("path", { className: "st2", d: "M25.7 26.5L9.5 63.1h34.8l2.9-28.6z" }),
+        _react2.default.createElement("path", { className: "st3", d: "M56.4 63.1h34.8L75 26.5l-21.5 8z" }),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("path", { className: "st4", d: "M56.3 24.8c0-3.3-2.7-6-6-6s-6 2.7-6 6v1h11.9v-1z" }),
+          _react2.default.createElement("path", { className: "st5", d: "M44.4 26.1c0-3.3 2.7-6 6-6s6 2.7 6 6" }),
+          _react2.default.createElement("path", { className: "st6", d: "M44.4 26.1c0 1.5 2.7 2.6 6 2.6s6-1.2 6-2.6" })
+        ),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("ellipse", { transform: "rotate(-60 55.912 5.435)", className: "st7", cx: "55.9", cy: "5.4", rx: "4", ry: "4" }),
+          _react2.default.createElement("path", { className: "st8", d: "M53.6 4.1c.5-.8 1.3-1.3 2.1-1.3.5 0 1 .1 1.5.3" })
+        )
       );
     }
   }]);
@@ -7417,7 +7445,21 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st0", d: "M76.7 25.4H24L6.3 65.3h88.1z" }),
         _react2.default.createElement("path", { d: "M55.7 49L75 26.5H25.7L45 49l-3 14.1h16.6z" }),
         _react2.default.createElement("path", { className: "st1", d: "M25.7 26.5L9.5 63.1H42L45 49z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M58.6 63.1h32.6L75 26.5 55.7 49z" })
+        _react2.default.createElement("path", { className: "st2", d: "M58.6 63.1h32.6L75 26.5 55.7 49z" }),
+        _react2.default.createElement("path", { className: "st3", d: "M61 7.7L50.3 24.8" }),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("path", { className: "st4", d: "M56.3 24.8c0-3.3-2.7-6-6-6s-6 2.7-6 6v1h11.9v-1z" }),
+          _react2.default.createElement("path", { className: "st5", d: "M44.4 26.1c0-3.3 2.7-6 6-6s6 2.7 6 6" }),
+          _react2.default.createElement("path", { className: "st6", d: "M44.4 26.1c0 1.5 2.7 2.6 6 2.6s6-1.2 6-2.6" })
+        ),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("ellipse", { transform: "rotate(-60 61.041 7.72)", className: "st7", cx: "61", cy: "7.7", rx: "4", ry: "4" }),
+          _react2.default.createElement("path", { className: "st8", d: "M58.7 6.4c.5-.8 1.3-1.3 2.1-1.3.5 0 1 .1 1.5.3" })
+        )
       );
     }
   }]);
@@ -7472,7 +7514,21 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st0", d: "M76.7 25.4H24L6.3 65.3h88.1z" }),
         _react2.default.createElement("path", { d: "M63.7 49L75 26.5H25.7L37 49l-2 14.1h30.7z" }),
         _react2.default.createElement("path", { className: "st1", d: "M25.7 26.5L9.5 63.1H35L37 49z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M65.7 63.1h25.5L75 26.5 63.7 49z" })
+        _react2.default.createElement("path", { className: "st2", d: "M65.7 63.1h25.5L75 26.5 63.7 49z" }),
+        _react2.default.createElement("path", { className: "st3", d: "M65.3 11.3l-15 13.5" }),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("path", { className: "st4", d: "M56.3 24.8c0-3.3-2.7-6-6-6s-6 2.7-6 6v1h11.9v-1z" }),
+          _react2.default.createElement("path", { className: "st5", d: "M44.4 26.1c0-3.3 2.7-6 6-6s6 2.7 6 6" }),
+          _react2.default.createElement("path", { className: "st6", d: "M44.4 26.1c0 1.5 2.7 2.6 6 2.6s6-1.2 6-2.6" })
+        ),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("ellipse", { transform: "rotate(-60 65.343 11.329)", className: "st7", cx: "65.3", cy: "11.3", rx: "4", ry: "4" }),
+          _react2.default.createElement("path", { className: "st8", d: "M63 10c.5-.8 1.3-1.3 2.1-1.3.5 0 1 .1 1.5.3" })
+        )
       );
     }
   }]);
@@ -7527,7 +7583,21 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st0", d: "M76.7 25.4H24L6.3 65.3h88.1z" }),
         _react2.default.createElement("path", { d: "M75 63.1V26.5H25.7v36.6H58.6z" }),
         _react2.default.createElement("path", { className: "st1", d: "M9.5 63.1h16.2V26.5z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M75 26.5v36.6h16.2z" })
+        _react2.default.createElement("path", { className: "st2", d: "M75 26.5v36.6h16.2z" }),
+        _react2.default.createElement("path", { className: "st3", d: "M68.5 16l-18.2 8.8" }),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("path", { className: "st4", d: "M56.3 24.8c0-3.3-2.7-6-6-6s-6 2.7-6 6v1h11.9v-1z" }),
+          _react2.default.createElement("path", { className: "st5", d: "M44.4 26.1c0-3.3 2.7-6 6-6s6 2.7 6 6" }),
+          _react2.default.createElement("path", { className: "st6", d: "M44.4 26.1c0 1.5 2.7 2.6 6 2.6s6-1.2 6-2.6" })
+        ),
+        _react2.default.createElement(
+          "g",
+          null,
+          _react2.default.createElement("ellipse", { transform: "rotate(-60 68.483 15.984)", className: "st7", cx: "68.5", cy: "16", rx: "4", ry: "4" }),
+          _react2.default.createElement("path", { className: "st8", d: "M66.2 14.7c.5-.8 1.3-1.3 2.1-1.3.5 0 1 .1 1.5.3" })
+        )
       );
     }
   }]);
@@ -8579,13 +8649,13 @@ __webpack_require__(133);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var motivatorMap = [_react2.default.createElement(_trapdoor2.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-1' }), _react2.default.createElement(_trapdoor4.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-2' }), _react2.default.createElement(_trapdoor6.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-3' }), _react2.default.createElement(_trapdoor8.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-4' }), _react2.default.createElement(_trapdoor10.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-5' })];
+var motivatorMap = [_react2.default.createElement(_trapdoor2.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-1', height: '100', width: '100' }), _react2.default.createElement(_trapdoor4.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-2', height: '100', width: '100' }), _react2.default.createElement(_trapdoor6.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-3', height: '100', width: '100' }), _react2.default.createElement(_trapdoor8.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-4', height: '100', width: '100' }), _react2.default.createElement(_trapdoor10.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-5', height: '100', width: '100' })];
 
 var FearOfFailureMotivatorDynamicImage = exports.FearOfFailureMotivatorDynamicImage = function FearOfFailureMotivatorDynamicImage(_ref) {
     var score = _ref.score;
     return _react2.default.createElement(
         'svg',
-        { height: '400', width: '400' },
+        { height: '300', width: '400', viewBox: '14 -5 75 80' },
         motivatorMap[score - 1]
     );
 };
@@ -10281,7 +10351,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "#fear-of-failure-motivator-image .st0 {\n  fill: #C18849; }\n\n#fear-of-failure-motivator-image .st1 {\n  fill: #745449; }\n\n#fear-of-failure-motivator-image .st2 {\n  fill: #3F3532; }\n", ""]);
+exports.push([module.i, "#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st0 {\n  fill: #C18849; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st1 {\n  fill: #745449; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st2 {\n  fill: #3F3532; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st3 {\n  fill: none;\n  stroke: #636362;\n  stroke-width: 2.8139;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st4 {\n  fill: #BD1622; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st5 {\n  fill: none;\n  stroke: #CE6026;\n  stroke-width: 0.6618;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st6 {\n  fill: #9099AA; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st7 {\n  fill: #BCC6DF; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-1 .st8 {\n  opacity: 0.7;\n  fill: #1D1D1B; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st0 {\n  fill: none;\n  stroke: #636362;\n  stroke-width: 2.8139;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st1 {\n  fill: #C18849; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st2 {\n  fill: #745449; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st3 {\n  fill: #3F3532; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st4 {\n  fill: #9099AA; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st5 {\n  fill: #BCC6DF; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st6 {\n  opacity: 0.7;\n  fill: #1D1D1B; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st7 {\n  fill: #BD1622; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-2 .st8 {\n  fill: none;\n  stroke: #CE6026;\n  stroke-width: 0.6618;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st0 {\n  fill: #C18849; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st1 {\n  fill: #745449; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st2 {\n  fill: #3F3532; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st3 {\n  fill: none;\n  stroke: #636362;\n  stroke-width: 2.8139;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st4 {\n  fill: #9099AA; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st5 {\n  fill: #BCC6DF; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st6 {\n  opacity: 0.7;\n  fill: #1D1D1B; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st7 {\n  fill: #BD1622; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-3 .st8 {\n  fill: none;\n  stroke: #CE6026;\n  stroke-width: 0.6618;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st0 {\n  fill: #C18849; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st1 {\n  fill: #745449; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st2 {\n  fill: #3F3532; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st3 {\n  fill: none;\n  stroke: #636362;\n  stroke-width: 2.8139;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st4 {\n  fill: #9099AA; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st5 {\n  fill: #BCC6DF; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st6 {\n  opacity: 0.7;\n  fill: #1D1D1B; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st7 {\n  fill: #BD1622; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-4 .st8 {\n  fill: none;\n  stroke: #CE6026;\n  stroke-width: 0.6618;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st0 {\n  fill: #C18849; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st1 {\n  fill: #745449; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st2 {\n  fill: #3F3532; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st3 {\n  fill: none;\n  stroke: #636362;\n  stroke-width: 2.8139;\n  stroke-linecap: round; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st4 {\n  fill: #9099AA; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st5 {\n  fill: #BCC6DF; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st6 {\n  opacity: 0.7;\n  fill: #1D1D1B; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st7 {\n  fill: #BD1622; }\n\n#fear-of-failure-motivator-image.fear-of-failure-motivator-image-5 .st8 {\n  fill: none;\n  stroke: #CE6026;\n  stroke-width: 0.6618;\n  stroke-linecap: round; }\n", ""]);
 
 // exports
 

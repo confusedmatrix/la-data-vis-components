@@ -8,15 +8,15 @@ import FearOfFailureMotivatorDynamicImage5SVG from '../svgs/trapdoor5.svg'
 import './FearOfFailureMotivatorDynamicImage.scss'
 
 const motivatorMap = [
-    <FearOfFailureMotivatorDynamicImage1SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-1" />,
-    <FearOfFailureMotivatorDynamicImage2SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-2" />,
-    <FearOfFailureMotivatorDynamicImage3SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-3" />,
-    <FearOfFailureMotivatorDynamicImage4SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-4" />,
-    <FearOfFailureMotivatorDynamicImage5SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-5" />,
+    <FearOfFailureMotivatorDynamicImage1SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-1" height="100" width="100" />,
+    <FearOfFailureMotivatorDynamicImage2SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-2" height="100" width="100" />,
+    <FearOfFailureMotivatorDynamicImage3SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-3" height="100" width="100" />,
+    <FearOfFailureMotivatorDynamicImage4SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-4" height="100" width="100" />,
+    <FearOfFailureMotivatorDynamicImage5SVG id="fear-of-failure-motivator-image" className="fear-of-failure-motivator-image-5" height="100" width="100" />,
 ]
 
 export const FearOfFailureMotivatorDynamicImage = ({ score }) => (
-    <svg height="400" width="400">
+    <svg height="300" width="400" viewBox="14 -5 75 80">
         {motivatorMap[score-1]}
     </svg>
 )
