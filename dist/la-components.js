@@ -539,39 +539,39 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _AttainmentMotivatorDynamicImage = __webpack_require__(82);
+var _AttainmentMotivatorDynamicImage = __webpack_require__(83);
 
 var _AttainmentMotivatorDynamicImage2 = _interopRequireDefault(_AttainmentMotivatorDynamicImage);
 
-var _CareerMotivatorDynamicImage = __webpack_require__(83);
+var _CareerMotivatorDynamicImage = __webpack_require__(84);
 
 var _CareerMotivatorDynamicImage2 = _interopRequireDefault(_CareerMotivatorDynamicImage);
 
-var _FamilyMotivatorDynamicImage = __webpack_require__(84);
+var _FamilyMotivatorDynamicImage = __webpack_require__(85);
 
 var _FamilyMotivatorDynamicImage2 = _interopRequireDefault(_FamilyMotivatorDynamicImage);
 
-var _FearOfFailureMotivatorDynamicImage = __webpack_require__(85);
+var _FearOfFailureMotivatorDynamicImage = __webpack_require__(86);
 
 var _FearOfFailureMotivatorDynamicImage2 = _interopRequireDefault(_FearOfFailureMotivatorDynamicImage);
 
-var _MasteryMotivatorDynamicImage = __webpack_require__(86);
+var _MasteryMotivatorDynamicImage = __webpack_require__(87);
 
 var _MasteryMotivatorDynamicImage2 = _interopRequireDefault(_MasteryMotivatorDynamicImage);
 
-var _MoneyMotivatorDynamicImage = __webpack_require__(87);
+var _MoneyMotivatorDynamicImage = __webpack_require__(88);
 
 var _MoneyMotivatorDynamicImage2 = _interopRequireDefault(_MoneyMotivatorDynamicImage);
 
-var _OptionsMotivatorDynamicImage = __webpack_require__(88);
+var _OptionsMotivatorDynamicImage = __webpack_require__(89);
 
 var _OptionsMotivatorDynamicImage2 = _interopRequireDefault(_OptionsMotivatorDynamicImage);
 
-var _ProfessionalCommunityMotivatorDynamicImage = __webpack_require__(89);
+var _ProfessionalCommunityMotivatorDynamicImage = __webpack_require__(90);
 
 var _ProfessionalCommunityMotivatorDynamicImage2 = _interopRequireDefault(_ProfessionalCommunityMotivatorDynamicImage);
 
-var _SelfDevelopmentMotivatorDynamicImage = __webpack_require__(90);
+var _SelfDevelopmentMotivatorDynamicImage = __webpack_require__(91);
 
 var _SelfDevelopmentMotivatorDynamicImage2 = _interopRequireDefault(_SelfDevelopmentMotivatorDynamicImage);
 
@@ -639,23 +639,23 @@ var _react2 = _interopRequireDefault(_react);
 
 var _helpers = __webpack_require__(4);
 
-var _femalebody = __webpack_require__(18);
+var _femalebody = __webpack_require__(19);
 
 var _femalebody2 = _interopRequireDefault(_femalebody);
 
-var _femalebody3 = __webpack_require__(19);
+var _femalebody3 = __webpack_require__(20);
 
 var _femalebody4 = _interopRequireDefault(_femalebody3);
 
-var _femalebody5 = __webpack_require__(20);
+var _femalebody5 = __webpack_require__(21);
 
 var _femalebody6 = _interopRequireDefault(_femalebody5);
 
-var _malebody = __webpack_require__(30);
+var _malebody = __webpack_require__(31);
 
 var _malebody2 = _interopRequireDefault(_malebody);
 
-var _malebody3 = __webpack_require__(31);
+var _malebody3 = __webpack_require__(32);
 
 var _malebody4 = _interopRequireDefault(_malebody3);
 
@@ -709,43 +709,43 @@ var _react2 = _interopRequireDefault(_react);
 
 var _helpers = __webpack_require__(4);
 
-var _femalephone = __webpack_require__(25);
+var _femalephone = __webpack_require__(26);
 
 var _femalephone2 = _interopRequireDefault(_femalephone);
 
-var _femalephone3 = __webpack_require__(26);
+var _femalephone3 = __webpack_require__(27);
 
 var _femalephone4 = _interopRequireDefault(_femalephone3);
 
-var _femalephone5 = __webpack_require__(27);
+var _femalephone5 = __webpack_require__(28);
 
 var _femalephone6 = _interopRequireDefault(_femalephone5);
 
-var _femalephone7 = __webpack_require__(28);
+var _femalephone7 = __webpack_require__(29);
 
 var _femalephone8 = _interopRequireDefault(_femalephone7);
 
-var _femalephone9 = __webpack_require__(29);
+var _femalephone9 = __webpack_require__(30);
 
 var _femalephone10 = _interopRequireDefault(_femalephone9);
 
-var _phone = __webpack_require__(37);
+var _phone = __webpack_require__(38);
 
 var _phone2 = _interopRequireDefault(_phone);
 
-var _phone3 = __webpack_require__(38);
+var _phone3 = __webpack_require__(39);
 
 var _phone4 = _interopRequireDefault(_phone3);
 
-var _phone5 = __webpack_require__(39);
+var _phone5 = __webpack_require__(40);
 
 var _phone6 = _interopRequireDefault(_phone5);
 
-var _phone7 = __webpack_require__(40);
+var _phone7 = __webpack_require__(41);
 
 var _phone8 = _interopRequireDefault(_phone7);
 
-var _phone9 = __webpack_require__(41);
+var _phone9 = __webpack_require__(42);
 
 var _phone10 = _interopRequireDefault(_phone9);
 
@@ -802,39 +802,39 @@ var _react2 = _interopRequireDefault(_react);
 
 var _helpers = __webpack_require__(4);
 
-var _femalehead = __webpack_require__(21);
+var _femalehead = __webpack_require__(22);
 
 var _femalehead2 = _interopRequireDefault(_femalehead);
 
-var _femalehead3 = __webpack_require__(22);
+var _femalehead3 = __webpack_require__(23);
 
 var _femalehead4 = _interopRequireDefault(_femalehead3);
 
-var _femalehead5 = __webpack_require__(23);
+var _femalehead5 = __webpack_require__(24);
 
 var _femalehead6 = _interopRequireDefault(_femalehead5);
 
-var _femalehead7 = __webpack_require__(24);
+var _femalehead7 = __webpack_require__(25);
 
 var _femalehead8 = _interopRequireDefault(_femalehead7);
 
-var _malehead = __webpack_require__(32);
+var _malehead = __webpack_require__(33);
 
 var _malehead2 = _interopRequireDefault(_malehead);
 
-var _malehead3 = __webpack_require__(33);
+var _malehead3 = __webpack_require__(34);
 
 var _malehead4 = _interopRequireDefault(_malehead3);
 
-var _malehead5 = __webpack_require__(34);
+var _malehead5 = __webpack_require__(35);
 
 var _malehead6 = _interopRequireDefault(_malehead5);
 
-var _malehead7 = __webpack_require__(35);
+var _malehead7 = __webpack_require__(36);
 
 var _malehead8 = _interopRequireDefault(_malehead7);
 
-var _malehead9 = __webpack_require__(36);
+var _malehead9 = __webpack_require__(37);
 
 var _malehead10 = _interopRequireDefault(_malehead9);
 
@@ -884,7 +884,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Character = undefined;
 
-var _Character = __webpack_require__(10);
+var _Character = __webpack_require__(11);
 
 var _Character2 = _interopRequireDefault(_Character);
 
@@ -895,6 +895,127 @@ exports.default = _Character2.default;
 
 /***/ }),
 /* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.PersonalThemeScene = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _sky = __webpack_require__(82);
+
+var _sky2 = _interopRequireDefault(_sky);
+
+var _grass = __webpack_require__(81);
+
+var _grass2 = _interopRequireDefault(_grass);
+
+var _MotivatorDynamicImage = __webpack_require__(3);
+
+var _MotivatorDynamicImage2 = _interopRequireDefault(_MotivatorDynamicImage);
+
+var _Character = __webpack_require__(11);
+
+var _Character2 = _interopRequireDefault(_Character);
+
+__webpack_require__(151);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SCORE_DEFAULTS = {
+    'attainment': 4,
+    'career': 2,
+    'family': 3,
+    'fear-of-failure': 3,
+    'mastery': 5,
+    'money': 5,
+    'options': 5,
+    'professional-community': 5,
+    'self-development': 5
+};
+
+var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScene(_ref) {
+    var _ref$scores = _ref.scores,
+        scores = _ref$scores === undefined ? SCORE_DEFAULTS : _ref$scores;
+
+    return _react2.default.createElement(
+        'svg',
+        { id: 'personal-theme-scene', viewBox: '60 130 670 370' },
+        _react2.default.createElement(
+            'svg',
+            { height: '600', width: '800' },
+            _react2.default.createElement(
+                'defs',
+                null,
+                _react2.default.createElement(
+                    'clipPath',
+                    { id: 'skyPath' },
+                    _react2.default.createElement('path', { transform: 'translate(100) scale(3.335)', 'class': 'st0', d: 'M154.4,84.5c1-2.5,1.5-5.3,1.5-8.2c0-12.7-10.3-23.1-23.1-23.1c-3.5,0-6.8,0.8-9.7,2.2 c-3.8-7.5-11.6-12.6-20.6-12.6c-5.9,0-11.2,2.2-15.3,5.8c-4.2-5.3-10.6-8.8-17.9-8.8c-9.6,0-17.9,6-21.2,14.5 c-1.8-1-3.9-1.6-6.1-1.6c-6.8,0-12.4,5.5-12.4,12.4c0,0.9,0.1,1.8,0.3,2.7c-9.3,4.9-15.7,14.7-15.7,26c0,16.2,13.2,29.4,29.4,29.4 c8.9,0,16.8-3.9,22.2-10.2c4.2,4,9.8,6.5,16,6.5c4.2,0,8.2-1.1,11.6-3.1c3.8,7.4,11.6,12.4,20.5,12.4c6.2,0,11.8-2.4,15.9-6.4 c4.2,4.2,10,6.8,16.4,6.8c12.7,0,23.1-10.3,23.1-23.1C169.5,96.2,163.2,87.7,154.4,84.5z' })
+                )
+            ),
+            _react2.default.createElement(_sky2.default, { className: 'sky' }),
+            _react2.default.createElement(_grass2.default, { className: 'grass' }),
+            _react2.default.createElement(
+                'svg',
+                { x: '268', y: '143', viewBox: '0 0 900 900' },
+                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'attainment', score: scores['attainment'] })
+            ),
+            _react2.default.createElement(
+                'g',
+                { style: { clipPath: "url(#skyPath)" } },
+                _react2.default.createElement(
+                    'svg',
+                    { x: '0', y: '188', viewBox: '143 0 193 465' },
+                    _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'options', score: scores['options'] })
+                )
+            ),
+            _react2.default.createElement(
+                'svg',
+                { x: '10', y: '121', viewBox: '0 0 770 770' },
+                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'family', score: scores['family'] })
+            ),
+            _react2.default.createElement(
+                'svg',
+                { x: '-30', y: '350', viewBox: '0 0 1200 1600' },
+                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'fear-of-failure', score: scores['fear-of-failure'] })
+            ),
+            _react2.default.createElement(
+                'svg',
+                { x: '80', y: '40', viewBox: '0 0 1200 600' },
+                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'mastery', score: scores['mastery'] })
+            ),
+            _react2.default.createElement(
+                'svg',
+                { x: '-60', viewBox: '0 0 180 180' },
+                _react2.default.createElement(_Character2.default, {
+                    careerMotivatorScore: scores['career'],
+                    professionalCommunityMotivatorScore: scores['professional-community'] })
+            ),
+            _react2.default.createElement(
+                'svg',
+                { x: '90', y: '300', viewBox: '0 0 290 570' },
+                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'money', score: scores['money'] })
+            ),
+            _react2.default.createElement(
+                'svg',
+                { x: '40', y: '360' },
+                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'self-development', score: scores['self-development'] })
+            )
+        )
+    );
+};
+
+exports.default = PersonalThemeScene;
+
+/***/ }),
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -920,7 +1041,7 @@ exports.TimelineItem = _TimelineItem2.default;
 exports.default = _Timeline2.default;
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -999,7 +1120,7 @@ var Character = exports.Character = function Character(_ref) {
 exports.default = Character;
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1014,39 +1135,39 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _AttainmentMotivatorIcon = __webpack_require__(91);
+var _AttainmentMotivatorIcon = __webpack_require__(92);
 
 var _AttainmentMotivatorIcon2 = _interopRequireDefault(_AttainmentMotivatorIcon);
 
-var _CareerMotivatorIcon = __webpack_require__(92);
+var _CareerMotivatorIcon = __webpack_require__(93);
 
 var _CareerMotivatorIcon2 = _interopRequireDefault(_CareerMotivatorIcon);
 
-var _FamilyMotivatorIcon = __webpack_require__(93);
+var _FamilyMotivatorIcon = __webpack_require__(94);
 
 var _FamilyMotivatorIcon2 = _interopRequireDefault(_FamilyMotivatorIcon);
 
-var _FearOfFailureMotivatorIcon = __webpack_require__(94);
+var _FearOfFailureMotivatorIcon = __webpack_require__(95);
 
 var _FearOfFailureMotivatorIcon2 = _interopRequireDefault(_FearOfFailureMotivatorIcon);
 
-var _MasteryMotivatorIcon = __webpack_require__(95);
+var _MasteryMotivatorIcon = __webpack_require__(96);
 
 var _MasteryMotivatorIcon2 = _interopRequireDefault(_MasteryMotivatorIcon);
 
-var _MoneyMotivatorIcon = __webpack_require__(96);
+var _MoneyMotivatorIcon = __webpack_require__(97);
 
 var _MoneyMotivatorIcon2 = _interopRequireDefault(_MoneyMotivatorIcon);
 
-var _OptionsMotivatorIcon = __webpack_require__(97);
+var _OptionsMotivatorIcon = __webpack_require__(98);
 
 var _OptionsMotivatorIcon2 = _interopRequireDefault(_OptionsMotivatorIcon);
 
-var _ProfessionalCommunityMotivatorIcon = __webpack_require__(98);
+var _ProfessionalCommunityMotivatorIcon = __webpack_require__(99);
 
 var _ProfessionalCommunityMotivatorIcon2 = _interopRequireDefault(_ProfessionalCommunityMotivatorIcon);
 
-var _SelfDevelopmentMotivatorIcon = __webpack_require__(99);
+var _SelfDevelopmentMotivatorIcon = __webpack_require__(100);
 
 var _SelfDevelopmentMotivatorIcon2 = _interopRequireDefault(_SelfDevelopmentMotivatorIcon);
 
@@ -1095,11 +1216,11 @@ var MotivatorIcon = exports.MotivatorIcon = function MotivatorIcon(_ref) {
 exports.default = MotivatorIcon;
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* MIT license */
-var cssKeywords = __webpack_require__(13);
+var cssKeywords = __webpack_require__(14);
 
 // NOTE: conversions should only return primitive values (i.e. arrays, or
 //       values that give correct `typeof` results).
@@ -1962,7 +2083,7 @@ convert.rgb.gray = function (rgb) {
 
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2121,7 +2242,7 @@ module.exports = {
 
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2136,9 +2257,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Timeline = __webpack_require__(9);
+var _Timeline = __webpack_require__(10);
 
-var _MotivatorIcon = __webpack_require__(11);
+var _MotivatorIcon = __webpack_require__(12);
 
 var _MotivatorIcon2 = _interopRequireDefault(_MotivatorIcon);
 
@@ -2150,7 +2271,7 @@ var _Character = __webpack_require__(8);
 
 var _Character2 = _interopRequireDefault(_Character);
 
-var _PersonalThemeScene = __webpack_require__(100);
+var _PersonalThemeScene = __webpack_require__(9);
 
 var _PersonalThemeScene2 = _interopRequireDefault(_PersonalThemeScene);
 
@@ -2169,7 +2290,7 @@ var ComponentSuite = exports.ComponentSuite = function ComponentSuite() {
 exports.default = ComponentSuite;
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2193,7 +2314,7 @@ var Graph = exports.Graph = function Graph() {
 exports.default = Graph;
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2208,7 +2329,7 @@ var _MotivatorDynamicImage = __webpack_require__(3);
 
 var _MotivatorDynamicImage2 = _interopRequireDefault(_MotivatorDynamicImage);
 
-var _MotivatorIcon = __webpack_require__(11);
+var _MotivatorIcon = __webpack_require__(12);
 
 var _MotivatorIcon2 = _interopRequireDefault(_MotivatorIcon);
 
@@ -2218,7 +2339,7 @@ exports.MotivatorDynamicImage = _MotivatorDynamicImage2.default;
 exports.MotivatorIcon = _MotivatorIcon2.default;
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2242,7 +2363,7 @@ var Tree = exports.Tree = function Tree() {
 exports.default = Tree;
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2299,7 +2420,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2355,7 +2476,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2412,7 +2533,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2472,7 +2593,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2532,7 +2653,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2593,7 +2714,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2653,58 +2774,6 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 25 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SVG = function (_React$Component) {
-  _inherits(SVG, _React$Component);
-
-  function SVG() {
-    _classCallCheck(this, SVG);
-
-    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
-  }
-
-  _createClass(SVG, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "svg",
-        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
-        _react2.default.createElement("path", { className: "skin", d: "M95.6 98.1c2.2-4 1.7-7.2.7-9.2-1.5-3.1-4.5-5.1-6.6-5.3-.6-.1-1.2.4-1.3 1-.1.6.4 1.2 1 1.3 1.2.1 3.6 1.5 4.8 4 1.1 2.4.7 5.2-1.1 8-.1.2-.2.4-.2.6-.1.2-.1.4-.1.7v.2l-.5 1.5c-.1.3.1.6.3.7h.2v.8c0 .3.3.5.5.5.3 0 .5-.3.5-.5v.5c0 .3.3.5.5.5.3 0 .5-.3.5-.5v-.5c0 .3.3.5.5.5s.5-.3.5-.5l-.2-3.1c.3-.7.2-1 0-1.2z" })
-      );
-    }
-  }]);
-
-  return SVG;
-}(_react2.default.Component);
-
-exports.default = SVG;
-
-/***/ }),
 /* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2746,14 +2815,7 @@ var SVG = function (_React$Component) {
       return _react2.default.createElement(
         "svg",
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
-        _react2.default.createElement("path", { className: "skin", d: "M100.5 97.7c-4.7-.4-7-4.9-8.6-8.2-.8-1.6-1.8-3.6-2.5-3.7-.6-.1-1.1-.6-1-1.3.1-.6.6-1.1 1.3-1 1.9.2 3 2.4 4.3 5 1.6 3.1 3.3 6.7 6.7 7 .6 0 1.1.6 1 1.2-.1.5-.6 1-1.2 1z" }),
-        _react2.default.createElement("path", { className: "skin", d: "M104.7 94.9l-3.1.5-.1-.5c-1 .2-1.6 1.1-1.5 2 .2 1 1.1 1.6 2 1.5l.8-.1c.3 0 .5-.3.5-.6 0-.1 0-.2-.1-.2 0 0-.1-.2 0 0 .3 0 .5-.3.5-.6s-.3-.5-.6-.5l1.8-.3c.3 0 .5-.3.5-.6-.1-.4-.4-.6-.7-.6z" }),
-        _react2.default.createElement("path", { className: "st1", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
-        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
-        _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
-        _react2.default.createElement("path", { className: "st5", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
-        _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
+        _react2.default.createElement("path", { className: "skin", d: "M95.6 98.1c2.2-4 1.7-7.2.7-9.2-1.5-3.1-4.5-5.1-6.6-5.3-.6-.1-1.2.4-1.3 1-.1.6.4 1.2 1 1.3 1.2.1 3.6 1.5 4.8 4 1.1 2.4.7 5.2-1.1 8-.1.2-.2.4-.2.6-.1.2-.1.4-.1.7v.2l-.5 1.5c-.1.3.1.6.3.7h.2v.8c0 .3.3.5.5.5.3 0 .5-.3.5-.5v.5c0 .3.3.5.5.5.3 0 .5-.3.5-.5v-.5c0 .3.3.5.5.5s.5-.3.5-.5l-.2-3.1c.3-.7.2-1 0-1.2z" })
       );
     }
   }]);
@@ -2811,8 +2873,7 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
         _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
         _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
-        _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
-        _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
         _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
       );
     }
@@ -2873,7 +2934,6 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
         _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
         _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
-        _react2.default.createElement("path", { className: "st7", d: "M110.4 96.3c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1s-.7-2.6-2.1-2.8z" }),
         _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
       );
     }
@@ -2886,6 +2946,67 @@ exports.default = SVG;
 
 /***/ }),
 /* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "skin", d: "M100.5 97.7c-4.7-.4-7-4.9-8.6-8.2-.8-1.6-1.8-3.6-2.5-3.7-.6-.1-1.1-.6-1-1.3.1-.6.6-1.1 1.3-1 1.9.2 3 2.4 4.3 5 1.6 3.1 3.3 6.7 6.7 7 .6 0 1.1.6 1 1.2-.1.5-.6 1-1.2 1z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.7 94.9l-3.1.5-.1-.5c-1 .2-1.6 1.1-1.5 2 .2 1 1.1 1.6 2 1.5l.8-.1c.3 0 .5-.3.5-.6 0-.1 0-.2-.1-.2 0 0-.1-.2 0 0 .3 0 .5-.3.5-.6s-.3-.5-.6-.5l1.8-.3c.3 0 .5-.3.5-.6-.1-.4-.4-.6-.7-.6z" }),
+        _react2.default.createElement("path", { className: "st1", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st7", d: "M110.4 96.3c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1s-.7-2.6-2.1-2.8z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2947,7 +3068,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3005,7 +3126,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3062,7 +3183,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3122,7 +3243,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3184,7 +3305,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3246,7 +3367,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3305,7 +3426,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3365,7 +3486,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3408,65 +3529,6 @@ var SVG = function (_React$Component) {
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
         _react2.default.createElement("path", { className: "clothing-top", d: "M95.9 102.4c-2.7-3.9-3.9-7.9-4.8-11.2-.5-1.7-1.1-3.9-1.6-4.3-1.1-.4-1.6-1.7-1.2-2.8.4-1.1 1.7-1.7 2.8-1.2 2.5.9 3.2 3.7 4.2 7.1.8 3 1.9 6.6 4.2 9.9.7 1 .5 2.3-.5 3-.4.3-.8.4-1.2.4-.9 0-1.5-.3-1.9-.9zm-6.4-15.5z" }),
         _react2.default.createElement("path", { className: "skin", d: "M101.2 102.5c.1-.3 0-.6-.3-.8l-1.7-.8c-.5-.6-1.4-.8-2.1-.4-.9.4-1.2 1.5-.8 2.4l1.6 3.2c.1.3.5.4.8.3s.4-.5.3-.8l.3.5c.1.3.5.4.8.3s.4-.5.3-.8l-.4-.6c.1.3.5.4.8.3s.4-.5.3-.8l-.9-1.9.3.1c.2.2.5.1.7-.2z" })
-      );
-    }
-  }]);
-
-  return SVG;
-}(_react2.default.Component);
-
-exports.default = SVG;
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SVG = function (_React$Component) {
-  _inherits(SVG, _React$Component);
-
-  function SVG() {
-    _classCallCheck(this, SVG);
-
-    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
-  }
-
-  _createClass(SVG, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "svg",
-        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
-        _react2.default.createElement("path", { className: "clothing-top", d: "M98.8 92.6c-5 0-7.3-2.9-8.6-4.7-.2-.3-.6-.7-.7-.9-1.1-.5-1.5-1.8-1.1-2.9.5-1.1 1.8-1.7 2.9-1.2 1 .4 1.7 1.3 2.4 2.2 1.6 2 3.2 4 8.8 2.3 1.2-.4 2.4.3 2.8 1.5s-.3 2.4-1.5 2.8c-2 .6-3.6.9-5 .9zm-9.3-5.5z" }),
-        _react2.default.createElement("path", { className: "skin", d: "M109.3 86.5l-4 .6-.1-.6c-1.2.2-2.1 1.4-1.9 2.6s1.4 2.1 2.6 1.9l1-.2c.4-.1.6-.4.6-.8 0-.1-.1-.2-.1-.3 0 0-.2-.2 0 0 .4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l2.3-.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6z" }),
-        _react2.default.createElement("path", { d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
-        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
-        _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
-        _react2.default.createElement("path", { className: "st5", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
-        _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
       );
     }
   }]);
@@ -3524,8 +3586,7 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
         _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
         _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
-        _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
-        _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
         _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
       );
     }
@@ -3586,7 +3647,6 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
         _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
         _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
-        _react2.default.createElement("path", { className: "st7", d: "M114.1 88.6c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1.2-1.4-.7-2.6-2.1-2.8z" }),
         _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
       );
     }
@@ -3599,6 +3659,67 @@ exports.default = SVG;
 
 /***/ }),
 /* 41 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M98.8 92.6c-5 0-7.3-2.9-8.6-4.7-.2-.3-.6-.7-.7-.9-1.1-.5-1.5-1.8-1.1-2.9.5-1.1 1.8-1.7 2.9-1.2 1 .4 1.7 1.3 2.4 2.2 1.6 2 3.2 4 8.8 2.3 1.2-.4 2.4.3 2.8 1.5s-.3 2.4-1.5 2.8c-2 .6-3.6.9-5 .9zm-9.3-5.5z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M109.3 86.5l-4 .6-.1-.6c-1.2.2-2.1 1.4-1.9 2.6s1.4 2.1 2.6 1.9l1-.2c.4-.1.6-.4.6-.8 0-.1-.1-.2-.1-.3 0 0-.2-.2 0 0 .4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l2.3-.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6z" }),
+        _react2.default.createElement("path", { d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st7", d: "M114.1 88.6c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1.2-1.4-.7-2.6-2.1-2.8z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3660,7 +3781,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3798,7 +3919,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3866,7 +3987,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3954,7 +4075,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4050,7 +4171,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4137,7 +4258,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4228,7 +4349,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4363,7 +4484,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4503,7 +4624,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4557,7 +4678,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4650,7 +4771,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4762,7 +4883,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4928,7 +5049,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5081,7 +5202,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5236,7 +5357,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5454,7 +5575,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6530,7 +6651,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6584,7 +6705,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6641,7 +6762,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6779,7 +6900,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7084,7 +7205,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7141,7 +7262,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7208,7 +7329,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7262,7 +7383,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7355,7 +7476,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7423,7 +7544,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7492,7 +7613,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7561,7 +7682,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7630,7 +7751,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7699,7 +7820,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7756,7 +7877,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7892,7 +8013,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7995,7 +8116,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8062,7 +8183,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8152,7 +8273,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8235,7 +8356,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8302,7 +8423,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8396,7 +8517,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8482,7 +8603,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8535,7 +8656,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8587,7 +8708,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8602,7 +8723,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _sun = __webpack_require__(63);
+var _sun = __webpack_require__(64);
 
 var _sun2 = _interopRequireDefault(_sun);
 
@@ -8629,7 +8750,7 @@ var AttainmentMotivatorDynamicImage = exports.AttainmentMotivatorDynamicImage = 
 exports.default = AttainmentMotivatorDynamicImage;
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8644,11 +8765,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _femaledogtag = __webpack_require__(50);
+var _femaledogtag = __webpack_require__(51);
 
 var _femaledogtag2 = _interopRequireDefault(_femaledogtag);
 
-var _maledogtag = __webpack_require__(58);
+var _maledogtag = __webpack_require__(59);
 
 var _maledogtag2 = _interopRequireDefault(_maledogtag);
 
@@ -8680,7 +8801,7 @@ var CareerMotivatorDynamicImage = exports.CareerMotivatorDynamicImage = function
 exports.default = CareerMotivatorDynamicImage;
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8695,23 +8816,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _house = __webpack_require__(51);
+var _house = __webpack_require__(52);
 
 var _house2 = _interopRequireDefault(_house);
 
-var _house3 = __webpack_require__(52);
+var _house3 = __webpack_require__(53);
 
 var _house4 = _interopRequireDefault(_house3);
 
-var _house5 = __webpack_require__(53);
+var _house5 = __webpack_require__(54);
 
 var _house6 = _interopRequireDefault(_house5);
 
-var _house7 = __webpack_require__(54);
+var _house7 = __webpack_require__(55);
 
 var _house8 = _interopRequireDefault(_house7);
 
-var _house9 = __webpack_require__(55);
+var _house9 = __webpack_require__(56);
 
 var _house10 = _interopRequireDefault(_house9);
 
@@ -8733,7 +8854,7 @@ var FamilyMotivatorDynamicImage = exports.FamilyMotivatorDynamicImage = function
 exports.default = FamilyMotivatorDynamicImage;
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8748,23 +8869,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _trapdoor = __webpack_require__(66);
+var _trapdoor = __webpack_require__(67);
 
 var _trapdoor2 = _interopRequireDefault(_trapdoor);
 
-var _trapdoor3 = __webpack_require__(67);
+var _trapdoor3 = __webpack_require__(68);
 
 var _trapdoor4 = _interopRequireDefault(_trapdoor3);
 
-var _trapdoor5 = __webpack_require__(68);
+var _trapdoor5 = __webpack_require__(69);
 
 var _trapdoor6 = _interopRequireDefault(_trapdoor5);
 
-var _trapdoor7 = __webpack_require__(69);
+var _trapdoor7 = __webpack_require__(70);
 
 var _trapdoor8 = _interopRequireDefault(_trapdoor7);
 
-var _trapdoor9 = __webpack_require__(70);
+var _trapdoor9 = __webpack_require__(71);
 
 var _trapdoor10 = _interopRequireDefault(_trapdoor9);
 
@@ -8786,7 +8907,7 @@ var FearOfFailureMotivatorDynamicImage = exports.FearOfFailureMotivatorDynamicIm
 exports.default = FearOfFailureMotivatorDynamicImage;
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8801,7 +8922,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _books = __webpack_require__(44);
+var _books = __webpack_require__(45);
 
 var _books2 = _interopRequireDefault(_books);
 
@@ -8827,7 +8948,7 @@ var MasteryMotivatorDynamicImage = exports.MasteryMotivatorDynamicImage = functi
 exports.default = MasteryMotivatorDynamicImage;
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8842,23 +8963,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _car = __webpack_require__(45);
+var _car = __webpack_require__(46);
 
 var _car2 = _interopRequireDefault(_car);
 
-var _car3 = __webpack_require__(46);
+var _car3 = __webpack_require__(47);
 
 var _car4 = _interopRequireDefault(_car3);
 
-var _car5 = __webpack_require__(47);
+var _car5 = __webpack_require__(48);
 
 var _car6 = _interopRequireDefault(_car5);
 
-var _car7 = __webpack_require__(48);
+var _car7 = __webpack_require__(49);
 
 var _car8 = _interopRequireDefault(_car7);
 
-var _car9 = __webpack_require__(49);
+var _car9 = __webpack_require__(50);
 
 var _car10 = _interopRequireDefault(_car9);
 
@@ -8880,7 +9001,7 @@ var MoneyMotivatorDynamicImage = exports.MoneyMotivatorDynamicImage = function M
 exports.default = MoneyMotivatorDynamicImage;
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8895,23 +9016,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _retailpark = __webpack_require__(60);
+var _retailpark = __webpack_require__(61);
 
 var _retailpark2 = _interopRequireDefault(_retailpark);
 
-var _industrial = __webpack_require__(56);
+var _industrial = __webpack_require__(57);
 
 var _industrial2 = _interopRequireDefault(_industrial);
 
-var _london = __webpack_require__(57);
+var _london = __webpack_require__(58);
 
 var _london2 = _interopRequireDefault(_london);
 
-var _sanfran = __webpack_require__(61);
+var _sanfran = __webpack_require__(62);
 
 var _sanfran2 = _interopRequireDefault(_sanfran);
 
-var _airport = __webpack_require__(42);
+var _airport = __webpack_require__(43);
 
 var _airport2 = _interopRequireDefault(_airport);
 
@@ -8933,7 +9054,7 @@ var OptionsMotivatorDynamicImage = exports.OptionsMotivatorDynamicImage = functi
 exports.default = OptionsMotivatorDynamicImage;
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8962,7 +9083,7 @@ var ProfessionalCommunityMotivatorDynamicImage = exports.ProfessionalCommunityMo
 exports.default = ProfessionalCommunityMotivatorDynamicImage;
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8977,23 +9098,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _pan = __webpack_require__(59);
+var _pan = __webpack_require__(60);
 
 var _pan2 = _interopRequireDefault(_pan);
 
-var _spade = __webpack_require__(62);
+var _spade = __webpack_require__(63);
 
 var _spade2 = _interopRequireDefault(_spade);
 
-var _tennis = __webpack_require__(65);
+var _tennis = __webpack_require__(66);
 
 var _tennis2 = _interopRequireDefault(_tennis);
 
-var _bike = __webpack_require__(43);
+var _bike = __webpack_require__(44);
 
 var _bike2 = _interopRequireDefault(_bike);
 
-var _surf = __webpack_require__(64);
+var _surf = __webpack_require__(65);
 
 var _surf2 = _interopRequireDefault(_surf);
 
@@ -9017,7 +9138,7 @@ var SelfDevelopmentMotivatorDynamicImage = exports.SelfDevelopmentMotivatorDynam
 exports.default = SelfDevelopmentMotivatorDynamicImage;
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9034,7 +9155,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(142);
 
-var _attainment = __webpack_require__(71);
+var _attainment = __webpack_require__(72);
 
 var _attainment2 = _interopRequireDefault(_attainment);
 
@@ -9052,7 +9173,7 @@ var AttainmentMotivatorIcon = exports.AttainmentMotivatorIcon = function Attainm
 exports.default = AttainmentMotivatorIcon;
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9069,7 +9190,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(143);
 
-var _career = __webpack_require__(72);
+var _career = __webpack_require__(73);
 
 var _career2 = _interopRequireDefault(_career);
 
@@ -9087,7 +9208,7 @@ var CareerMotivatorIcon = exports.CareerMotivatorIcon = function CareerMotivator
 exports.default = CareerMotivatorIcon;
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9104,7 +9225,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(144);
 
-var _family = __webpack_require__(73);
+var _family = __webpack_require__(74);
 
 var _family2 = _interopRequireDefault(_family);
 
@@ -9122,7 +9243,7 @@ var FamilyMotivatorIcon = exports.FamilyMotivatorIcon = function FamilyMotivator
 exports.default = FamilyMotivatorIcon;
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9139,7 +9260,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(145);
 
-var _fearOfFailure = __webpack_require__(74);
+var _fearOfFailure = __webpack_require__(75);
 
 var _fearOfFailure2 = _interopRequireDefault(_fearOfFailure);
 
@@ -9157,7 +9278,7 @@ var FearOfFailureMotivatorIcon = exports.FearOfFailureMotivatorIcon = function F
 exports.default = FearOfFailureMotivatorIcon;
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9174,7 +9295,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(146);
 
-var _mastery = __webpack_require__(75);
+var _mastery = __webpack_require__(76);
 
 var _mastery2 = _interopRequireDefault(_mastery);
 
@@ -9192,7 +9313,7 @@ var MasteryMotivatorIcon = exports.MasteryMotivatorIcon = function MasteryMotiva
 exports.default = MasteryMotivatorIcon;
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9209,7 +9330,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(147);
 
-var _money = __webpack_require__(76);
+var _money = __webpack_require__(77);
 
 var _money2 = _interopRequireDefault(_money);
 
@@ -9227,7 +9348,7 @@ var MoneyMotivatorIcon = exports.MoneyMotivatorIcon = function MoneyMotivatorIco
 exports.default = MoneyMotivatorIcon;
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9244,7 +9365,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(148);
 
-var _options = __webpack_require__(77);
+var _options = __webpack_require__(78);
 
 var _options2 = _interopRequireDefault(_options);
 
@@ -9262,7 +9383,7 @@ var OptionsMotivatorIcon = exports.OptionsMotivatorIcon = function OptionsMotiva
 exports.default = OptionsMotivatorIcon;
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9279,7 +9400,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(149);
 
-var _professionalCommunity = __webpack_require__(78);
+var _professionalCommunity = __webpack_require__(79);
 
 var _professionalCommunity2 = _interopRequireDefault(_professionalCommunity);
 
@@ -9297,7 +9418,7 @@ var ProfessionalCommunityMotivatorIcon = exports.ProfessionalCommunityMotivatorI
 exports.default = ProfessionalCommunityMotivatorIcon;
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9314,7 +9435,7 @@ var _react2 = _interopRequireDefault(_react);
 
 __webpack_require__(150);
 
-var _selfDevelopment = __webpack_require__(79);
+var _selfDevelopment = __webpack_require__(80);
 
 var _selfDevelopment2 = _interopRequireDefault(_selfDevelopment);
 
@@ -9330,127 +9451,6 @@ var SelfDevelopmentMotivatorIcon = exports.SelfDevelopmentMotivatorIcon = functi
 };
 
 exports.default = SelfDevelopmentMotivatorIcon;
-
-/***/ }),
-/* 100 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.PersonalThemeScene = undefined;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _sky = __webpack_require__(81);
-
-var _sky2 = _interopRequireDefault(_sky);
-
-var _grass = __webpack_require__(80);
-
-var _grass2 = _interopRequireDefault(_grass);
-
-var _MotivatorDynamicImage = __webpack_require__(3);
-
-var _MotivatorDynamicImage2 = _interopRequireDefault(_MotivatorDynamicImage);
-
-var _Character = __webpack_require__(10);
-
-var _Character2 = _interopRequireDefault(_Character);
-
-__webpack_require__(151);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var SCORE_DEFAULTS = {
-    'attainment': 4,
-    'career': 2,
-    'family': 3,
-    'fear-of-failure': 3,
-    'mastery': 5,
-    'money': 5,
-    'options': 5,
-    'professional-community': 5,
-    'self-development': 5
-};
-
-var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScene(_ref) {
-    var _ref$scores = _ref.scores,
-        scores = _ref$scores === undefined ? SCORE_DEFAULTS : _ref$scores;
-
-    return _react2.default.createElement(
-        'svg',
-        { id: 'personal-theme-scene', viewBox: '60 130 670 370' },
-        _react2.default.createElement(
-            'svg',
-            { height: '600', width: '800' },
-            _react2.default.createElement(
-                'defs',
-                null,
-                _react2.default.createElement(
-                    'clipPath',
-                    { id: 'skyPath' },
-                    _react2.default.createElement('path', { transform: 'translate(100) scale(3.335)', 'class': 'st0', d: 'M154.4,84.5c1-2.5,1.5-5.3,1.5-8.2c0-12.7-10.3-23.1-23.1-23.1c-3.5,0-6.8,0.8-9.7,2.2 c-3.8-7.5-11.6-12.6-20.6-12.6c-5.9,0-11.2,2.2-15.3,5.8c-4.2-5.3-10.6-8.8-17.9-8.8c-9.6,0-17.9,6-21.2,14.5 c-1.8-1-3.9-1.6-6.1-1.6c-6.8,0-12.4,5.5-12.4,12.4c0,0.9,0.1,1.8,0.3,2.7c-9.3,4.9-15.7,14.7-15.7,26c0,16.2,13.2,29.4,29.4,29.4 c8.9,0,16.8-3.9,22.2-10.2c4.2,4,9.8,6.5,16,6.5c4.2,0,8.2-1.1,11.6-3.1c3.8,7.4,11.6,12.4,20.5,12.4c6.2,0,11.8-2.4,15.9-6.4 c4.2,4.2,10,6.8,16.4,6.8c12.7,0,23.1-10.3,23.1-23.1C169.5,96.2,163.2,87.7,154.4,84.5z' })
-                )
-            ),
-            _react2.default.createElement(_sky2.default, { className: 'sky' }),
-            _react2.default.createElement(_grass2.default, { className: 'grass' }),
-            _react2.default.createElement(
-                'svg',
-                { x: '268', y: '143', viewBox: '0 0 900 900' },
-                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'attainment', score: scores['attainment'] })
-            ),
-            _react2.default.createElement(
-                'g',
-                { style: { clipPath: "url(#skyPath)" } },
-                _react2.default.createElement(
-                    'svg',
-                    { x: '0', y: '188', viewBox: '143 0 193 465' },
-                    _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'options', score: scores['options'] })
-                )
-            ),
-            _react2.default.createElement(
-                'svg',
-                { x: '10', y: '121', viewBox: '0 0 770 770' },
-                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'family', score: scores['family'] })
-            ),
-            _react2.default.createElement(
-                'svg',
-                { x: '-30', y: '350', viewBox: '0 0 1200 1600' },
-                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'fear-of-failure', score: scores['fear-of-failure'] })
-            ),
-            _react2.default.createElement(
-                'svg',
-                { x: '80', y: '40', viewBox: '0 0 1200 600' },
-                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'mastery', score: scores['mastery'] })
-            ),
-            _react2.default.createElement(
-                'svg',
-                { x: '-60', viewBox: '0 0 180 180' },
-                _react2.default.createElement(_Character2.default, {
-                    careerMotivatorScore: scores['career'],
-                    professionalCommunityMotivatorScore: scores['professional-community'] })
-            ),
-            _react2.default.createElement(
-                'svg',
-                { x: '90', y: '300', viewBox: '0 0 290 570' },
-                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'money', score: scores['money'] })
-            ),
-            _react2.default.createElement(
-                'svg',
-                { x: '40', y: '360' },
-                _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'self-development', score: scores['self-development'] })
-            )
-        )
-    );
-};
-
-exports.default = PersonalThemeScene;
 
 /***/ }),
 /* 101 */
@@ -9541,7 +9541,7 @@ exports.default = TimelineItem;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.Tree = exports.TimelineItem = exports.Timeline = exports.MotivatorIcon = exports.MotivatorDynamicImage = exports.Graph = exports.ComponentSuite = exports.CharacterHead = exports.CharacterFreeArm = exports.CharacterBody = exports.Character = undefined;
+exports.Tree = exports.TimelineItem = exports.Timeline = exports.PersonalThemeScene = exports.MotivatorIcon = exports.MotivatorDynamicImage = exports.Graph = exports.ComponentSuite = exports.CharacterHead = exports.CharacterFreeArm = exports.CharacterBody = exports.Character = undefined;
 
 var _Character = __webpack_require__(8);
 
@@ -9559,19 +9559,23 @@ var _Body = __webpack_require__(5);
 
 var _Body2 = _interopRequireDefault(_Body);
 
-var _ComponentSuite = __webpack_require__(14);
+var _ComponentSuite = __webpack_require__(15);
 
 var _ComponentSuite2 = _interopRequireDefault(_ComponentSuite);
 
-var _Graph = __webpack_require__(15);
+var _Graph = __webpack_require__(16);
 
 var _Graph2 = _interopRequireDefault(_Graph);
 
-var _Motivators = __webpack_require__(16);
+var _Motivators = __webpack_require__(17);
 
-var _Timeline = __webpack_require__(9);
+var _PersonalThemeScene = __webpack_require__(9);
 
-var _Tree = __webpack_require__(17);
+var _PersonalThemeScene2 = _interopRequireDefault(_PersonalThemeScene);
+
+var _Timeline = __webpack_require__(10);
+
+var _Tree = __webpack_require__(18);
 
 var _Tree2 = _interopRequireDefault(_Tree);
 
@@ -9585,6 +9589,7 @@ exports.ComponentSuite = _ComponentSuite2.default;
 exports.Graph = _Graph2.default;
 exports.MotivatorDynamicImage = _Motivators.MotivatorDynamicImage;
 exports.MotivatorIcon = _Motivators.MotivatorIcon;
+exports.PersonalThemeScene = _PersonalThemeScene2.default;
 exports.Timeline = _Timeline.Timeline;
 exports.TimelineItem = _Timeline.TimelineItem;
 exports.Tree = _Tree2.default;
@@ -9593,7 +9598,7 @@ exports.Tree = _Tree2.default;
 /* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var conversions = __webpack_require__(12);
+var conversions = __webpack_require__(13);
 var route = __webpack_require__(105);
 
 var convert = {};
@@ -9677,7 +9682,7 @@ module.exports = convert;
 /* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var conversions = __webpack_require__(12);
+var conversions = __webpack_require__(13);
 
 /*
 	this function routes a model to all other models.
@@ -9782,7 +9787,7 @@ module.exports = function (fromModel) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /* MIT license */
-var colorNames = __webpack_require__(13);
+var colorNames = __webpack_require__(14);
 var swizzle = __webpack_require__(130);
 
 var reverseNames = {};

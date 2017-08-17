@@ -5,6 +5,7 @@ import CharacterBody from './components/Character/BodyParts/Body'
 import ComponentSuite from './components/ComponentSuite'
 import Graph from './components/Graph'
 import { MotivatorDynamicImage, MotivatorIcon } from './components/Motivators'
+import PersonalThemeScene from './components/Themes/Personal/PersonalThemeScene'
 import { Timeline, TimelineItem }  from './components/Timeline'
 import Tree from './components/Tree'
 
@@ -17,6 +18,7 @@ export {
     Graph,
     MotivatorDynamicImage,
     MotivatorIcon,
+    PersonalThemeScene,
     Timeline,
     TimelineItem,
     Tree,
