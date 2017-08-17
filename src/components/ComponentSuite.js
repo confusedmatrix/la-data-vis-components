@@ -4,6 +4,7 @@ import { Timeline } from './Timeline'
 import MotivatorIcon from "./Motivators/Icons/MotivatorIcon"
 import MotivatorImage from './Motivators/DynamicImages/MotivatorDynamicImage'
 import Character from './Character'
+import Scene from './Themes/Personal/PersonalThemeScene'
 
 // const careerMotivatorImage = <MotivatorImage motivator="career" score={2} headStyle="f1" />
 
@@ -25,7 +26,10 @@ export const ComponentSuite = () => (
             {/*<Character headStyle="f1" careerMotivatorImage={careerMotivatorImage} />*/}
         {/*</svg>*/}
 
-        <MotivatorImage motivator="fear-of-failure" score={1} />
+        {/*<MotivatorImage motivator="fear-of-failure" score={1} />*/}
+
+        <Scene />
+
     </div>
 )
 

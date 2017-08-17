@@ -3,6 +3,7 @@ import React from 'react'
 import Head from './BodyParts/Head'
 import Body from './BodyParts/Body'
 import FreeArm from './BodyParts/FreeArm'
+import MotivatorImage from '../Motivators/DynamicImages/MotivatorDynamicImage'
 
 export const Character = ({
     bodyStyle="f1",
@@ -13,11 +14,12 @@ export const Character = ({
     clothingTopColor=[155,42,57],
     clothingBottomColor=[141,165,135],
     shoeColor=[96,65,53],
-    careerMotivatorImage=null
+    careerMotivatorScore=null,
+    professionalCommunityMotivatorScore=null
 }) => (
     <svg id="character" height="180" width="180">
         <FreeArm
-            armStyle={armStyle}
+            armStyle={professionalCommunityMotivatorScore !== null ? armStyle.substr(0,1) + professionalCommunityMotivatorScore : armStyle}
             skinColor={skinColor}
             clothingTopColor={clothingTopColor} />}
         <Body
@@ -30,7 +32,7 @@ export const Character = ({
             headStyle={headStyle}
             hairColor={hairColor}
             skinColor={skinColor} />
-        {careerMotivatorImage}
+        {careerMotivatorScore !== null ? <MotivatorImage motivator="career" score={careerMotivatorScore} headStyle={headStyle} /> : null}
     </svg>
 )
 

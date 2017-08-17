@@ -1,6 +1,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<g>
+<svg y="6">
 	<rect x="39" y="43.9" class="st0" width="23.7" height="32.3"/>
 	<line class="st1" x1="51.5" y1="76.2" x2="51.5" y2="63.7"/>
 	<line class="st1" x1="61.1" y1="76.2" x2="61.1" y2="63.7"/>
@@ -119,5 +119,5 @@
 		</g>
 		<circle class="st6" cx="57.8" cy="71" r="0.6"/>
 	</g>
-</g>
+</svg>
 </svg>
