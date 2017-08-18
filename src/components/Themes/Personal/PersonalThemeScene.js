@@ -19,7 +19,7 @@ const SCORE_DEFAULTS = {
     'self-development': 5,
 }
 
-export const PersonalThemeScene = ({ scores=SCORE_DEFAULTS }) => {
+export const PersonalThemeScene = ({ scores=SCORE_DEFAULTS, motivators=[], character }) => {
     return (
         <svg id="personal-theme-scene" viewBox="60 130 670 370">
             <svg height="600" width="800">
@@ -36,41 +36,56 @@ export const PersonalThemeScene = ({ scores=SCORE_DEFAULTS }) => {
                 <Sky className="sky" />
                 <Grass className="grass" />
 
-                <svg x="268" y="143" viewBox="0 0 900 900">
-                    <MotivatorImage motivator="attainment" score={scores['attainment']} />
-                </svg>
-
-                <g style={{clipPath:"url(#skyPath)"}}>
-                    <svg x="0" y="188" viewBox="143 0 193 465">
-                        <MotivatorImage motivator="options" score={scores['options']} />
+                {motivators.includes('attainment') ?
+                    <svg x="268" y="143" viewBox="0 0 900 900">
+                        <MotivatorImage motivator="attainment" score={scores['attainment']} />
                     </svg>
-                </g>
+                    : null}
 
-                <svg x="10" y="121" viewBox="0 0 770 770">
-                    <MotivatorImage motivator="family" score={scores['family']} />
-                </svg>
+                {motivators.includes('options') ?
+                    <g style={{clipPath:"url(#skyPath)"}}>
+                        <svg x="0" y="188" viewBox="143 0 193 465">
+                            <MotivatorImage motivator="options" score={scores['options']} />
+                        </svg>
+                    </g>
+                    : null}
 
-                <svg x="-30" y="350" viewBox="0 0 1200 1600">
-                    <MotivatorImage motivator="fear-of-failure" score={scores['fear-of-failure']} />
-                </svg>
+                {motivators.includes('family') ?
+                    <svg x="10" y="121" viewBox="0 0 770 770">
+                        <MotivatorImage motivator="family" score={scores['family']} />
+                    </svg>
+                    : null}
 
-                <svg x="80" y="40" viewBox="0 0 1200 600">
-                    <MotivatorImage motivator="mastery" score={scores['mastery']} />
-                </svg>
+                {motivators.includes('fear-of-failure') ?
+                    <svg x="-30" y="350" viewBox="0 0 1200 1600">
+                        <MotivatorImage motivator="fear-of-failure" score={scores['fear-of-failure']}/>
+                    </svg>
+                    : null}
+
+                {motivators.includes('mastery') ?
+                    <svg x="80" y="40" viewBox="0 0 1200 600">
+                        <MotivatorImage motivator="mastery" score={scores['mastery']} />
+                    </svg>
+                    : null}
 
                 <svg x="-60" viewBox="0 0 180 180">
                     <Character
-                        careerMotivatorScore={scores['career']}
-                        professionalCommunityMotivatorScore={scores['professional-community']} />
+                        {...character}
+                        careerMotivatorScore={motivators.includes('career') ? scores['career'] : null}
+                        professionalCommunityMotivatorScore={motivators.includes('professional-community') ? scores['professional-community']: null} />
                 </svg>
 
-                <svg x="90" y="300" viewBox="0 0 290 570">
-                    <MotivatorImage motivator="money" score={scores['money']} />
-                </svg>
+                {motivators.includes('money')?
+                    <svg x="90" y="300" viewBox="0 0 290 570">
+                        <MotivatorImage motivator="money" score={scores['money']}/>
+                    </svg>
+                    : null}
 
-                <svg x="40" y="360">
-                    <MotivatorImage motivator="self-development" score={scores['self-development']} />
-                </svg>
+                {motivators.includes('self-development') ?
+                    <svg x="40" y="360">
+                        <MotivatorImage motivator="self-development" score={scores['self-development']} />
+                    </svg>
+                    : null}
             </svg>
         </svg>
     )

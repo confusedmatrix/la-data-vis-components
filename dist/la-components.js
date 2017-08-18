@@ -905,6 +905,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.PersonalThemeScene = undefined;
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
@@ -943,7 +945,10 @@ var SCORE_DEFAULTS = {
 
 var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScene(_ref) {
     var _ref$scores = _ref.scores,
-        scores = _ref$scores === undefined ? SCORE_DEFAULTS : _ref$scores;
+        scores = _ref$scores === undefined ? SCORE_DEFAULTS : _ref$scores,
+        _ref$motivators = _ref.motivators,
+        motivators = _ref$motivators === undefined ? [] : _ref$motivators,
+        character = _ref.character;
 
     return _react2.default.createElement(
         'svg',
@@ -962,12 +967,12 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
             ),
             _react2.default.createElement(_sky2.default, { className: 'sky' }),
             _react2.default.createElement(_grass2.default, { className: 'grass' }),
-            _react2.default.createElement(
+            motivators.includes('attainment') ? _react2.default.createElement(
                 'svg',
                 { x: '268', y: '143', viewBox: '0 0 900 900' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'attainment', score: scores['attainment'] })
-            ),
-            _react2.default.createElement(
+            ) : null,
+            motivators.includes('options') ? _react2.default.createElement(
                 'g',
                 { style: { clipPath: "url(#skyPath)" } },
                 _react2.default.createElement(
@@ -975,39 +980,39 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                     { x: '0', y: '188', viewBox: '143 0 193 465' },
                     _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'options', score: scores['options'] })
                 )
-            ),
-            _react2.default.createElement(
+            ) : null,
+            motivators.includes('family') ? _react2.default.createElement(
                 'svg',
                 { x: '10', y: '121', viewBox: '0 0 770 770' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'family', score: scores['family'] })
-            ),
-            _react2.default.createElement(
+            ) : null,
+            motivators.includes('fear-of-failure') ? _react2.default.createElement(
                 'svg',
                 { x: '-30', y: '350', viewBox: '0 0 1200 1600' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'fear-of-failure', score: scores['fear-of-failure'] })
-            ),
-            _react2.default.createElement(
+            ) : null,
+            motivators.includes('mastery') ? _react2.default.createElement(
                 'svg',
                 { x: '80', y: '40', viewBox: '0 0 1200 600' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'mastery', score: scores['mastery'] })
-            ),
+            ) : null,
             _react2.default.createElement(
                 'svg',
                 { x: '-60', viewBox: '0 0 180 180' },
-                _react2.default.createElement(_Character2.default, {
-                    careerMotivatorScore: scores['career'],
-                    professionalCommunityMotivatorScore: scores['professional-community'] })
+                _react2.default.createElement(_Character2.default, _extends({}, character, {
+                    careerMotivatorScore: motivators.includes('career') ? scores['career'] : null,
+                    professionalCommunityMotivatorScore: motivators.includes('professional-community') ? scores['professional-community'] : null }))
             ),
-            _react2.default.createElement(
+            motivators.includes('money') ? _react2.default.createElement(
                 'svg',
                 { x: '90', y: '300', viewBox: '0 0 290 570' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'money', score: scores['money'] })
-            ),
-            _react2.default.createElement(
+            ) : null,
+            motivators.includes('self-development') ? _react2.default.createElement(
                 'svg',
                 { x: '40', y: '360' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'self-development', score: scores['self-development'] })
-            )
+            ) : null
         )
     );
 };
