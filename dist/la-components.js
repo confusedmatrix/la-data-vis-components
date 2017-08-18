@@ -1104,7 +1104,7 @@ var Character = exports.Character = function Character(_ref) {
         _ref$headStyle = _ref.headStyle,
         headStyle = _ref$headStyle === undefined ? "f1" : _ref$headStyle,
         _ref$armStyle = _ref.armStyle,
-        armStyle = _ref$armStyle === undefined ? "f2" : _ref$armStyle,
+        armStyle = _ref$armStyle === undefined ? "f1" : _ref$armStyle,
         _ref$hairColor = _ref.hairColor,
         hairColor = _ref$hairColor === undefined ? [106, 78, 66] : _ref$hairColor,
         _ref$skinColor = _ref.skinColor,

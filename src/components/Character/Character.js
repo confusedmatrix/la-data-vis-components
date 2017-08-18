@@ -8,7 +8,7 @@ import MotivatorImage from '../Motivators/DynamicImages/MotivatorDynamicImage'
 export const Character = ({
     bodyStyle="f1",
     headStyle="f1",
-    armStyle="f2",
+    armStyle="f1",
     hairColor=[106,78,66],
     skinColor=[255,220,178],
     clothingTopColor=[155,42,57],
