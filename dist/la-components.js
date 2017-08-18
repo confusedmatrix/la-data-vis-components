@@ -1209,6 +1209,10 @@ var motivatorMap = {
 };
 
 var sizes = {
+    "xsmall": {
+        height: "40px",
+        width: "40px"
+    },
     "small": {
         height: "80px",
         width: "80px"
