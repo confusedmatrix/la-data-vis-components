@@ -28,7 +28,7 @@ export const ComponentSuite = () => (
 
         {/*<MotivatorImage motivator="fear-of-failure" score={1} />*/}
 
-        <Scene />
+        <Scene motivators={['career']} />
 
     </div>
 )
