@@ -1103,8 +1103,6 @@ var Character = exports.Character = function Character(_ref) {
         bodyStyle = _ref$bodyStyle === undefined ? "f1" : _ref$bodyStyle,
         _ref$headStyle = _ref.headStyle,
         headStyle = _ref$headStyle === undefined ? "f1" : _ref$headStyle,
-        _ref$armStyle = _ref.armStyle,
-        armStyle = _ref$armStyle === undefined ? "f1" : _ref$armStyle,
         _ref$hairColor = _ref.hairColor,
         hairColor = _ref$hairColor === undefined ? [106, 78, 66] : _ref$hairColor,
         _ref$skinColor = _ref.skinColor,
@@ -1124,7 +1122,7 @@ var Character = exports.Character = function Character(_ref) {
         { id: 'character', height: '180', width: '180' },
         headStyle === 'f5' ? _react2.default.createElement(_Head.HeadBackground, { hairColor: hairColor }) : null,
         _react2.default.createElement(_FreeArm2.default, {
-            armStyle: professionalCommunityMotivatorScore !== null ? armStyle.substr(0, 1) + professionalCommunityMotivatorScore : armStyle,
+            armStyle: professionalCommunityMotivatorScore !== null ? bodyStyle.substr(0, 1) + professionalCommunityMotivatorScore : bodyStyle.substr(0, 1) + '1',
             skinColor: skinColor,
             clothingTopColor: clothingTopColor }),
         '}',

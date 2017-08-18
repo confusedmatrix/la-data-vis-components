@@ -8,7 +8,6 @@ import MotivatorImage from '../Motivators/DynamicImages/MotivatorDynamicImage'
 export const Character = ({
     bodyStyle="f1",
     headStyle="f1",
-    armStyle="f1",
     hairColor=[106,78,66],
     skinColor=[255,220,178],
     clothingTopColor=[155,42,57],
@@ -20,7 +19,7 @@ export const Character = ({
     <svg id="character" height="180" width="180">
         {headStyle === 'f5' ? <HeadBackground hairColor={hairColor} /> : null}
         <FreeArm
-            armStyle={professionalCommunityMotivatorScore !== null ? armStyle.substr(0,1) + professionalCommunityMotivatorScore : armStyle}
+            armStyle={professionalCommunityMotivatorScore !== null ? bodyStyle.substr(0,1) + professionalCommunityMotivatorScore : `${bodyStyle.substr(0,1)}1`}
             skinColor={skinColor}
             clothingTopColor={clothingTopColor} />}
         <Body
