@@ -3,18 +3,21 @@ import React from 'react'
 
 export const Timeline = ({ numWeeks }) => {
     const height = 100, width = 1000
-    const margin = 0
+    const margin = 15
     const segmentHeight = 10
     const segmentWidth = (width - 2 * margin) / (numWeeks - 1)
     const segments = _.range(numWeeks + 1).map(i => {
         const x = margin + segmentWidth * i
         const y = height - margin
         return (
-            <line key={`segment_${i}`}
-                  x1={x}
-                  y1={y}
-                  x2={x}
-                  y2={y - segmentHeight} />
+            <g>
+                <text x={x} y={y-segmentHeight-(margin/2)} style={{textAnchor: "middle", fontSize: "10px"}}>Wk {i + 1}</text>
+                <line key={`segment_${i}`}
+                      x1={x}
+                      y1={y}
+                      x2={x}
+                      y2={y - segmentHeight} />
+            </g>
         )
     })
 

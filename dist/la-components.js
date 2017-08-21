@@ -9610,17 +9610,27 @@ var Timeline = exports.Timeline = function Timeline(_ref) {
 
     var height = 100,
         width = 1000;
-    var margin = 0;
+    var margin = 15;
     var segmentHeight = 10;
     var segmentWidth = (width - 2 * margin) / (numWeeks - 1);
     var segments = _lodash2.default.range(numWeeks + 1).map(function (i) {
         var x = margin + segmentWidth * i;
         var y = height - margin;
-        return _react2.default.createElement('line', { key: 'segment_' + i,
-            x1: x,
-            y1: y,
-            x2: x,
-            y2: y - segmentHeight });
+        return _react2.default.createElement(
+            'g',
+            null,
+            _react2.default.createElement(
+                'text',
+                { x: x, y: y - segmentHeight - margin / 2, style: { textAnchor: "middle", fontSize: "10px" } },
+                'Wk ',
+                i + 1
+            ),
+            _react2.default.createElement('line', { key: 'segment_' + i,
+                x1: x,
+                y1: y,
+                x2: x,
+                y2: y - segmentHeight })
+        );
     });
 
     return _react2.default.createElement(
