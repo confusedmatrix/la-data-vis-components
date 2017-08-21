@@ -76,7 +76,7 @@ export const PersonalThemeScene = ({ scores=SCORE_DEFAULTS, motivators=[], chara
                 </svg>
 
                 {motivators.includes('money')?
-                    <svg x="90" y="300" viewBox="0 0 290 570">
+                    <svg x="90" y="300" viewBox="0 0 315 600">
                         <MotivatorImage motivator="money" score={scores['money']}/>
                     </svg>
                     : null}

@@ -1,6 +1,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 180 180" style="enable-background:new 0 0 180 180;" xml:space="preserve">
-<g>
+<svg x="4">
 	<circle class="st0" cx="133.3" cy="91.5" r="5"/>
 	<circle class="st0" cx="141.2" cy="86.4" r="8.2"/>
 	<circle class="st0" cx="141.1" cy="78.1" r="5.3"/>
@@ -97,5 +97,5 @@
 	<path class="st16" d="M70.6,78.1c0,0-1.7,0.4-1.7,2.6"/>
 	<polyline class="st17" points="101,70.9 100.1,71.5 101.1,72.6 98.9,73.9 96.1,73.7 96.3,75.8 96.5,77.4 93.9,77.5 	"/>
 	<polyline class="st17" points="97.7,71.8 98.2,73 99,72.8 98.9,73.9 	"/>
-</g>
+</svg>
 </svg>
