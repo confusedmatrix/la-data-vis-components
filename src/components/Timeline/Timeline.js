@@ -2,13 +2,13 @@ import _ from 'lodash'
 import React from 'react'
 
 export const Timeline = ({ numWeeks }) => {
-    const height = 100, width = 1000
+    const height = 50, width = 1000
     const margin = 17
     const segmentHeight = 15
     const segmentWidth = (width - 2 * margin) / (numWeeks - 1)
     const segments = _.range(numWeeks + 1).map(i => {
         const x = margin + segmentWidth * i
-        const y = height - margin
+        const y = height
         return (
             <g key={`segment_${i}`}>
                 <text x={x}
@@ -26,9 +26,9 @@ export const Timeline = ({ numWeeks }) => {
         <svg id="timeline" xmlns="http://www.w3.org/2000/svg" viewBox={`0 0 ${width} ${height}`}>
             <line key="axis"
                   x1={margin}
-                  y1={height - margin}
+                  y1={height}
                   x2={width - margin}
-                  y2={height - margin} />
+                  y2={height} />
             {segments}
         </svg>
     )

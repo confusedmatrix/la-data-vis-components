@@ -2310,7 +2310,7 @@ var ComponentSuite = exports.ComponentSuite = function ComponentSuite() {
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_PersonalThemeScene2.default, { motivators: ['money'], scores: { 'money': 1 } })
+        _react2.default.createElement(_Timeline.Timeline, { numWeeks: '12' })
     );
 };
 
@@ -9620,14 +9620,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Timeline = exports.Timeline = function Timeline(_ref) {
     var numWeeks = _ref.numWeeks;
 
-    var height = 100,
+    var height = 50,
         width = 1000;
     var margin = 17;
     var segmentHeight = 15;
     var segmentWidth = (width - 2 * margin) / (numWeeks - 1);
     var segments = _lodash2.default.range(numWeeks + 1).map(function (i) {
         var x = margin + segmentWidth * i;
-        var y = height - margin;
+        var y = height;
         return _react2.default.createElement(
             'g',
             { key: 'segment_' + i },
@@ -9650,9 +9650,9 @@ var Timeline = exports.Timeline = function Timeline(_ref) {
         { id: 'timeline', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 ' + width + ' ' + height },
         _react2.default.createElement('line', { key: 'axis',
             x1: margin,
-            y1: height - margin,
+            y1: height,
             x2: width - margin,
-            y2: height - margin }),
+            y2: height }),
         segments
     );
 };
