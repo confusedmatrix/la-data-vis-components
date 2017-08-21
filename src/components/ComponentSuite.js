@@ -10,7 +10,7 @@ import Scene from './Themes/Personal/PersonalThemeScene'
 
 export const ComponentSuite = () => (
     <div>
-        {/*<Timeline numWeeks={12} />*/}
+        <Timeline numWeeks="12" />
 
         {/*<MotivatorIcon motivator="attainment" />*/}
         {/*<MotivatorIcon motivator="career" />*/}
@@ -28,7 +28,7 @@ export const ComponentSuite = () => (
 
         {/*<MotivatorImage motivator="fear-of-failure" score={1} />*/}
 
-        <Scene motivators={['career']} />
+        {/*<Scene motivators={['career']} />*/}
 
     </div>
 )

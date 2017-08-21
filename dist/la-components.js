@@ -2310,7 +2310,7 @@ var ComponentSuite = exports.ComponentSuite = function ComponentSuite() {
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_PersonalThemeScene2.default, { motivators: ['career'] })
+        _react2.default.createElement(_Timeline.Timeline, { numWeeks: '12' })
     );
 };
 
@@ -9610,9 +9610,9 @@ var Timeline = exports.Timeline = function Timeline(_ref) {
 
     var height = 100,
         width = 1000;
-    var margin = 10;
-    var segmentHeight = 10,
-        segmentWidth = (width - 2 * margin) / numWeeks;
+    var margin = 0;
+    var segmentHeight = 10;
+    var segmentWidth = (width - 2 * margin) / (numWeeks - 1);
     var segments = _lodash2.default.range(numWeeks + 1).map(function (i) {
         var x = margin + segmentWidth * i;
         var y = height - margin;
@@ -9625,7 +9625,7 @@ var Timeline = exports.Timeline = function Timeline(_ref) {
 
     return _react2.default.createElement(
         'svg',
-        { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 ' + width + ' ' + height },
+        { id: 'timeline', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 ' + width + ' ' + height },
         _react2.default.createElement('line', { key: 'axis',
             x1: margin,
             y1: height - margin,
