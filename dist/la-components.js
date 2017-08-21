@@ -9618,15 +9618,15 @@ var Timeline = exports.Timeline = function Timeline(_ref) {
         var y = height - margin;
         return _react2.default.createElement(
             'g',
-            null,
+            { key: 'segment_' + i },
             _react2.default.createElement(
                 'text',
-                { x: x, y: y - segmentHeight - margin / 2, style: { textAnchor: "middle", fontSize: "10px" } },
-                'Wk ',
+                { x: x,
+                    y: y - segmentHeight - margin / 2,
+                    style: { textAnchor: "middle" } },
                 i + 1
             ),
-            _react2.default.createElement('line', { key: 'segment_' + i,
-                x1: x,
+            _react2.default.createElement('line', { x1: x,
                 y1: y,
                 x2: x,
                 y2: y - segmentHeight })

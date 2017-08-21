@@ -10,10 +10,11 @@ export const Timeline = ({ numWeeks }) => {
         const x = margin + segmentWidth * i
         const y = height - margin
         return (
-            <g>
-                <text x={x} y={y-segmentHeight-(margin/2)} style={{textAnchor: "middle", fontSize: "10px"}}>Wk {i + 1}</text>
-                <line key={`segment_${i}`}
-                      x1={x}
+            <g key={`segment_${i}`}>
+                <text x={x}
+                      y={y-segmentHeight-(margin/2)}
+                      style={{textAnchor: "middle"}}>{i + 1}</text>
+                <line x1={x}
                       y1={y}
                       x2={x}
                       y2={y - segmentHeight} />
