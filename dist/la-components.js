@@ -8908,7 +8908,7 @@ __webpack_require__(136);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var careers = ['CEO', 'Manager', 'Supervisor', 'Executive', 'Intern'];
+var careers = ['Intern', 'Executive', 'Supervisor', 'Manager', 'CEO'];
 
 var CareerMotivatorDynamicImage = exports.CareerMotivatorDynamicImage = function CareerMotivatorDynamicImage(_ref) {
     var headStyle = _ref.headStyle,
@@ -9024,7 +9024,7 @@ __webpack_require__(138);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var motivatorMap = [_react2.default.createElement(_trapdoor2.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-1', height: '100', width: '100' }), _react2.default.createElement(_trapdoor4.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-2', height: '100', width: '100' }), _react2.default.createElement(_trapdoor6.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-3', height: '100', width: '100' }), _react2.default.createElement(_trapdoor8.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-4', height: '100', width: '100' }), _react2.default.createElement(_trapdoor10.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-5', height: '100', width: '100' })];
+var motivatorMap = [_react2.default.createElement(_trapdoor10.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-5', height: '100', width: '100' }), _react2.default.createElement(_trapdoor8.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-4', height: '100', width: '100' }), _react2.default.createElement(_trapdoor4.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-2', height: '100', width: '100' }), _react2.default.createElement(_trapdoor6.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-3', height: '100', width: '100' }), _react2.default.createElement(_trapdoor4.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-2', height: '100', width: '100' }), _react2.default.createElement(_trapdoor2.default, { id: 'fear-of-failure-motivator-image', className: 'fear-of-failure-motivator-image-1', height: '100', width: '100' })];
 
 var FearOfFailureMotivatorDynamicImage = exports.FearOfFailureMotivatorDynamicImage = function FearOfFailureMotivatorDynamicImage(_ref) {
     var score = _ref.score;

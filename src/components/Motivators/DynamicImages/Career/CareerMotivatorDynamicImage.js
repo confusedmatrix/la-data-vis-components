@@ -5,11 +5,11 @@ import CareerMotivatorDynamicImageMaleSVG from '../svgs/maledogtag.svg'
 import './CareerMotivatorDynamicImage.scss'
 
 const careers = [
-    'CEO',
-    'Manager',
-    'Supervisor',
-    'Executive',
     'Intern',
+    'Executive',
+    'Supervisor',
+    'Manager',
+    'CEO',
 ]
 
 export const CareerMotivatorDynamicImage = ({ headStyle, score }) => {
