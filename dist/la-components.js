@@ -9610,8 +9610,8 @@ var Timeline = exports.Timeline = function Timeline(_ref) {
 
     var height = 100,
         width = 1000;
-    var margin = 15;
-    var segmentHeight = 10;
+    var margin = 17;
+    var segmentHeight = 15;
     var segmentWidth = (width - 2 * margin) / (numWeeks - 1);
     var segments = _lodash2.default.range(numWeeks + 1).map(function (i) {
         var x = margin + segmentWidth * i;

@@ -3,8 +3,8 @@ import React from 'react'
 
 export const Timeline = ({ numWeeks }) => {
     const height = 100, width = 1000
-    const margin = 15
-    const segmentHeight = 10
+    const margin = 17
+    const segmentHeight = 15
     const segmentWidth = (width - 2 * margin) / (numWeeks - 1)
     const segments = _.range(numWeeks + 1).map(i => {
         const x = margin + segmentWidth * i
