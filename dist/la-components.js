@@ -8884,7 +8884,7 @@ var AttainmentMotivatorDynamicImage = exports.AttainmentMotivatorDynamicImage = 
         _react2.default.createElement(_sun2.default, { height: '100', width: '100' }),
         _react2.default.createElement(
             'text',
-            { x: '50.8', y: '48.5' },
+            { x: '50.4', y: '48.5' },
             grades[score - 1]
         )
     );

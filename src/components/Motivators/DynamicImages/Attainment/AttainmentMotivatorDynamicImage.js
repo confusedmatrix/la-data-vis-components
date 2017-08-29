@@ -14,7 +14,7 @@ const grades = [
 export const AttainmentMotivatorDynamicImage = ({ score }) => (
     <svg id="attainment-motivator-image" height="200" width="200" viewBox="34 32 35 28">
         <AttainmentMotivatorDynamicImageSVG height="100" width="100"/>
-        <text x="50.8" y="48.5">{grades[score - 1]}</text>
+        <text x="50.4" y="48.5">{grades[score - 1]}</text>
     </svg>
 )
 
