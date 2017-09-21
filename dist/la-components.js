@@ -986,12 +986,12 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
             ),
             _react2.default.createElement(_sky2.default, { className: 'sky' }),
             _react2.default.createElement(_grass2.default, { className: 'grass' }),
-            motivators.includes('attainment') ? _react2.default.createElement(
+            motivators.indexOf('attainment') !== -1 ? _react2.default.createElement(
                 'svg',
                 { x: '268', y: '143', viewBox: '0 0 900 900' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'attainment', score: scores['attainment'] })
             ) : null,
-            motivators.includes('options') ? _react2.default.createElement(
+            motivators.indexOf('options') !== -1 ? _react2.default.createElement(
                 'g',
                 { style: { clipPath: "url(#skyPath)" } },
                 _react2.default.createElement(
@@ -1000,17 +1000,17 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                     _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'options', score: scores['options'] })
                 )
             ) : null,
-            motivators.includes('family') ? _react2.default.createElement(
+            motivators.indexOf('family') !== -1 ? _react2.default.createElement(
                 'svg',
                 { x: '10', y: '121', viewBox: '0 0 770 770' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'family', score: scores['family'] })
             ) : null,
-            motivators.includes('fear-of-failure') ? _react2.default.createElement(
+            motivators.indexOf('fear-of-failure') !== -1 ? _react2.default.createElement(
                 'svg',
                 { x: '-30', y: '350', viewBox: '0 0 1200 1600' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'fear-of-failure', score: scores['fear-of-failure'] })
             ) : null,
-            motivators.includes('mastery') ? _react2.default.createElement(
+            motivators.indexOf('mastery') !== -1 ? _react2.default.createElement(
                 'svg',
                 { x: '80', y: '40', viewBox: '0 0 1200 600' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'mastery', score: scores['mastery'] })
@@ -1019,15 +1019,15 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                 'svg',
                 { x: '-60', viewBox: '0 0 180 180' },
                 _react2.default.createElement(_Character2.default, _extends({}, character, {
-                    careerMotivatorScore: motivators.includes('career') ? scores['career'] : null,
-                    professionalCommunityMotivatorScore: motivators.includes('professional-community') ? scores['professional-community'] : null }))
+                    careerMotivatorScore: motivators.indexOf('career') !== -1 ? scores['career'] : null,
+                    professionalCommunityMotivatorScore: motivators.indexOf('professional-community') !== -1 ? scores['professional-community'] : null }))
             ),
-            motivators.includes('money') ? _react2.default.createElement(
+            motivators.indexOf('money') !== -1 ? _react2.default.createElement(
                 'svg',
                 { x: '90', y: '300', viewBox: '0 0 315 600' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'money', score: scores['money'] })
             ) : null,
-            motivators.includes('self-development') ? _react2.default.createElement(
+            motivators.indexOf('self-development') !== -1 ? _react2.default.createElement(
                 'svg',
                 { x: '40', y: '360' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'self-development', score: scores['self-development'] })
