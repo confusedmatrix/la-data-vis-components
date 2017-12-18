@@ -22,7 +22,7 @@ export const Character = ({
     <svg id="character" height="180" width="180">
         {headStyle === 'f5' ? <HeadBackground hairColor={hairColor} /> : null}
         <svg 
-            style={{opacity: highlightedMotivator === null || highlightedMotivator === 'professional-community' ? 1 : 0.6}}
+            style={{opacity: highlightedMotivator === null || highlightedMotivator === 'professional-community' ? 1 : 0.2}}
             onMouseEnter={() => highlightMotivator('professional-community')}
             onMouseLeave={() => clearHighlightedMotivator('professional-community')}>
             <FreeArm
@@ -42,7 +42,7 @@ export const Character = ({
             skinColor={skinColor} />
         {careerMotivatorScore !== null ? 
             <svg 
-                style={{opacity: highlightedMotivator === null || highlightedMotivator === 'career' ? 1 : 0.6}}
+                style={{opacity: highlightedMotivator === null || highlightedMotivator === 'career' ? 1 : 0.2}}
                 onMouseEnter={() => highlightMotivator('career')}
                 onMouseLeave={() => clearHighlightedMotivator('career')}>
                 <MotivatorImage motivator="career" score={careerMotivatorScore} headStyle={headStyle} />

@@ -27,7 +27,7 @@ export const PersonalThemeScene = ({
     clearHighlightedMotivator,
     character 
 }) => {
-    const styler = motivator => ({opacity: highlightedMotivator === null || highlightedMotivator === motivator ? 1 : 0.6})
+    const styler = motivator => ({opacity: highlightedMotivator === null || highlightedMotivator === motivator ? 1 : 0.2})
     return (
         <svg id="personal-theme-scene" viewBox="60 130 670 370">
             <svg height="600" width="800">

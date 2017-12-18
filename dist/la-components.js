@@ -974,7 +974,7 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
         character = _ref.character;
 
     var styler = function styler(motivator) {
-        return { opacity: highlightedMotivator === null || highlightedMotivator === motivator ? 1 : 0.6 };
+        return { opacity: highlightedMotivator === null || highlightedMotivator === motivator ? 1 : 0.2 };
     };
     return _react2.default.createElement(
         'svg',
@@ -1207,7 +1207,7 @@ var Character = exports.Character = function Character(_ref) {
         _react2.default.createElement(
             'svg',
             {
-                style: { opacity: highlightedMotivator === null || highlightedMotivator === 'professional-community' ? 1 : 0.6 },
+                style: { opacity: highlightedMotivator === null || highlightedMotivator === 'professional-community' ? 1 : 0.2 },
                 onMouseEnter: function onMouseEnter() {
                     return highlightMotivator('professional-community');
                 },
@@ -1233,7 +1233,7 @@ var Character = exports.Character = function Character(_ref) {
         careerMotivatorScore !== null ? _react2.default.createElement(
             'svg',
             {
-                style: { opacity: highlightedMotivator === null || highlightedMotivator === 'career' ? 1 : 0.6 },
+                style: { opacity: highlightedMotivator === null || highlightedMotivator === 'career' ? 1 : 0.2 },
                 onMouseEnter: function onMouseEnter() {
                     return highlightMotivator('career');
                 },
