@@ -19,7 +19,15 @@ const SCORE_DEFAULTS = {
     'self-development': 5,
 }
 
-export const PersonalThemeScene = ({ scores=SCORE_DEFAULTS, motivators=[], character }) => {
+export const PersonalThemeScene = ({ 
+    scores=SCORE_DEFAULTS, 
+    highlightedMotivator=null,
+    motivators=[], 
+    highlightMotivator,
+    clearHighlightedMotivator,
+    character 
+}) => {
+    const styler = motivator => ({opacity: highlightedMotivator === null || highlightedMotivator === motivator ? 1 : 0.6})
     return (
         <svg id="personal-theme-scene" viewBox="60 130 670 370">
             <svg height="600" width="800">
@@ -37,33 +45,63 @@ export const PersonalThemeScene = ({ scores=SCORE_DEFAULTS, motivators=[], chara
                 <Grass className="grass" />
 
                 {motivators.includes('attainment') ?
-                    <svg x="268" y="143" viewBox="0 0 900 900">
+                    <svg 
+                        style={styler('attainment')} 
+                        onMouseEnter={() => highlightMotivator('attainment')}
+                        onMouseLeave={() => clearHighlightedMotivator('attainment')}
+                        x="268" 
+                        y="143" 
+                        viewBox="0 0 900 900">
                         <MotivatorImage motivator="attainment" score={scores['attainment']} />
                     </svg>
                     : null}
 
                 {motivators.includes('options') ?
                     <g style={{clipPath:"url(#skyPath)"}}>
-                        <svg x="0" y="188" viewBox="143 0 193 465">
+                        <svg 
+                            style={styler('options')} 
+                            onMouseEnter={() => highlightMotivator('options')}
+                            onMouseLeave={() => clearHighlightedMotivator('options')}
+                            x="0" 
+                            y="188" 
+                            viewBox="143 0 193 465">
                             <MotivatorImage motivator="options" score={scores['options']} />
                         </svg>
                     </g>
                     : null}
 
                 {motivators.includes('family') ?
-                    <svg x="10" y="121" viewBox="0 0 770 770">
+                    <svg 
+                        style={styler('family')} 
+                        onMouseEnter={() => highlightMotivator('family')}
+                        onMouseLeave={() => clearHighlightedMotivator('family')}
+                        x="10" 
+                        y="121" 
+                        viewBox="0 0 770 770">
                         <MotivatorImage motivator="family" score={scores['family']} />
                     </svg>
                     : null}
 
                 {motivators.includes('fear-of-failure') ?
-                    <svg x="-30" y="350" viewBox="0 0 1200 1600">
+                    <svg 
+                        style={styler('fear-of-failure')} 
+                        onMouseEnter={() => highlightMotivator('fear-of-failure')}
+                        onMouseLeave={() => clearHighlightedMotivator('fear-of-failure')}
+                        x="-30" 
+                        y="350" 
+                        viewBox="0 0 1200 1600">
                         <MotivatorImage motivator="fear-of-failure" score={scores['fear-of-failure']}/>
                     </svg>
                     : null}
 
                 {motivators.includes('mastery') ?
-                    <svg x="80" y="40" viewBox="0 0 1200 600">
+                    <svg 
+                        style={styler('mastery')} 
+                        onMouseEnter={() => highlightMotivator('mastery')}
+                        onMouseLeave={() => clearHighlightedMotivator('mastery')}
+                        x="80" 
+                        y="40" 
+                        viewBox="0 0 1200 600">
                         <MotivatorImage motivator="mastery" score={scores['mastery']} />
                     </svg>
                     : null}
@@ -71,18 +109,32 @@ export const PersonalThemeScene = ({ scores=SCORE_DEFAULTS, motivators=[], chara
                 <svg x="-60" viewBox="0 0 180 180">
                     <Character
                         {...character}
+                        highlightedMotivator={highlightedMotivator}
+                        highlightMotivator={highlightMotivator}
+                        clearHighlightedMotivator={clearHighlightedMotivator}
                         careerMotivatorScore={motivators.includes('career') ? scores['career'] : null}
                         professionalCommunityMotivatorScore={motivators.includes('professional-community') ? scores['professional-community']: null} />
                 </svg>
 
-                {motivators.includes('money')?
-                    <svg x="90" y="300" viewBox="0 0 315 600">
+                {motivators.includes('money') ?
+                    <svg 
+                        style={styler('money')} 
+                        onMouseEnter={() => highlightMotivator('money')}
+                        onMouseLeave={() => clearHighlightedMotivator('money')}
+                        x="90" 
+                        y="300" 
+                        viewBox="0 0 315 600">
                         <MotivatorImage motivator="money" score={scores['money']}/>
                     </svg>
                     : null}
 
                 {motivators.includes('self-development') ?
-                    <svg x="40" y="360">
+                    <svg 
+                        style={styler('self-development')} 
+                        onMouseEnter={() => highlightMotivator('self-development')}
+                        onMouseLeave={() => clearHighlightedMotivator('self-development')}
+                        x="40" 
+                        y="360">
                         <MotivatorImage motivator="self-development" score={scores['self-development']} />
                     </svg>
                     : null}

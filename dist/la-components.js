@@ -965,10 +965,17 @@ var SCORE_DEFAULTS = {
 var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScene(_ref) {
     var _ref$scores = _ref.scores,
         scores = _ref$scores === undefined ? SCORE_DEFAULTS : _ref$scores,
+        _ref$highlightedMotiv = _ref.highlightedMotivator,
+        highlightedMotivator = _ref$highlightedMotiv === undefined ? null : _ref$highlightedMotiv,
         _ref$motivators = _ref.motivators,
         motivators = _ref$motivators === undefined ? [] : _ref$motivators,
+        highlightMotivator = _ref.highlightMotivator,
+        clearHighlightedMotivator = _ref.clearHighlightedMotivator,
         character = _ref.character;
 
+    var styler = function styler(motivator) {
+        return { opacity: highlightedMotivator === null || highlightedMotivator === motivator ? 1 : 0.6 };
+    };
     return _react2.default.createElement(
         'svg',
         { id: 'personal-theme-scene', viewBox: '60 130 670 370' },
@@ -988,7 +995,17 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
             _react2.default.createElement(_grass2.default, { className: 'grass' }),
             motivators.indexOf('attainment') !== -1 ? _react2.default.createElement(
                 'svg',
-                { x: '268', y: '143', viewBox: '0 0 900 900' },
+                {
+                    style: styler('attainment'),
+                    onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('attainment');
+                    },
+                    onMouseLeave: function onMouseLeave() {
+                        return clearHighlightedMotivator('attainment');
+                    },
+                    x: '268',
+                    y: '143',
+                    viewBox: '0 0 900 900' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'attainment', score: scores['attainment'] })
             ) : null,
             motivators.indexOf('options') !== -1 ? _react2.default.createElement(
@@ -996,40 +1013,102 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                 { style: { clipPath: "url(#skyPath)" } },
                 _react2.default.createElement(
                     'svg',
-                    { x: '0', y: '188', viewBox: '143 0 193 465' },
+                    {
+                        style: styler('options'),
+                        onMouseEnter: function onMouseEnter() {
+                            return highlightMotivator('options');
+                        },
+                        onMouseLeave: function onMouseLeave() {
+                            return clearHighlightedMotivator('options');
+                        },
+                        x: '0',
+                        y: '188',
+                        viewBox: '143 0 193 465' },
                     _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'options', score: scores['options'] })
                 )
             ) : null,
             motivators.indexOf('family') !== -1 ? _react2.default.createElement(
                 'svg',
-                { x: '10', y: '121', viewBox: '0 0 770 770' },
+                {
+                    style: styler('family'),
+                    onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('family');
+                    },
+                    onMouseLeave: function onMouseLeave() {
+                        return clearHighlightedMotivator('family');
+                    },
+                    x: '10',
+                    y: '121',
+                    viewBox: '0 0 770 770' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'family', score: scores['family'] })
             ) : null,
             motivators.indexOf('fear-of-failure') !== -1 ? _react2.default.createElement(
                 'svg',
-                { x: '-30', y: '350', viewBox: '0 0 1200 1600' },
+                {
+                    style: styler('fear-of-failure'),
+                    onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('fear-of-failure');
+                    },
+                    onMouseLeave: function onMouseLeave() {
+                        return clearHighlightedMotivator('fear-of-failure');
+                    },
+                    x: '-30',
+                    y: '350',
+                    viewBox: '0 0 1200 1600' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'fear-of-failure', score: scores['fear-of-failure'] })
             ) : null,
             motivators.indexOf('mastery') !== -1 ? _react2.default.createElement(
                 'svg',
-                { x: '80', y: '40', viewBox: '0 0 1200 600' },
+                {
+                    style: styler('mastery'),
+                    onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('mastery');
+                    },
+                    onMouseLeave: function onMouseLeave() {
+                        return clearHighlightedMotivator('mastery');
+                    },
+                    x: '80',
+                    y: '40',
+                    viewBox: '0 0 1200 600' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'mastery', score: scores['mastery'] })
             ) : null,
             _react2.default.createElement(
                 'svg',
                 { x: '-60', viewBox: '0 0 180 180' },
                 _react2.default.createElement(_Character2.default, _extends({}, character, {
+                    highlightedMotivator: highlightedMotivator,
+                    highlightMotivator: highlightMotivator,
+                    clearHighlightedMotivator: clearHighlightedMotivator,
                     careerMotivatorScore: motivators.indexOf('career') !== -1 ? scores['career'] : null,
                     professionalCommunityMotivatorScore: motivators.indexOf('professional-community') !== -1 ? scores['professional-community'] : null }))
             ),
             motivators.indexOf('money') !== -1 ? _react2.default.createElement(
                 'svg',
-                { x: '90', y: '300', viewBox: '0 0 315 600' },
+                {
+                    style: styler('money'),
+                    onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('money');
+                    },
+                    onMouseLeave: function onMouseLeave() {
+                        return clearHighlightedMotivator('money');
+                    },
+                    x: '90',
+                    y: '300',
+                    viewBox: '0 0 315 600' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'money', score: scores['money'] })
             ) : null,
             motivators.indexOf('self-development') !== -1 ? _react2.default.createElement(
                 'svg',
-                { x: '40', y: '360' },
+                {
+                    style: styler('self-development'),
+                    onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('self-development');
+                    },
+                    onMouseLeave: function onMouseLeave() {
+                        return clearHighlightedMotivator('self-development');
+                    },
+                    x: '40',
+                    y: '360' },
                 _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'self-development', score: scores['self-development'] })
             ) : null
         )
@@ -1115,17 +1194,32 @@ var Character = exports.Character = function Character(_ref) {
         shoeColor = _ref$shoeColor === undefined ? [96, 65, 53] : _ref$shoeColor,
         _ref$careerMotivatorS = _ref.careerMotivatorScore,
         careerMotivatorScore = _ref$careerMotivatorS === undefined ? null : _ref$careerMotivatorS,
+        highlightMotivator = _ref.highlightMotivator,
+        clearHighlightedMotivator = _ref.clearHighlightedMotivator,
         _ref$professionalComm = _ref.professionalCommunityMotivatorScore,
-        professionalCommunityMotivatorScore = _ref$professionalComm === undefined ? null : _ref$professionalComm;
+        professionalCommunityMotivatorScore = _ref$professionalComm === undefined ? null : _ref$professionalComm,
+        _ref$highlightedMotiv = _ref.highlightedMotivator,
+        highlightedMotivator = _ref$highlightedMotiv === undefined ? null : _ref$highlightedMotiv;
     return _react2.default.createElement(
         'svg',
         { id: 'character', height: '180', width: '180' },
         headStyle === 'f5' ? _react2.default.createElement(_Head.HeadBackground, { hairColor: hairColor }) : null,
-        _react2.default.createElement(_FreeArm2.default, {
-            armStyle: professionalCommunityMotivatorScore !== null ? bodyStyle.substr(0, 1) + professionalCommunityMotivatorScore : bodyStyle.substr(0, 1) + '1',
-            skinColor: skinColor,
-            clothingTopColor: clothingTopColor }),
-        '}',
+        _react2.default.createElement(
+            'svg',
+            {
+                style: { opacity: highlightedMotivator === null || highlightedMotivator === 'professional-community' ? 1 : 0.6 },
+                onMouseEnter: function onMouseEnter() {
+                    return highlightMotivator('professional-community');
+                },
+                onMouseLeave: function onMouseLeave() {
+                    return clearHighlightedMotivator('professional-community');
+                } },
+            _react2.default.createElement(_FreeArm2.default, {
+                armStyle: professionalCommunityMotivatorScore !== null ? bodyStyle.substr(0, 1) + professionalCommunityMotivatorScore : bodyStyle.substr(0, 1) + '1',
+                skinColor: skinColor,
+                clothingTopColor: clothingTopColor }),
+            '}'
+        ),
         _react2.default.createElement(_Body2.default, {
             bodyStyle: bodyStyle,
             skinColor: skinColor,
@@ -1136,7 +1230,18 @@ var Character = exports.Character = function Character(_ref) {
             headStyle: headStyle,
             hairColor: hairColor,
             skinColor: skinColor }),
-        careerMotivatorScore !== null ? _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'career', score: careerMotivatorScore, headStyle: headStyle }) : null
+        careerMotivatorScore !== null ? _react2.default.createElement(
+            'svg',
+            {
+                style: { opacity: highlightedMotivator === null || highlightedMotivator === 'career' ? 1 : 0.6 },
+                onMouseEnter: function onMouseEnter() {
+                    return highlightMotivator('career');
+                },
+                onMouseLeave: function onMouseLeave() {
+                    return clearHighlightedMotivator('career');
+                } },
+            _react2.default.createElement(_MotivatorDynamicImage2.default, { motivator: 'career', score: careerMotivatorScore, headStyle: headStyle })
+        ) : null
     );
 };
 
@@ -2310,7 +2415,21 @@ var ComponentSuite = exports.ComponentSuite = function ComponentSuite() {
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_Timeline.Timeline, { numWeeks: '12' })
+        _react2.default.createElement(_PersonalThemeScene2.default, {
+            highlightedMotivator: 'money',
+            highlightMotivator: console.log,
+            clearHighlightedMotivator: console.log,
+            motivators: ['attainment', 'mastery', 'fear-of-failure', 'self-development', 'professional-community', 'family', 'money', 'career', 'options'],
+            scores: {
+                'attainment': 1,
+                'mastery': 2,
+                'fear-of-failure': 3,
+                'self-development': 4,
+                'professional-community': 5,
+                'family': 4,
+                'money': 3,
+                'career': 2,
+                'options': 1 } })
     );
 };
 

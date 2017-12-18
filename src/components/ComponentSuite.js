@@ -10,7 +10,7 @@ import Scene from './Themes/Personal/PersonalThemeScene'
 
 export const ComponentSuite = () => (
     <div>
-        <Timeline numWeeks="12" />
+        {/* <Timeline numWeeks="12" /> */}
 
         {/*<MotivatorIcon motivator="attainment" />*/}
         {/*<MotivatorIcon motivator="career" />*/}
@@ -28,7 +28,30 @@ export const ComponentSuite = () => (
 
         {/*<MotivatorImage motivator="fear-of-failure" score={1} />*/}
 
-        {/*<Scene motivators={['money']} scores={{'money': 1}} />*/}
+        <Scene 
+            highlightedMotivator={'money'}
+            highlightMotivator={console.log}
+            clearHighlightedMotivator={console.log}
+            motivators={[
+                'attainment', 
+                'mastery',
+                'fear-of-failure', 
+                'self-development', 
+                'professional-community', 
+                'family', 
+                'money', 
+                'career', 
+                'options']} 
+            scores={{
+                'attainment': 1, 
+                'mastery': 2,
+                'fear-of-failure': 3, 
+                'self-development': 4, 
+                'professional-community': 5, 
+                'family': 4, 
+                'money': 3, 
+                'career': 2, 
+                'options': 1}} />
 
     </div>
 )
