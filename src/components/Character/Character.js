@@ -24,6 +24,7 @@ export const Character = ({
         <svg 
             style={{opacity: highlightedMotivator === null || highlightedMotivator === 'professional-community' ? 1 : 0.2}}
             onMouseEnter={() => highlightMotivator('professional-community')}
+            onClick={() => highlightMotivator('professional-community')}
             onMouseLeave={() => clearHighlightedMotivator('professional-community')}>
             <FreeArm
                 armStyle={professionalCommunityMotivatorScore !== null ? bodyStyle.substr(0,1) + professionalCommunityMotivatorScore : `${bodyStyle.substr(0,1)}1`}
@@ -44,6 +45,7 @@ export const Character = ({
             <svg 
                 style={{opacity: highlightedMotivator === null || highlightedMotivator === 'career' ? 1 : 0.2}}
                 onMouseEnter={() => highlightMotivator('career')}
+                onClick={() => highlightMotivator('career')}
                 onMouseLeave={() => clearHighlightedMotivator('career')}>
                 <MotivatorImage motivator="career" score={careerMotivatorScore} headStyle={headStyle} />
             </svg> : null}

@@ -48,6 +48,7 @@ export const PersonalThemeScene = ({
                     <svg 
                         style={styler('attainment')} 
                         onMouseEnter={() => highlightMotivator('attainment')}
+                        onClick={() => highlightMotivator('attainment')}
                         onMouseLeave={() => clearHighlightedMotivator('attainment')}
                         x="268" 
                         y="143" 
@@ -61,6 +62,7 @@ export const PersonalThemeScene = ({
                         <svg 
                             style={styler('options')} 
                             onMouseEnter={() => highlightMotivator('options')}
+                            onClick={() => highlightMotivator('options')}
                             onMouseLeave={() => clearHighlightedMotivator('options')}
                             x="0" 
                             y="188" 
@@ -74,6 +76,7 @@ export const PersonalThemeScene = ({
                     <svg 
                         style={styler('family')} 
                         onMouseEnter={() => highlightMotivator('family')}
+                        onClick={() => highlightMotivator('family')}
                         onMouseLeave={() => clearHighlightedMotivator('family')}
                         x="10" 
                         y="121" 
@@ -86,6 +89,7 @@ export const PersonalThemeScene = ({
                     <svg 
                         style={styler('fear-of-failure')} 
                         onMouseEnter={() => highlightMotivator('fear-of-failure')}
+                        onClick={() => highlightMotivator('fear-of-failure')}
                         onMouseLeave={() => clearHighlightedMotivator('fear-of-failure')}
                         x="-30" 
                         y="350" 
@@ -98,6 +102,7 @@ export const PersonalThemeScene = ({
                     <svg 
                         style={styler('mastery')} 
                         onMouseEnter={() => highlightMotivator('mastery')}
+                        onClick={() => highlightMotivator('mastery')}
                         onMouseLeave={() => clearHighlightedMotivator('mastery')}
                         x="80" 
                         y="40" 
@@ -120,6 +125,7 @@ export const PersonalThemeScene = ({
                     <svg 
                         style={styler('money')} 
                         onMouseEnter={() => highlightMotivator('money')}
+                        onClick={() => highlightMotivator('money')}
                         onMouseLeave={() => clearHighlightedMotivator('money')}
                         x="90" 
                         y="300" 

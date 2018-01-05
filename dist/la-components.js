@@ -1000,6 +1000,9 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                     onMouseEnter: function onMouseEnter() {
                         return highlightMotivator('attainment');
                     },
+                    onClick: function onClick() {
+                        return highlightMotivator('attainment');
+                    },
                     onMouseLeave: function onMouseLeave() {
                         return clearHighlightedMotivator('attainment');
                     },
@@ -1018,6 +1021,9 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                         onMouseEnter: function onMouseEnter() {
                             return highlightMotivator('options');
                         },
+                        onClick: function onClick() {
+                            return highlightMotivator('options');
+                        },
                         onMouseLeave: function onMouseLeave() {
                             return clearHighlightedMotivator('options');
                         },
@@ -1032,6 +1038,9 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                 {
                     style: styler('family'),
                     onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('family');
+                    },
+                    onClick: function onClick() {
                         return highlightMotivator('family');
                     },
                     onMouseLeave: function onMouseLeave() {
@@ -1049,6 +1058,9 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                     onMouseEnter: function onMouseEnter() {
                         return highlightMotivator('fear-of-failure');
                     },
+                    onClick: function onClick() {
+                        return highlightMotivator('fear-of-failure');
+                    },
                     onMouseLeave: function onMouseLeave() {
                         return clearHighlightedMotivator('fear-of-failure');
                     },
@@ -1062,6 +1074,9 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                 {
                     style: styler('mastery'),
                     onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('mastery');
+                    },
+                    onClick: function onClick() {
                         return highlightMotivator('mastery');
                     },
                     onMouseLeave: function onMouseLeave() {
@@ -1087,6 +1102,9 @@ var PersonalThemeScene = exports.PersonalThemeScene = function PersonalThemeScen
                 {
                     style: styler('money'),
                     onMouseEnter: function onMouseEnter() {
+                        return highlightMotivator('money');
+                    },
+                    onClick: function onClick() {
                         return highlightMotivator('money');
                     },
                     onMouseLeave: function onMouseLeave() {
@@ -1211,6 +1229,9 @@ var Character = exports.Character = function Character(_ref) {
                 onMouseEnter: function onMouseEnter() {
                     return highlightMotivator('professional-community');
                 },
+                onClick: function onClick() {
+                    return highlightMotivator('professional-community');
+                },
                 onMouseLeave: function onMouseLeave() {
                     return clearHighlightedMotivator('professional-community');
                 } },
@@ -1235,6 +1256,9 @@ var Character = exports.Character = function Character(_ref) {
             {
                 style: { opacity: highlightedMotivator === null || highlightedMotivator === 'career' ? 1 : 0.2 },
                 onMouseEnter: function onMouseEnter() {
+                    return highlightMotivator('career');
+                },
+                onClick: function onClick() {
                     return highlightMotivator('career');
                 },
                 onMouseLeave: function onMouseLeave() {
