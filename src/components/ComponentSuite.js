@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Timeline } from './Timeline'
 import MotivatorIcon from "./Motivators/Icons/MotivatorIcon"
+import RecommendationIcon from './Recommendations/Icons/RecommendationIcon'
 import MotivatorImage from './Motivators/DynamicImages/MotivatorDynamicImage'
 import Character from './Character'
 import Scene from './Themes/Personal/PersonalThemeScene'
@@ -22,13 +23,23 @@ export const ComponentSuite = () => (
         {/*<MotivatorIcon motivator="professional-community" />*/}
         {/*<MotivatorIcon motivator="self-development" />*/}
 
+        <RecommendationIcon recommendation="attendance" />
+        <RecommendationIcon recommendation="clicks" />
+        <RecommendationIcon recommendation="collaboration" />
+        <RecommendationIcon recommendation="coursework-clicks" />
+        <RecommendationIcon recommendation="duration" />
+        <RecommendationIcon recommendation="lecture-clicks" />
+        <RecommendationIcon recommendation="practical-clicks" />
+        <RecommendationIcon recommendation="suggested-reading" size="large" />
+        <RecommendationIcon recommendation="weekly-frequency" />
+
         {/*<svg height="500px" width="300px" viewBox="49 55 90 80" preserveAspectRatio="xMidYMax slice">*/}
             {/*<Character headStyle="f1" careerMotivatorImage={careerMotivatorImage} />*/}
         {/*</svg>*/}
 
         {/*<MotivatorImage motivator="fear-of-failure" score={1} />*/}
 
-        <Scene 
+        {/* <Scene 
             highlightedMotivator={'money'}
             highlightMotivator={console.log}
             clearHighlightedMotivator={console.log}
@@ -51,7 +62,7 @@ export const ComponentSuite = () => (
                 'family': 4, 
                 'money': 3, 
                 'career': 2, 
-                'options': 1}} />
+                'options': 1}} /> */}
 
     </div>
 )

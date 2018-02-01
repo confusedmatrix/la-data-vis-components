@@ -1,0 +1,66 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 141.7 141.7" style="enable-background:new 0 0 141.7 141.7;" xml:space="preserve">
+<g id="Layer_1" class="st0">
+	<g class="st1">
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="-187.3" y="-144.7" width="501.6" height="478.6"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				<g style="clip-path:url(#SVGID_2_);">
+					
+						<image style="overflow:visible;" width="1045" height="997" xlink:href="CC60EB3497D24BDB.jpg"  transform="matrix(0.48 0 0 0.48 -187.2805 -144.7177)">
+					</image>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<defs>
+					<rect id="SVGID_3_" x="-187.3" y="-144.7" width="501.6" height="478.6"/>
+				</defs>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+				</clipPath>
+				<g style="clip-path:url(#SVGID_4_);">
+					
+						<image style="overflow:visible;" width="1045" height="997" xlink:href="CC60EB3497D24BD9.jpg"  transform="matrix(0.48 0 0 0.48 -187.2805 -144.7177)">
+					</image>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Layer_2">
+	<g>
+		<circle class="st9" cx="68" cy="68.1" r="62"/>
+		<path class="st2" d="M108,100.4H28c-2.8,0-5-2.3-5-5V40.9c0-2.8,2.3-5,5-5h80c2.8,0,5,2.3,5,5v54.4
+			C113.1,98.1,110.8,100.4,108,100.4z"/>
+		<g>
+			<rect x="39.7" y="59.3" class="st4" width="56.6" height="9.1"/>
+			<path class="st18" d="M97,69.1H39V58.6H97V69.1z M40.5,67.6h55.1v-7.6H40.5V67.6z"/>
+		</g>
+		<g>
+			<rect x="39.7" y="72.6" class="st4" width="56.6" height="9.1"/>
+			<path class="st18" d="M97,82.4H39V71.9H97V82.4z M40.5,80.9h55.1v-7.6H40.5V80.9z"/>
+		</g>
+		<rect x="55.8" y="85.9" class="st20" width="24.4" height="10.1"/>
+		<g>
+			<path class="st20" d="M68,40.8h-6.6c0,0,0,0.3,0,5.9c0,8.2,6.6,9.9,6.6,9.9s6.6-1.7,6.6-9.9c0-5.6,0-5.9,0-5.9H68z"/>
+		</g>
+		<path d="M79.6,64.2H44.1c-0.2,0-0.4-0.2-0.4-0.4s0.2-0.4,0.4-0.4h35.5c0.2,0,0.4,0.2,0.4,0.4S79.8,64.2,79.6,64.2z"/>
+		<circle cx="44.1" cy="77.2" r="1.4"/>
+		<circle cx="48.9" cy="77.2" r="1.4"/>
+		<circle cx="53.8" cy="77.2" r="1.4"/>
+		<circle cx="58.6" cy="77.2" r="1.4"/>
+		<circle cx="63.5" cy="77.2" r="1.4"/>
+		<circle cx="68.3" cy="77.2" r="1.4"/>
+		<path class="st8" d="M108.3,135.7c-15.1,0-27.5-12.3-27.5-27.5h9c0,10.2,8.3,18.5,18.5,18.5s18.5-8.3,18.5-18.5
+			s-8.3-18.5-18.5-18.5v-9c15.1,0,27.5,12.3,27.5,27.5S123.4,135.7,108.3,135.7z"/>
+		<polygon class="st8" points="85.3,85.3 108.3,98.5 108.3,72 		"/>
+	</g>
+</g>
+</svg>
