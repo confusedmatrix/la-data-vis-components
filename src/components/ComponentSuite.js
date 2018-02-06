@@ -30,7 +30,7 @@ export const ComponentSuite = () => (
         <RecommendationIcon recommendation="duration" />
         <RecommendationIcon recommendation="lecture-clicks" />
         <RecommendationIcon recommendation="practical-clicks" />
-        <RecommendationIcon recommendation="suggested-reading" size="large" />
+        <RecommendationIcon recommendation="suggested-reading" />
         <RecommendationIcon recommendation="weekly-frequency" />
 
         {/*<svg height="500px" width="300px" viewBox="49 55 90 80" preserveAspectRatio="xMidYMax slice">*/}
