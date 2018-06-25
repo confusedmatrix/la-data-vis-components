@@ -1,10 +1,11 @@
 import React from 'react'
+import _ from 'lodash'
 
 import { Timeline } from './Timeline'
 import MotivatorIcon from "./Motivators/Icons/MotivatorIcon"
 import RecommendationIcon from './Recommendations/Icons/RecommendationIcon'
 import MotivatorImage from './Motivators/DynamicImages/MotivatorDynamicImage'
-import Character from './Character'
+import { Character, RandomCharacter } from './Character'
 import Scene from './Themes/Personal/PersonalThemeScene'
 
 // const careerMotivatorImage = <MotivatorImage motivator="career" score={2} headStyle="f1" />
@@ -23,7 +24,7 @@ export const ComponentSuite = () => (
         {/*<MotivatorIcon motivator="professional-community" />*/}
         {/*<MotivatorIcon motivator="self-development" />*/}
 
-        <RecommendationIcon recommendation="attendance" />
+        {/* <RecommendationIcon recommendation="attendance" />
         <RecommendationIcon recommendation="clicks" />
         <RecommendationIcon recommendation="collaboration" />
         <RecommendationIcon recommendation="coursework-clicks" />
@@ -31,11 +32,16 @@ export const ComponentSuite = () => (
         <RecommendationIcon recommendation="lecture-clicks" />
         <RecommendationIcon recommendation="practical-clicks" />
         <RecommendationIcon recommendation="suggested-reading" />
-        <RecommendationIcon recommendation="weekly-frequency" />
+        <RecommendationIcon recommendation="weekly-frequency" /> */}
 
-        {/*<svg height="500px" width="300px" viewBox="49 55 90 80" preserveAspectRatio="xMidYMax slice">*/}
-            {/*<Character headStyle="f1" careerMotivatorImage={careerMotivatorImage} />*/}
-        {/*</svg>*/}
+        {/* <svg height="500px" width="300px" viewBox="49 55 90 80" preserveAspectRatio="xMidYMax slice">
+            <Character headStyle="f1" careerMotivatorImage={careerMotivatorImage} />
+        </svg> */}
+            
+        <svg height="800px" width="480px" viewBox="51 58 90 80" preserveAspectRatio="xMidYMax slice">
+            <RandomCharacter />
+        </svg>
+    
 
         {/*<MotivatorImage motivator="fear-of-failure" score={1} />*/}
 

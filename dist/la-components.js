@@ -7,7 +7,7 @@
 		exports["LAComponents"] = factory(require("react"), require("lodash"));
 	else
 		root["LAComponents"] = factory(root["React"], root["_"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_176__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_16__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 124);
+/******/ 	return __webpack_require__(__webpack_require__.s = 125);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -211,7 +211,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(175);
+var	fixUrls = __webpack_require__(176);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -539,39 +539,39 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _AttainmentMotivatorDynamicImage = __webpack_require__(95);
+var _AttainmentMotivatorDynamicImage = __webpack_require__(96);
 
 var _AttainmentMotivatorDynamicImage2 = _interopRequireDefault(_AttainmentMotivatorDynamicImage);
 
-var _CareerMotivatorDynamicImage = __webpack_require__(96);
+var _CareerMotivatorDynamicImage = __webpack_require__(97);
 
 var _CareerMotivatorDynamicImage2 = _interopRequireDefault(_CareerMotivatorDynamicImage);
 
-var _FamilyMotivatorDynamicImage = __webpack_require__(97);
+var _FamilyMotivatorDynamicImage = __webpack_require__(98);
 
 var _FamilyMotivatorDynamicImage2 = _interopRequireDefault(_FamilyMotivatorDynamicImage);
 
-var _FearOfFailureMotivatorDynamicImage = __webpack_require__(98);
+var _FearOfFailureMotivatorDynamicImage = __webpack_require__(99);
 
 var _FearOfFailureMotivatorDynamicImage2 = _interopRequireDefault(_FearOfFailureMotivatorDynamicImage);
 
-var _MasteryMotivatorDynamicImage = __webpack_require__(99);
+var _MasteryMotivatorDynamicImage = __webpack_require__(100);
 
 var _MasteryMotivatorDynamicImage2 = _interopRequireDefault(_MasteryMotivatorDynamicImage);
 
-var _MoneyMotivatorDynamicImage = __webpack_require__(100);
+var _MoneyMotivatorDynamicImage = __webpack_require__(101);
 
 var _MoneyMotivatorDynamicImage2 = _interopRequireDefault(_MoneyMotivatorDynamicImage);
 
-var _OptionsMotivatorDynamicImage = __webpack_require__(101);
+var _OptionsMotivatorDynamicImage = __webpack_require__(102);
 
 var _OptionsMotivatorDynamicImage2 = _interopRequireDefault(_OptionsMotivatorDynamicImage);
 
-var _ProfessionalCommunityMotivatorDynamicImage = __webpack_require__(102);
+var _ProfessionalCommunityMotivatorDynamicImage = __webpack_require__(103);
 
 var _ProfessionalCommunityMotivatorDynamicImage2 = _interopRequireDefault(_ProfessionalCommunityMotivatorDynamicImage);
 
-var _SelfDevelopmentMotivatorDynamicImage = __webpack_require__(103);
+var _SelfDevelopmentMotivatorDynamicImage = __webpack_require__(104);
 
 var _SelfDevelopmentMotivatorDynamicImage2 = _interopRequireDefault(_SelfDevelopmentMotivatorDynamicImage);
 
@@ -608,7 +608,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.colorValsToRGB = exports.darken = undefined;
 
-var _color = __webpack_require__(128);
+var _color = __webpack_require__(129);
 
 var _color2 = _interopRequireDefault(_color);
 
@@ -639,27 +639,27 @@ var _react2 = _interopRequireDefault(_react);
 
 var _helpers = __webpack_require__(4);
 
-var _femalebody = __webpack_require__(21);
+var _femalebody = __webpack_require__(22);
 
 var _femalebody2 = _interopRequireDefault(_femalebody);
 
-var _femalebody3 = __webpack_require__(22);
+var _femalebody3 = __webpack_require__(23);
 
 var _femalebody4 = _interopRequireDefault(_femalebody3);
 
-var _femalebody5 = __webpack_require__(23);
+var _femalebody5 = __webpack_require__(24);
 
 var _femalebody6 = _interopRequireDefault(_femalebody5);
 
-var _malebody = __webpack_require__(34);
+var _malebody = __webpack_require__(35);
 
 var _malebody2 = _interopRequireDefault(_malebody);
 
-var _malebody3 = __webpack_require__(35);
+var _malebody3 = __webpack_require__(36);
 
 var _malebody4 = _interopRequireDefault(_malebody3);
 
-__webpack_require__(153);
+__webpack_require__(154);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -709,47 +709,47 @@ var _react2 = _interopRequireDefault(_react);
 
 var _helpers = __webpack_require__(4);
 
-var _femalephone = __webpack_require__(29);
+var _femalephone = __webpack_require__(30);
 
 var _femalephone2 = _interopRequireDefault(_femalephone);
 
-var _femalephone3 = __webpack_require__(30);
+var _femalephone3 = __webpack_require__(31);
 
 var _femalephone4 = _interopRequireDefault(_femalephone3);
 
-var _femalephone5 = __webpack_require__(31);
+var _femalephone5 = __webpack_require__(32);
 
 var _femalephone6 = _interopRequireDefault(_femalephone5);
 
-var _femalephone7 = __webpack_require__(32);
+var _femalephone7 = __webpack_require__(33);
 
 var _femalephone8 = _interopRequireDefault(_femalephone7);
 
-var _femalephone9 = __webpack_require__(33);
+var _femalephone9 = __webpack_require__(34);
 
 var _femalephone10 = _interopRequireDefault(_femalephone9);
 
-var _phone = __webpack_require__(41);
+var _phone = __webpack_require__(42);
 
 var _phone2 = _interopRequireDefault(_phone);
 
-var _phone3 = __webpack_require__(42);
+var _phone3 = __webpack_require__(43);
 
 var _phone4 = _interopRequireDefault(_phone3);
 
-var _phone5 = __webpack_require__(43);
+var _phone5 = __webpack_require__(44);
 
 var _phone6 = _interopRequireDefault(_phone5);
 
-var _phone7 = __webpack_require__(44);
+var _phone7 = __webpack_require__(45);
 
 var _phone8 = _interopRequireDefault(_phone7);
 
-var _phone9 = __webpack_require__(45);
+var _phone9 = __webpack_require__(46);
 
 var _phone10 = _interopRequireDefault(_phone9);
 
-__webpack_require__(154);
+__webpack_require__(155);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -802,47 +802,47 @@ var _react2 = _interopRequireDefault(_react);
 
 var _helpers = __webpack_require__(4);
 
-var _femalehead = __webpack_require__(24);
+var _femalehead = __webpack_require__(25);
 
 var _femalehead2 = _interopRequireDefault(_femalehead);
 
-var _femalehead3 = __webpack_require__(25);
+var _femalehead3 = __webpack_require__(26);
 
 var _femalehead4 = _interopRequireDefault(_femalehead3);
 
-var _femalehead5 = __webpack_require__(26);
+var _femalehead5 = __webpack_require__(27);
 
 var _femalehead6 = _interopRequireDefault(_femalehead5);
 
-var _femalehead7 = __webpack_require__(27);
+var _femalehead7 = __webpack_require__(28);
 
 var _femalehead8 = _interopRequireDefault(_femalehead7);
 
-var _femalehead9 = __webpack_require__(28);
+var _femalehead9 = __webpack_require__(29);
 
 var _femalehead10 = _interopRequireDefault(_femalehead9);
 
-var _malehead = __webpack_require__(36);
+var _malehead = __webpack_require__(37);
 
 var _malehead2 = _interopRequireDefault(_malehead);
 
-var _malehead3 = __webpack_require__(37);
+var _malehead3 = __webpack_require__(38);
 
 var _malehead4 = _interopRequireDefault(_malehead3);
 
-var _malehead5 = __webpack_require__(38);
+var _malehead5 = __webpack_require__(39);
 
 var _malehead6 = _interopRequireDefault(_malehead5);
 
-var _malehead7 = __webpack_require__(39);
+var _malehead7 = __webpack_require__(40);
 
 var _malehead8 = _interopRequireDefault(_malehead7);
 
-var _malehead9 = __webpack_require__(40);
+var _malehead9 = __webpack_require__(41);
 
 var _malehead10 = _interopRequireDefault(_malehead9);
 
-__webpack_require__(155);
+__webpack_require__(156);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -874,7 +874,8 @@ var HeadBackground = exports.HeadBackground = function HeadBackground(_ref) {
 };
 
 var Head = exports.Head = function Head(_ref2) {
-    var headStyle = _ref2.headStyle,
+    var key = _ref2.key,
+        headStyle = _ref2.headStyle,
         hairColor = _ref2.hairColor,
         skinColor = _ref2.skinColor;
     return _react2.default.createElement(
@@ -901,16 +902,13 @@ exports.default = Head;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.Character = undefined;
+exports.RandomCharacter = exports.Character = undefined;
 
 var _Character = __webpack_require__(11);
 
-var _Character2 = _interopRequireDefault(_Character);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.Character = _Character2.default;
-exports.default = _Character2.default;
+exports.Character = _Character.Character;
+exports.RandomCharacter = _Character.RandomCharacter;
+exports.default = _Character.Character;
 
 /***/ }),
 /* 9 */
@@ -930,11 +928,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _sky = __webpack_require__(94);
+var _sky = __webpack_require__(95);
 
 var _sky2 = _interopRequireDefault(_sky);
 
-var _grass = __webpack_require__(93);
+var _grass = __webpack_require__(94);
 
 var _grass2 = _interopRequireDefault(_grass);
 
@@ -946,7 +944,7 @@ var _Character = __webpack_require__(11);
 
 var _Character2 = _interopRequireDefault(_Character);
 
-__webpack_require__(174);
+__webpack_require__(175);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1147,11 +1145,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TimelineItem = exports.Timeline = undefined;
 
-var _Timeline = __webpack_require__(122);
+var _Timeline = __webpack_require__(123);
 
 var _Timeline2 = _interopRequireDefault(_Timeline);
 
-var _TimelineItem = __webpack_require__(123);
+var _TimelineItem = __webpack_require__(124);
 
 var _TimelineItem2 = _interopRequireDefault(_TimelineItem);
 
@@ -1171,7 +1169,7 @@ exports.default = _Timeline2.default;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.Character = undefined;
+exports.Character = exports.RandomCharacter = undefined;
 
 var _react = __webpack_require__(0);
 
@@ -1195,29 +1193,108 @@ var _MotivatorDynamicImage2 = _interopRequireDefault(_MotivatorDynamicImage);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Character = exports.Character = function Character(_ref) {
-    var _ref$bodyStyle = _ref.bodyStyle,
-        bodyStyle = _ref$bodyStyle === undefined ? "f1" : _ref$bodyStyle,
-        _ref$headStyle = _ref.headStyle,
-        headStyle = _ref$headStyle === undefined ? "f1" : _ref$headStyle,
-        _ref$hairColor = _ref.hairColor,
-        hairColor = _ref$hairColor === undefined ? [106, 78, 66] : _ref$hairColor,
-        _ref$skinColor = _ref.skinColor,
-        skinColor = _ref$skinColor === undefined ? [255, 220, 178] : _ref$skinColor,
-        _ref$clothingTopColor = _ref.clothingTopColor,
-        clothingTopColor = _ref$clothingTopColor === undefined ? [155, 42, 57] : _ref$clothingTopColor,
-        _ref$clothingBottomCo = _ref.clothingBottomColor,
-        clothingBottomColor = _ref$clothingBottomCo === undefined ? [141, 165, 135] : _ref$clothingBottomCo,
-        _ref$shoeColor = _ref.shoeColor,
-        shoeColor = _ref$shoeColor === undefined ? [96, 65, 53] : _ref$shoeColor,
-        _ref$careerMotivatorS = _ref.careerMotivatorScore,
-        careerMotivatorScore = _ref$careerMotivatorS === undefined ? null : _ref$careerMotivatorS,
-        highlightMotivator = _ref.highlightMotivator,
-        clearHighlightedMotivator = _ref.clearHighlightedMotivator,
-        _ref$professionalComm = _ref.professionalCommunityMotivatorScore,
-        professionalCommunityMotivatorScore = _ref$professionalComm === undefined ? null : _ref$professionalComm,
-        _ref$highlightedMotiv = _ref.highlightedMotivator,
-        highlightedMotivator = _ref$highlightedMotiv === undefined ? null : _ref$highlightedMotiv;
+var RandomCharacter = exports.RandomCharacter = function RandomCharacter(_ref) {
+    var seed = _ref.seed;
+
+
+    var randomiseCharacterProps = function randomiseCharacterProps() {
+        var bodies = ['f1', 'f2', 'f3', 'm1', 'm2'];
+        var heads = ['f1', 'f2', 'f3', 'f4', 'f5', 'm1', 'm2', 'm3', 'm4', 'm5'];
+        var hairColours = [[9, 8, 6], // black
+        [113, 99, 90], // dark gray
+        [220, 208, 186], // bleach blonde
+        [230, 206, 168], // light blonde
+        [184, 151, 120], // honey blonde
+        [181, 82, 57], // light red,
+        [145, 85, 61], // light auburn
+        [83, 61, 50], // dark auburn
+        [106, 78, 66], // brown
+        [167, 133, 106]];
+        var skinColours = [[255, 223, 196], // light
+        [255, 220, 178], [225, 184, 153], [163, 134, 106], [165, 114, 87], [100, 60, 20]];
+        var clothingTopColours = [[63, 97, 93], // dark green
+        [141, 165, 135], // mid green
+        // [193,213, 159], // light green
+        [55, 98, 126], // dark blue
+        [87, 151, 176], // mid blue
+        // [151,192,231], // light blue
+        // [155,79,73], // puse
+        [203, 147, 110], // feldspar
+        [155, 42, 57], // red
+        [205, 98, 56], // orange
+        [232, 184, 108], // sand
+        [96, 65, 53], // brown
+        // [182,118,71], // toffee
+        // [222,201,144], // tan
+        [33, 33, 33], // black
+        [245, 242, 239]];
+        var clothingBottomColours = [[63, 97, 93], // dark green
+        [141, 165, 135], // mid green
+        // [193,213, 159], // light green
+        [55, 98, 126], // dark blue
+        [87, 151, 176], // mid blue
+        // [151,192,231], // light blue
+        // [155,79,73], // puse
+        [203, 147, 110], // feldspar
+        [155, 42, 57], // red
+        [205, 98, 56], // orange
+        [232, 184, 108], // sand
+        [96, 65, 53], // brown
+        // [182,118,71], // toffee
+        // [222,201,144], // tan
+        [33, 33, 33], // black
+        [245, 242, 239]];
+        var shoeColours = [[96, 65, 53], // brown
+        [33, 33, 33]];
+
+        var randomise = function randomise(array) {
+            return array[Math.floor(Math.random() * array.length)];
+        };
+
+        var head = randomise(heads);
+        var body = randomise(bodies.filter(function (body) {
+            return body.substr(0, 1) === head.substr(0, 1);
+        })); // ensure head gender matches body gender
+        var characterProps = {
+            bodyStyle: body,
+            headStyle: head,
+            hairColor: randomise(hairColours),
+            skinColor: randomise(skinColours),
+            clothingTopColor: randomise(clothingTopColours),
+            clothingBottomColor: randomise(clothingBottomColours),
+            shoeColor: randomise(shoeColours)
+        };
+
+        return characterProps;
+    };
+
+    return _react2.default.createElement(Character, randomiseCharacterProps());
+};
+
+var Character = exports.Character = function Character(_ref2) {
+    var _ref2$bodyStyle = _ref2.bodyStyle,
+        bodyStyle = _ref2$bodyStyle === undefined ? "f1" : _ref2$bodyStyle,
+        _ref2$headStyle = _ref2.headStyle,
+        headStyle = _ref2$headStyle === undefined ? "f1" : _ref2$headStyle,
+        _ref2$hairColor = _ref2.hairColor,
+        hairColor = _ref2$hairColor === undefined ? [106, 78, 66] : _ref2$hairColor,
+        _ref2$skinColor = _ref2.skinColor,
+        skinColor = _ref2$skinColor === undefined ? [255, 220, 178] : _ref2$skinColor,
+        _ref2$clothingTopColo = _ref2.clothingTopColor,
+        clothingTopColor = _ref2$clothingTopColo === undefined ? [155, 42, 57] : _ref2$clothingTopColo,
+        _ref2$clothingBottomC = _ref2.clothingBottomColor,
+        clothingBottomColor = _ref2$clothingBottomC === undefined ? [141, 165, 135] : _ref2$clothingBottomC,
+        _ref2$shoeColor = _ref2.shoeColor,
+        shoeColor = _ref2$shoeColor === undefined ? [96, 65, 53] : _ref2$shoeColor,
+        _ref2$careerMotivator = _ref2.careerMotivatorScore,
+        careerMotivatorScore = _ref2$careerMotivator === undefined ? null : _ref2$careerMotivator,
+        highlightMotivator = _ref2.highlightMotivator,
+        clearHighlightedMotivator = _ref2.clearHighlightedMotivator,
+        _ref2$professionalCom = _ref2.professionalCommunityMotivatorScore,
+        professionalCommunityMotivatorScore = _ref2$professionalCom === undefined ? null : _ref2$professionalCom,
+        _ref2$highlightedMoti = _ref2.highlightedMotivator,
+        highlightedMotivator = _ref2$highlightedMoti === undefined ? null : _ref2$highlightedMoti;
+
     return _react2.default.createElement(
         'svg',
         { id: 'character', height: '180', width: '180' },
@@ -1287,39 +1364,39 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _AttainmentMotivatorIcon = __webpack_require__(104);
+var _AttainmentMotivatorIcon = __webpack_require__(105);
 
 var _AttainmentMotivatorIcon2 = _interopRequireDefault(_AttainmentMotivatorIcon);
 
-var _CareerMotivatorIcon = __webpack_require__(105);
+var _CareerMotivatorIcon = __webpack_require__(106);
 
 var _CareerMotivatorIcon2 = _interopRequireDefault(_CareerMotivatorIcon);
 
-var _FamilyMotivatorIcon = __webpack_require__(106);
+var _FamilyMotivatorIcon = __webpack_require__(107);
 
 var _FamilyMotivatorIcon2 = _interopRequireDefault(_FamilyMotivatorIcon);
 
-var _FearOfFailureMotivatorIcon = __webpack_require__(107);
+var _FearOfFailureMotivatorIcon = __webpack_require__(108);
 
 var _FearOfFailureMotivatorIcon2 = _interopRequireDefault(_FearOfFailureMotivatorIcon);
 
-var _MasteryMotivatorIcon = __webpack_require__(108);
+var _MasteryMotivatorIcon = __webpack_require__(109);
 
 var _MasteryMotivatorIcon2 = _interopRequireDefault(_MasteryMotivatorIcon);
 
-var _MoneyMotivatorIcon = __webpack_require__(109);
+var _MoneyMotivatorIcon = __webpack_require__(110);
 
 var _MoneyMotivatorIcon2 = _interopRequireDefault(_MoneyMotivatorIcon);
 
-var _OptionsMotivatorIcon = __webpack_require__(110);
+var _OptionsMotivatorIcon = __webpack_require__(111);
 
 var _OptionsMotivatorIcon2 = _interopRequireDefault(_OptionsMotivatorIcon);
 
-var _ProfessionalCommunityMotivatorIcon = __webpack_require__(111);
+var _ProfessionalCommunityMotivatorIcon = __webpack_require__(112);
 
 var _ProfessionalCommunityMotivatorIcon2 = _interopRequireDefault(_ProfessionalCommunityMotivatorIcon);
 
-var _SelfDevelopmentMotivatorIcon = __webpack_require__(112);
+var _SelfDevelopmentMotivatorIcon = __webpack_require__(113);
 
 var _SelfDevelopmentMotivatorIcon2 = _interopRequireDefault(_SelfDevelopmentMotivatorIcon);
 
@@ -1387,43 +1464,43 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _AttendanceRecommendationIcon = __webpack_require__(113);
+var _AttendanceRecommendationIcon = __webpack_require__(114);
 
 var _AttendanceRecommendationIcon2 = _interopRequireDefault(_AttendanceRecommendationIcon);
 
-var _ClicksRecommendationIcon = __webpack_require__(114);
+var _ClicksRecommendationIcon = __webpack_require__(115);
 
 var _ClicksRecommendationIcon2 = _interopRequireDefault(_ClicksRecommendationIcon);
 
-var _CollaborationRecommendationIcon = __webpack_require__(115);
+var _CollaborationRecommendationIcon = __webpack_require__(116);
 
 var _CollaborationRecommendationIcon2 = _interopRequireDefault(_CollaborationRecommendationIcon);
 
-var _CourseworkClicksRecommendationIcon = __webpack_require__(116);
+var _CourseworkClicksRecommendationIcon = __webpack_require__(117);
 
 var _CourseworkClicksRecommendationIcon2 = _interopRequireDefault(_CourseworkClicksRecommendationIcon);
 
-var _DurationRecommendationIcon = __webpack_require__(117);
+var _DurationRecommendationIcon = __webpack_require__(118);
 
 var _DurationRecommendationIcon2 = _interopRequireDefault(_DurationRecommendationIcon);
 
-var _LectureClicksRecommendationIcon = __webpack_require__(118);
+var _LectureClicksRecommendationIcon = __webpack_require__(119);
 
 var _LectureClicksRecommendationIcon2 = _interopRequireDefault(_LectureClicksRecommendationIcon);
 
-var _PracticalClicksRecommendationIcon = __webpack_require__(119);
+var _PracticalClicksRecommendationIcon = __webpack_require__(120);
 
 var _PracticalClicksRecommendationIcon2 = _interopRequireDefault(_PracticalClicksRecommendationIcon);
 
-var _SuggestedReadingRecommendationIcon = __webpack_require__(120);
+var _SuggestedReadingRecommendationIcon = __webpack_require__(121);
 
 var _SuggestedReadingRecommendationIcon2 = _interopRequireDefault(_SuggestedReadingRecommendationIcon);
 
-var _WeeklyFrequencyRecommendationIcon = __webpack_require__(121);
+var _WeeklyFrequencyRecommendationIcon = __webpack_require__(122);
 
 var _WeeklyFrequencyRecommendationIcon2 = _interopRequireDefault(_WeeklyFrequencyRecommendationIcon);
 
-__webpack_require__(173);
+__webpack_require__(174);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2501,6 +2578,12 @@ module.exports = {
 
 /***/ }),
 /* 16 */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_16__;
+
+/***/ }),
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2514,6 +2597,10 @@ exports.ComponentSuite = undefined;
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
+
+var _lodash = __webpack_require__(16);
+
+var _lodash2 = _interopRequireDefault(_lodash);
 
 var _Timeline = __webpack_require__(10);
 
@@ -2531,8 +2618,6 @@ var _MotivatorDynamicImage2 = _interopRequireDefault(_MotivatorDynamicImage);
 
 var _Character = __webpack_require__(8);
 
-var _Character2 = _interopRequireDefault(_Character);
-
 var _PersonalThemeScene = __webpack_require__(9);
 
 var _PersonalThemeScene2 = _interopRequireDefault(_PersonalThemeScene);
@@ -2545,22 +2630,18 @@ var ComponentSuite = exports.ComponentSuite = function ComponentSuite() {
     return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'attendance' }),
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'clicks' }),
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'collaboration' }),
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'coursework-clicks' }),
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'duration' }),
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'lecture-clicks' }),
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'practical-clicks' }),
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'suggested-reading' }),
-        _react2.default.createElement(_RecommendationIcon2.default, { recommendation: 'weekly-frequency' })
+        _react2.default.createElement(
+            'svg',
+            { height: '800px', width: '480px', viewBox: '51 58 90 80', preserveAspectRatio: 'xMidYMax slice' },
+            _react2.default.createElement(_Character.RandomCharacter, null)
+        )
     );
 };
 
 exports.default = ComponentSuite;
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2584,7 +2665,7 @@ var Graph = exports.Graph = function Graph() {
 exports.default = Graph;
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2609,7 +2690,7 @@ exports.MotivatorDynamicImage = _MotivatorDynamicImage2.default;
 exports.MotivatorIcon = _MotivatorIcon2.default;
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2629,7 +2710,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.RecommendationIcon = _RecommendationIcon2.default;
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2653,7 +2734,7 @@ var Tree = exports.Tree = function Tree() {
 exports.default = Tree;
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2710,7 +2791,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2766,7 +2847,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2823,7 +2904,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2887,7 +2968,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2951,7 +3032,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3016,7 +3097,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3080,7 +3161,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3122,62 +3203,6 @@ var SVG = function (_React$Component) {
         "svg",
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
         _react2.default.createElement("path", { className: "hair", d: "M87.7 62.3c-4.5 0-8.1 3.6-8.1 8.1v19.7c0 .3.3.6.6.6s.6-.3.6-.6V90l14-1.6c0 .3.3.5.6.5s.6-.3.6-.6v-18c-.2-4.3-3.8-8-8.3-8z" })
-      );
-    }
-  }]);
-
-  return SVG;
-}(_react2.default.Component);
-
-exports.default = SVG;
-
-/***/ }),
-/* 29 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SVG = function (_React$Component) {
-  _inherits(SVG, _React$Component);
-
-  function SVG() {
-    _classCallCheck(this, SVG);
-
-    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
-  }
-
-  _createClass(SVG, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "svg",
-        _extends({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 180 180" }, this.props),
-        _react2.default.createElement(
-          "svg",
-          _extends({ x: "-1.2", y: "-.7" }, this.props),
-          _react2.default.createElement("path", { className: "skin", d: "M95.6 98.1c2.2-4 1.7-7.2.7-9.2-1.5-3.1-4.5-5.1-6.6-5.3-.6-.1-1.2.4-1.3 1-.1.6.4 1.2 1 1.3 1.2.1 3.6 1.5 4.8 4 1.1 2.4.7 5.2-1.1 8-.1.2-.2.4-.2.6-.1.2-.1.4-.1.7v.2l-.5 1.5c-.1.3.1.6.3.7h.2v.8c0 .3.3.5.5.5.3 0 .5-.3.5-.5v.5c0 .3.3.5.5.5.3 0 .5-.3.5-.5v-.5c0 .3.3.5.5.5s.5-.3.5-.5l-.2-3.1c.3-.7.2-1 0-1.2z" })
-        )
       );
     }
   }]);
@@ -3231,19 +3256,8 @@ var SVG = function (_React$Component) {
         _extends({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 180 180" }, this.props),
         _react2.default.createElement(
           "svg",
-          _extends({ x: ".5" }, this.props),
-          _react2.default.createElement("path", { className: "skin", d: "M100.5 97.7c-4.7-.4-7-4.9-8.6-8.2-.8-1.6-1.8-3.6-2.5-3.7-.6-.1-1.1-.6-1-1.3.1-.6.6-1.1 1.3-1 1.9.2 3 2.4 4.3 5 1.6 3.1 3.3 6.7 6.7 7 .6 0 1.1.6 1 1.2-.1.5-.6 1-1.2 1z" }),
-          _react2.default.createElement("path", { className: "skin", d: "M104.7 94.9l-3.1.5-.1-.5c-1 .2-1.6 1.1-1.5 2 .2 1 1.1 1.6 2 1.5l.8-.1c.3 0 .5-.3.5-.6 0-.1 0-.2-.1-.2 0 0-.1-.2 0 0 .3 0 .5-.3.5-.6s-.3-.5-.6-.5l1.8-.3c.3 0 .5-.3.5-.6-.1-.4-.4-.6-.7-.6z" }),
-          _react2.default.createElement("path", { className: "st1", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
-          _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
-          _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
-          _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
-          _react2.default.createElement("path", { className: "st5", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
-          _react2.default.createElement(
-            "svg",
-            _extends({ x: "-.1" }, this.props),
-            _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
-          )
+          _extends({ x: "-1.2", y: "-.7" }, this.props),
+          _react2.default.createElement("path", { className: "skin", d: "M95.6 98.1c2.2-4 1.7-7.2.7-9.2-1.5-3.1-4.5-5.1-6.6-5.3-.6-.1-1.2.4-1.3 1-.1.6.4 1.2 1 1.3 1.2.1 3.6 1.5 4.8 4 1.1 2.4.7 5.2-1.1 8-.1.2-.2.4-.2.6-.1.2-.1.4-.1.7v.2l-.5 1.5c-.1.3.1.6.3.7h.2v.8c0 .3.3.5.5.5.3 0 .5-.3.5-.5v.5c0 .3.3.5.5.5.3 0 .5-.3.5-.5v-.5c0 .3.3.5.5.5s.5-.3.5-.5l-.2-3.1c.3-.7.2-1 0-1.2z" })
         )
       );
     }
@@ -3305,8 +3319,7 @@ var SVG = function (_React$Component) {
           _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
           _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
           _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
-          _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
-          _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
+          _react2.default.createElement("path", { className: "st5", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
           _react2.default.createElement(
             "svg",
             _extends({ x: "-.1" }, this.props),
@@ -3375,7 +3388,6 @@ var SVG = function (_React$Component) {
           _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
           _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
           _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
-          _react2.default.createElement("path", { className: "st7", d: "M110.4 96.3c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1s-.7-2.6-2.1-2.8z" }),
           _react2.default.createElement(
             "svg",
             _extends({ x: "-.1" }, this.props),
@@ -3393,6 +3405,75 @@ exports.default = SVG;
 
 /***/ }),
 /* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement(
+          "svg",
+          _extends({ x: ".5" }, this.props),
+          _react2.default.createElement("path", { className: "skin", d: "M100.5 97.7c-4.7-.4-7-4.9-8.6-8.2-.8-1.6-1.8-3.6-2.5-3.7-.6-.1-1.1-.6-1-1.3.1-.6.6-1.1 1.3-1 1.9.2 3 2.4 4.3 5 1.6 3.1 3.3 6.7 6.7 7 .6 0 1.1.6 1 1.2-.1.5-.6 1-1.2 1z" }),
+          _react2.default.createElement("path", { className: "skin", d: "M104.7 94.9l-3.1.5-.1-.5c-1 .2-1.6 1.1-1.5 2 .2 1 1.1 1.6 2 1.5l.8-.1c.3 0 .5-.3.5-.6 0-.1 0-.2-.1-.2 0 0-.1-.2 0 0 .3 0 .5-.3.5-.6s-.3-.5-.6-.5l1.8-.3c.3 0 .5-.3.5-.6-.1-.4-.4-.6-.7-.6z" }),
+          _react2.default.createElement("path", { className: "st1", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+          _react2.default.createElement("path", { className: "st2", d: "M110.1 107.8l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c0 .3-.2.4-.5.4z" }),
+          _react2.default.createElement("ellipse", { transform: "rotate(-82.172 106.142 105.558)", className: "st3", cx: "106.1", cy: "105.6", rx: ".9", ry: ".9" }),
+          _react2.default.createElement("path", { className: "st4", d: "M104.019 90.695l8.223 1.13-1.744 12.682-8.223-1.13z" }),
+          _react2.default.createElement("path", { className: "st5", d: "M107.7 96.1c.2-1.4-.8-2.7-2.2-2.9-1.4-.2-2.7.8-2.9 2.2-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.4.8-.9.8-1.5z" }),
+          _react2.default.createElement("path", { className: "st6", d: "M110.9 90.9c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.3-1.9-2.4z" }),
+          _react2.default.createElement("path", { className: "st7", d: "M110.4 96.3c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1s-.7-2.6-2.1-2.8z" }),
+          _react2.default.createElement(
+            "svg",
+            _extends({ x: "-.1" }, this.props),
+            _react2.default.createElement("path", { className: "skin", d: "M104.1 95.6c.3 0 .5-.3.5-.6s-.3-.5-.6-.5l-2.4.4.2 1.1 2.3-.4z" })
+          )
+        )
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3462,7 +3543,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3520,7 +3601,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3577,7 +3658,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3637,7 +3718,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3699,7 +3780,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3761,7 +3842,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3820,7 +3901,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3880,7 +3961,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3923,65 +4004,6 @@ var SVG = function (_React$Component) {
         _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
         _react2.default.createElement("path", { className: "clothing-top", d: "M95.9 102.4c-2.7-3.9-3.9-7.9-4.8-11.2-.5-1.7-1.1-3.9-1.6-4.3-1.1-.4-1.6-1.7-1.2-2.8.4-1.1 1.7-1.7 2.8-1.2 2.5.9 3.2 3.7 4.2 7.1.8 3 1.9 6.6 4.2 9.9.7 1 .5 2.3-.5 3-.4.3-.8.4-1.2.4-.9 0-1.5-.3-1.9-.9zm-6.4-15.5z" }),
         _react2.default.createElement("path", { className: "skin", d: "M101.2 102.5c.1-.3 0-.6-.3-.8l-1.7-.8c-.5-.6-1.4-.8-2.1-.4-.9.4-1.2 1.5-.8 2.4l1.6 3.2c.1.3.5.4.8.3s.4-.5.3-.8l.3.5c.1.3.5.4.8.3s.4-.5.3-.8l-.4-.6c.1.3.5.4.8.3s.4-.5.3-.8l-.9-1.9.3.1c.2.2.5.1.7-.2z" })
-      );
-    }
-  }]);
-
-  return SVG;
-}(_react2.default.Component);
-
-exports.default = SVG;
-
-/***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var SVG = function (_React$Component) {
-  _inherits(SVG, _React$Component);
-
-  function SVG() {
-    _classCallCheck(this, SVG);
-
-    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
-  }
-
-  _createClass(SVG, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "svg",
-        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
-        _react2.default.createElement("path", { className: "clothing-top", d: "M98.8 92.6c-5 0-7.3-2.9-8.6-4.7-.2-.3-.6-.7-.7-.9-1.1-.5-1.5-1.8-1.1-2.9.5-1.1 1.8-1.7 2.9-1.2 1 .4 1.7 1.3 2.4 2.2 1.6 2 3.2 4 8.8 2.3 1.2-.4 2.4.3 2.8 1.5s-.3 2.4-1.5 2.8c-2 .6-3.6.9-5 .9zm-9.3-5.5z" }),
-        _react2.default.createElement("path", { className: "skin", d: "M109.3 86.5l-4 .6-.1-.6c-1.2.2-2.1 1.4-1.9 2.6s1.4 2.1 2.6 1.9l1-.2c.4-.1.6-.4.6-.8 0-.1-.1-.2-.1-.3 0 0-.2-.2 0 0 .4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l2.3-.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6z" }),
-        _react2.default.createElement("path", { d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
-        _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
-        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
-        _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
-        _react2.default.createElement("path", { className: "st5", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
-        _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
       );
     }
   }]);
@@ -4039,8 +4061,7 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
         _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
         _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
-        _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
-        _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
         _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
       );
     }
@@ -4101,7 +4122,6 @@ var SVG = function (_React$Component) {
         _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
         _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
         _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
-        _react2.default.createElement("path", { className: "st7", d: "M114.1 88.6c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1.2-1.4-.7-2.6-2.1-2.8z" }),
         _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
       );
     }
@@ -4114,6 +4134,67 @@ exports.default = SVG;
 
 /***/ }),
 /* 45 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SVG = function (_React$Component) {
+  _inherits(SVG, _React$Component);
+
+  function SVG() {
+    _classCallCheck(this, SVG);
+
+    return _possibleConstructorReturn(this, (SVG.__proto__ || Object.getPrototypeOf(SVG)).apply(this, arguments));
+  }
+
+  _createClass(SVG, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "svg",
+        _extends({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 180 180" }, this.props),
+        _react2.default.createElement("path", { className: "clothing-top", d: "M98.8 92.6c-5 0-7.3-2.9-8.6-4.7-.2-.3-.6-.7-.7-.9-1.1-.5-1.5-1.8-1.1-2.9.5-1.1 1.8-1.7 2.9-1.2 1 .4 1.7 1.3 2.4 2.2 1.6 2 3.2 4 8.8 2.3 1.2-.4 2.4.3 2.8 1.5s-.3 2.4-1.5 2.8c-2 .6-3.6.9-5 .9zm-9.3-5.5z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M109.3 86.5l-4 .6-.1-.6c-1.2.2-2.1 1.4-1.9 2.6s1.4 2.1 2.6 1.9l1-.2c.4-.1.6-.4.6-.8 0-.1-.1-.2-.1-.3 0 0-.2-.2 0 0 .4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l2.3-.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6z" }),
+        _react2.default.createElement("path", { d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("path", { className: "st2", d: "M113.8 100.1l-8.4-1.2c-.2 0-.4-.3-.4-.5l2.1-15.6c0-.2.3-.4.5-.4l8.4 1.2c.2 0 .4.3.4.5l-2.1 15.6c-.1.3-.3.4-.5.4z" }),
+        _react2.default.createElement("ellipse", { transform: "rotate(-82.172 109.845 97.876)", className: "st3", cx: "109.8", cy: "97.9", rx: ".9", ry: ".9" }),
+        _react2.default.createElement("path", { className: "st4", d: "M106.027 95.644l1.744-12.68 8.223 1.13-1.744 12.68z" }),
+        _react2.default.createElement("path", { className: "st5", d: "M111.4 88.5c.2-1.4-.8-2.7-2.2-2.9s-2.7.8-2.9 2.2c-.2 1.4.8 2.7 2.2 2.9.6.1 1.1 0 1.5-.3l.6.3c.1 0 .2 0 .1-.1l-.1-.6c.5-.5.7-1 .8-1.5z" }),
+        _react2.default.createElement("path", { className: "st6", d: "M114.6 83.2c-1.2-.2-2.3.7-2.5 1.9-.1.5 0 .9.2 1.3l-.2.6c0 .1 0 .2.1.1l.6-.1c.3.3.7.5 1.2.5 1.2.2 2.3-.7 2.5-1.9.1-1.1-.7-2.2-1.9-2.4z" }),
+        _react2.default.createElement("path", { className: "st7", d: "M114.1 88.6c-1.4-.2-2.6.8-2.8 2.1-.1.5 0 1 .3 1.5l-.3.7c0 .1 0 .2.1.1l.7-.1c.4.3.8.6 1.3.6 1.4.2 2.6-.8 2.8-2.1.2-1.4-.7-2.6-2.1-2.8z" }),
+        _react2.default.createElement("path", { className: "skin", d: "M108.5 87.4c.4-.1.6-.4.6-.8-.1-.4-.4-.6-.8-.6l-3.1.5.2 1.4 3.1-.5z" })
+      );
+    }
+  }]);
+
+  return SVG;
+}(_react2.default.Component);
+
+exports.default = SVG;
+
+/***/ }),
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4175,7 +4256,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4313,7 +4394,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4381,7 +4462,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4469,7 +4550,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4569,7 +4650,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4660,7 +4741,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4755,7 +4836,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4890,7 +4971,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5030,7 +5111,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5084,7 +5165,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5177,7 +5258,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5289,7 +5370,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5455,7 +5536,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5608,7 +5689,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5763,7 +5844,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5981,7 +6062,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7057,7 +7138,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7111,7 +7192,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7168,7 +7249,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7306,7 +7387,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7611,7 +7692,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7668,7 +7749,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7735,7 +7816,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7789,7 +7870,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7882,7 +7963,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7950,7 +8031,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8019,7 +8100,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8088,7 +8169,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8157,7 +8238,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8226,7 +8307,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8283,7 +8364,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8419,7 +8500,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8522,7 +8603,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8589,7 +8670,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8679,7 +8760,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8762,7 +8843,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8829,7 +8910,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8923,7 +9004,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9009,7 +9090,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9305,7 +9386,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9412,7 +9493,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9573,7 +9654,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9709,7 +9790,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9813,7 +9894,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9922,7 +10003,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10038,7 +10119,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10153,7 +10234,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10258,7 +10339,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10311,7 +10392,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10363,7 +10444,7 @@ var SVG = function (_React$Component) {
 exports.default = SVG;
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10378,11 +10459,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _sun = __webpack_require__(67);
+var _sun = __webpack_require__(68);
 
 var _sun2 = _interopRequireDefault(_sun);
 
-__webpack_require__(156);
+__webpack_require__(157);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10405,7 +10486,7 @@ var AttainmentMotivatorDynamicImage = exports.AttainmentMotivatorDynamicImage = 
 exports.default = AttainmentMotivatorDynamicImage;
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10420,15 +10501,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _femaledogtag = __webpack_require__(54);
+var _femaledogtag = __webpack_require__(55);
 
 var _femaledogtag2 = _interopRequireDefault(_femaledogtag);
 
-var _maledogtag = __webpack_require__(62);
+var _maledogtag = __webpack_require__(63);
 
 var _maledogtag2 = _interopRequireDefault(_maledogtag);
 
-__webpack_require__(157);
+__webpack_require__(158);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10456,7 +10537,7 @@ var CareerMotivatorDynamicImage = exports.CareerMotivatorDynamicImage = function
 exports.default = CareerMotivatorDynamicImage;
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10471,27 +10552,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _house = __webpack_require__(55);
+var _house = __webpack_require__(56);
 
 var _house2 = _interopRequireDefault(_house);
 
-var _house3 = __webpack_require__(56);
+var _house3 = __webpack_require__(57);
 
 var _house4 = _interopRequireDefault(_house3);
 
-var _house5 = __webpack_require__(57);
+var _house5 = __webpack_require__(58);
 
 var _house6 = _interopRequireDefault(_house5);
 
-var _house7 = __webpack_require__(58);
+var _house7 = __webpack_require__(59);
 
 var _house8 = _interopRequireDefault(_house7);
 
-var _house9 = __webpack_require__(59);
+var _house9 = __webpack_require__(60);
 
 var _house10 = _interopRequireDefault(_house9);
 
-__webpack_require__(158);
+__webpack_require__(159);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10509,7 +10590,7 @@ var FamilyMotivatorDynamicImage = exports.FamilyMotivatorDynamicImage = function
 exports.default = FamilyMotivatorDynamicImage;
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10524,27 +10605,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _trapdoor = __webpack_require__(70);
+var _trapdoor = __webpack_require__(71);
 
 var _trapdoor2 = _interopRequireDefault(_trapdoor);
 
-var _trapdoor3 = __webpack_require__(71);
+var _trapdoor3 = __webpack_require__(72);
 
 var _trapdoor4 = _interopRequireDefault(_trapdoor3);
 
-var _trapdoor5 = __webpack_require__(72);
+var _trapdoor5 = __webpack_require__(73);
 
 var _trapdoor6 = _interopRequireDefault(_trapdoor5);
 
-var _trapdoor7 = __webpack_require__(73);
+var _trapdoor7 = __webpack_require__(74);
 
 var _trapdoor8 = _interopRequireDefault(_trapdoor7);
 
-var _trapdoor9 = __webpack_require__(74);
+var _trapdoor9 = __webpack_require__(75);
 
 var _trapdoor10 = _interopRequireDefault(_trapdoor9);
 
-__webpack_require__(159);
+__webpack_require__(160);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10562,7 +10643,7 @@ var FearOfFailureMotivatorDynamicImage = exports.FearOfFailureMotivatorDynamicIm
 exports.default = FearOfFailureMotivatorDynamicImage;
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10577,11 +10658,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _books = __webpack_require__(48);
+var _books = __webpack_require__(49);
 
 var _books2 = _interopRequireDefault(_books);
 
-__webpack_require__(160);
+__webpack_require__(161);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10603,7 +10684,7 @@ var MasteryMotivatorDynamicImage = exports.MasteryMotivatorDynamicImage = functi
 exports.default = MasteryMotivatorDynamicImage;
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10618,27 +10699,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _car = __webpack_require__(49);
+var _car = __webpack_require__(50);
 
 var _car2 = _interopRequireDefault(_car);
 
-var _car3 = __webpack_require__(50);
+var _car3 = __webpack_require__(51);
 
 var _car4 = _interopRequireDefault(_car3);
 
-var _car5 = __webpack_require__(51);
+var _car5 = __webpack_require__(52);
 
 var _car6 = _interopRequireDefault(_car5);
 
-var _car7 = __webpack_require__(52);
+var _car7 = __webpack_require__(53);
 
 var _car8 = _interopRequireDefault(_car7);
 
-var _car9 = __webpack_require__(53);
+var _car9 = __webpack_require__(54);
 
 var _car10 = _interopRequireDefault(_car9);
 
-__webpack_require__(161);
+__webpack_require__(162);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10656,7 +10737,7 @@ var MoneyMotivatorDynamicImage = exports.MoneyMotivatorDynamicImage = function M
 exports.default = MoneyMotivatorDynamicImage;
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10671,27 +10752,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _retailpark = __webpack_require__(64);
+var _retailpark = __webpack_require__(65);
 
 var _retailpark2 = _interopRequireDefault(_retailpark);
 
-var _industrial = __webpack_require__(60);
+var _industrial = __webpack_require__(61);
 
 var _industrial2 = _interopRequireDefault(_industrial);
 
-var _london = __webpack_require__(61);
+var _london = __webpack_require__(62);
 
 var _london2 = _interopRequireDefault(_london);
 
-var _sanfran = __webpack_require__(65);
+var _sanfran = __webpack_require__(66);
 
 var _sanfran2 = _interopRequireDefault(_sanfran);
 
-var _airport = __webpack_require__(46);
+var _airport = __webpack_require__(47);
 
 var _airport2 = _interopRequireDefault(_airport);
 
-__webpack_require__(162);
+__webpack_require__(163);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10709,7 +10790,7 @@ var OptionsMotivatorDynamicImage = exports.OptionsMotivatorDynamicImage = functi
 exports.default = OptionsMotivatorDynamicImage;
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10738,7 +10819,7 @@ var ProfessionalCommunityMotivatorDynamicImage = exports.ProfessionalCommunityMo
 exports.default = ProfessionalCommunityMotivatorDynamicImage;
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10753,27 +10834,27 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _pan = __webpack_require__(63);
+var _pan = __webpack_require__(64);
 
 var _pan2 = _interopRequireDefault(_pan);
 
-var _spade = __webpack_require__(66);
+var _spade = __webpack_require__(67);
 
 var _spade2 = _interopRequireDefault(_spade);
 
-var _tennis = __webpack_require__(69);
+var _tennis = __webpack_require__(70);
 
 var _tennis2 = _interopRequireDefault(_tennis);
 
-var _bike = __webpack_require__(47);
+var _bike = __webpack_require__(48);
 
 var _bike2 = _interopRequireDefault(_bike);
 
-var _surf = __webpack_require__(68);
+var _surf = __webpack_require__(69);
 
 var _surf2 = _interopRequireDefault(_surf);
 
-__webpack_require__(163);
+__webpack_require__(164);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -10793,7 +10874,7 @@ var SelfDevelopmentMotivatorDynamicImage = exports.SelfDevelopmentMotivatorDynam
 exports.default = SelfDevelopmentMotivatorDynamicImage;
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10808,9 +10889,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(164);
+__webpack_require__(165);
 
-var _attainment = __webpack_require__(75);
+var _attainment = __webpack_require__(76);
 
 var _attainment2 = _interopRequireDefault(_attainment);
 
@@ -10828,7 +10909,7 @@ var AttainmentMotivatorIcon = exports.AttainmentMotivatorIcon = function Attainm
 exports.default = AttainmentMotivatorIcon;
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10843,9 +10924,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(165);
+__webpack_require__(166);
 
-var _career = __webpack_require__(76);
+var _career = __webpack_require__(77);
 
 var _career2 = _interopRequireDefault(_career);
 
@@ -10863,7 +10944,7 @@ var CareerMotivatorIcon = exports.CareerMotivatorIcon = function CareerMotivator
 exports.default = CareerMotivatorIcon;
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10878,9 +10959,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(166);
+__webpack_require__(167);
 
-var _family = __webpack_require__(77);
+var _family = __webpack_require__(78);
 
 var _family2 = _interopRequireDefault(_family);
 
@@ -10898,7 +10979,7 @@ var FamilyMotivatorIcon = exports.FamilyMotivatorIcon = function FamilyMotivator
 exports.default = FamilyMotivatorIcon;
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10913,9 +10994,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(167);
+__webpack_require__(168);
 
-var _fearOfFailure = __webpack_require__(78);
+var _fearOfFailure = __webpack_require__(79);
 
 var _fearOfFailure2 = _interopRequireDefault(_fearOfFailure);
 
@@ -10933,7 +11014,7 @@ var FearOfFailureMotivatorIcon = exports.FearOfFailureMotivatorIcon = function F
 exports.default = FearOfFailureMotivatorIcon;
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10948,9 +11029,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(168);
+__webpack_require__(169);
 
-var _mastery = __webpack_require__(79);
+var _mastery = __webpack_require__(80);
 
 var _mastery2 = _interopRequireDefault(_mastery);
 
@@ -10968,7 +11049,7 @@ var MasteryMotivatorIcon = exports.MasteryMotivatorIcon = function MasteryMotiva
 exports.default = MasteryMotivatorIcon;
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10983,9 +11064,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(169);
+__webpack_require__(170);
 
-var _money = __webpack_require__(80);
+var _money = __webpack_require__(81);
 
 var _money2 = _interopRequireDefault(_money);
 
@@ -11003,7 +11084,7 @@ var MoneyMotivatorIcon = exports.MoneyMotivatorIcon = function MoneyMotivatorIco
 exports.default = MoneyMotivatorIcon;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11018,9 +11099,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(170);
+__webpack_require__(171);
 
-var _options = __webpack_require__(81);
+var _options = __webpack_require__(82);
 
 var _options2 = _interopRequireDefault(_options);
 
@@ -11038,7 +11119,7 @@ var OptionsMotivatorIcon = exports.OptionsMotivatorIcon = function OptionsMotiva
 exports.default = OptionsMotivatorIcon;
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11053,9 +11134,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(171);
+__webpack_require__(172);
 
-var _professionalCommunity = __webpack_require__(82);
+var _professionalCommunity = __webpack_require__(83);
 
 var _professionalCommunity2 = _interopRequireDefault(_professionalCommunity);
 
@@ -11073,7 +11154,7 @@ var ProfessionalCommunityMotivatorIcon = exports.ProfessionalCommunityMotivatorI
 exports.default = ProfessionalCommunityMotivatorIcon;
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11088,9 +11169,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-__webpack_require__(172);
+__webpack_require__(173);
 
-var _selfDevelopment = __webpack_require__(83);
+var _selfDevelopment = __webpack_require__(84);
 
 var _selfDevelopment2 = _interopRequireDefault(_selfDevelopment);
 
@@ -11108,7 +11189,7 @@ var SelfDevelopmentMotivatorIcon = exports.SelfDevelopmentMotivatorIcon = functi
 exports.default = SelfDevelopmentMotivatorIcon;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11123,7 +11204,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _attendance = __webpack_require__(84);
+var _attendance = __webpack_require__(85);
 
 var _attendance2 = _interopRequireDefault(_attendance);
 
@@ -11141,7 +11222,7 @@ var AttendanceRecommendationIcon = exports.AttendanceRecommendationIcon = functi
 exports.default = AttendanceRecommendationIcon;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11156,7 +11237,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _clicks = __webpack_require__(85);
+var _clicks = __webpack_require__(86);
 
 var _clicks2 = _interopRequireDefault(_clicks);
 
@@ -11174,7 +11255,7 @@ var ClicksRecommendationIcon = exports.ClicksRecommendationIcon = function Click
 exports.default = ClicksRecommendationIcon;
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11189,7 +11270,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _collaboration = __webpack_require__(86);
+var _collaboration = __webpack_require__(87);
 
 var _collaboration2 = _interopRequireDefault(_collaboration);
 
@@ -11207,7 +11288,7 @@ var CollaborationRecommendationIcon = exports.CollaborationRecommendationIcon = 
 exports.default = CollaborationRecommendationIcon;
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11222,7 +11303,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _courseworkClicks = __webpack_require__(87);
+var _courseworkClicks = __webpack_require__(88);
 
 var _courseworkClicks2 = _interopRequireDefault(_courseworkClicks);
 
@@ -11240,7 +11321,7 @@ var CourseworkClicksRecommendationIcon = exports.CourseworkClicksRecommendationI
 exports.default = CourseworkClicksRecommendationIcon;
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11255,7 +11336,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _duration = __webpack_require__(88);
+var _duration = __webpack_require__(89);
 
 var _duration2 = _interopRequireDefault(_duration);
 
@@ -11273,7 +11354,7 @@ var DurationRecommendationIcon = exports.DurationRecommendationIcon = function D
 exports.default = DurationRecommendationIcon;
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11288,7 +11369,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _lectureClicks = __webpack_require__(89);
+var _lectureClicks = __webpack_require__(90);
 
 var _lectureClicks2 = _interopRequireDefault(_lectureClicks);
 
@@ -11306,7 +11387,7 @@ var LectureClicksRecommendationIcon = exports.LectureClicksRecommendationIcon = 
 exports.default = LectureClicksRecommendationIcon;
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11321,7 +11402,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _practicalClicks = __webpack_require__(90);
+var _practicalClicks = __webpack_require__(91);
 
 var _practicalClicks2 = _interopRequireDefault(_practicalClicks);
 
@@ -11339,7 +11420,7 @@ var PracticalClicksRecommendationIcon = exports.PracticalClicksRecommendationIco
 exports.default = PracticalClicksRecommendationIcon;
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11354,7 +11435,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _suggestedReading = __webpack_require__(91);
+var _suggestedReading = __webpack_require__(92);
 
 var _suggestedReading2 = _interopRequireDefault(_suggestedReading);
 
@@ -11372,7 +11453,7 @@ var SuggestedReadingRecommendationIcon = exports.SuggestedReadingRecommendationI
 exports.default = SuggestedReadingRecommendationIcon;
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11387,7 +11468,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _weeklyFrequency = __webpack_require__(92);
+var _weeklyFrequency = __webpack_require__(93);
 
 var _weeklyFrequency2 = _interopRequireDefault(_weeklyFrequency);
 
@@ -11405,7 +11486,7 @@ var WeeklyFrequencyRecommendationIcon = exports.WeeklyFrequencyRecommendationIco
 exports.default = WeeklyFrequencyRecommendationIcon;
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11416,7 +11497,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Timeline = undefined;
 
-var _lodash = __webpack_require__(176);
+var _lodash = __webpack_require__(16);
 
 var _lodash2 = _interopRequireDefault(_lodash);
 
@@ -11469,7 +11550,7 @@ var Timeline = exports.Timeline = function Timeline(_ref) {
 exports.default = Timeline;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11494,7 +11575,7 @@ var TimelineItem = exports.TimelineItem = function TimelineItem(_ref) {
 exports.default = TimelineItem;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11521,17 +11602,17 @@ var _Body = __webpack_require__(5);
 
 var _Body2 = _interopRequireDefault(_Body);
 
-var _ComponentSuite = __webpack_require__(16);
+var _ComponentSuite = __webpack_require__(17);
 
 var _ComponentSuite2 = _interopRequireDefault(_ComponentSuite);
 
-var _Graph = __webpack_require__(17);
+var _Graph = __webpack_require__(18);
 
 var _Graph2 = _interopRequireDefault(_Graph);
 
-var _Motivators = __webpack_require__(18);
+var _Motivators = __webpack_require__(19);
 
-var _Recommendations = __webpack_require__(19);
+var _Recommendations = __webpack_require__(20);
 
 var _PersonalThemeScene = __webpack_require__(9);
 
@@ -11539,7 +11620,7 @@ var _PersonalThemeScene2 = _interopRequireDefault(_PersonalThemeScene);
 
 var _Timeline = __webpack_require__(10);
 
-var _Tree = __webpack_require__(20);
+var _Tree = __webpack_require__(21);
 
 var _Tree2 = _interopRequireDefault(_Tree);
 
@@ -11560,11 +11641,11 @@ exports.TimelineItem = _Timeline.TimelineItem;
 exports.Tree = _Tree2.default;
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var conversions = __webpack_require__(14);
-var route = __webpack_require__(126);
+var route = __webpack_require__(127);
 
 var convert = {};
 
@@ -11644,7 +11725,7 @@ module.exports = convert;
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var conversions = __webpack_require__(14);
@@ -11748,12 +11829,12 @@ module.exports = function (fromModel) {
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* MIT license */
 var colorNames = __webpack_require__(15);
-var swizzle = __webpack_require__(152);
+var swizzle = __webpack_require__(153);
 
 var reverseNames = {};
 
@@ -11987,14 +12068,14 @@ function hexDouble(num) {
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var colorString = __webpack_require__(127);
-var convert = __webpack_require__(125);
+var colorString = __webpack_require__(128);
+var convert = __webpack_require__(126);
 
 var _slice = [].slice;
 
@@ -12473,7 +12554,7 @@ module.exports = Color;
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12487,7 +12568,7 @@ exports.push([module.i, "#character-body.female-body-1 .skin {\n  fill: #F5A17E;
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12501,7 +12582,7 @@ exports.push([module.i, "#character-free-arm.female-free-arm-1 .skin {\n  fill: 
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12515,7 +12596,7 @@ exports.push([module.i, "#character-head.female-head-1 .skin-shadow {\n  fill: #
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12529,7 +12610,7 @@ exports.push([module.i, "#attainment-motivator-image .st0 {\n  fill: #FBC670; }\
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12543,7 +12624,7 @@ exports.push([module.i, "#career-motivator-image text {\n  fill: #1D1D1B;\n  fon
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12557,7 +12638,7 @@ exports.push([module.i, "#family-motivator-image.family-motivator-image-1 .st0 {
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12571,7 +12652,7 @@ exports.push([module.i, "#fear-of-failure-motivator-image.fear-of-failure-motiva
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12585,7 +12666,7 @@ exports.push([module.i, "#mastery-motivator-image .st0 {\n  fill: #1F90A8;\n  st
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12599,7 +12680,7 @@ exports.push([module.i, "#money-motivator-image.money-motivator-image-1 .st0 {\n
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12613,7 +12694,7 @@ exports.push([module.i, "#options-motivator-image.options-motivator-image-1 .st0
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12627,7 +12708,7 @@ exports.push([module.i, "#self-development-motivator-image .self-development-mot
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12641,7 +12722,7 @@ exports.push([module.i, ".attainment-motivator-icon .st0 {\n  fill: #3381B8; }\n
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12655,7 +12736,7 @@ exports.push([module.i, ".career-motivator-icon .st0 {\n  fill: #1E8FA7; }\n\n.c
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12669,7 +12750,7 @@ exports.push([module.i, ".family-motivator-icon .st0 {\n  fill: #3381B8; }\n\n.f
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12683,7 +12764,7 @@ exports.push([module.i, ".fear-of-failure-motivator-icon .st0 {\n  fill: #92B153
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12697,7 +12778,7 @@ exports.push([module.i, ".mastery-motivator-icon .st0 {\n  fill: #BCC6DF; }\n\n.
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12711,7 +12792,7 @@ exports.push([module.i, ".money-motivator-icon .st0 {\n  fill: #B25353; }\n\n.mo
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12725,7 +12806,7 @@ exports.push([module.i, ".options-motivator-icon .st0 {\n  fill: #BD1622; }\n\n.
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12739,7 +12820,7 @@ exports.push([module.i, ".professional-community-motivator-icon .st0 {\n  fill: 
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12753,7 +12834,7 @@ exports.push([module.i, ".self-development-motivator-icon .st0 {\n  fill: #1E8FA
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12767,7 +12848,7 @@ exports.push([module.i, ".recommendation-icon .st0 {\n  display: none; }\n\n.rec
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(1)(undefined);
@@ -12781,7 +12862,7 @@ exports.push([module.i, "#personal-theme-scene .sky .st0 {\n  fill: #254E6C; }\n
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12799,13 +12880,13 @@ module.exports = function isArrayish(obj) {
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var isArrayish = __webpack_require__(151);
+var isArrayish = __webpack_require__(152);
 
 var concat = Array.prototype.concat;
 var slice = Array.prototype.slice;
@@ -12835,37 +12916,6 @@ swizzle.wrap = function (fn) {
 
 
 /***/ }),
-/* 153 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(129);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(2)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./Body.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./Body.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
 /* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12886,8 +12936,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FreeArm.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FreeArm.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./Body.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./Body.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -12917,8 +12967,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./Head.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./Head.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FreeArm.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FreeArm.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -12948,8 +12998,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./AttainmentMotivatorDynamicImage.scss", function() {
-			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./AttainmentMotivatorDynamicImage.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./Head.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./Head.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -12979,8 +13029,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./CareerMotivatorDynamicImage.scss", function() {
-			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./CareerMotivatorDynamicImage.scss");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./AttainmentMotivatorDynamicImage.scss", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./AttainmentMotivatorDynamicImage.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13010,8 +13060,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./FamilyMotivatorDynamicImage.scss", function() {
-			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./FamilyMotivatorDynamicImage.scss");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./CareerMotivatorDynamicImage.scss", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./CareerMotivatorDynamicImage.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13041,8 +13091,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./FearOfFailureMotivatorDynamicImage.scss", function() {
-			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./FearOfFailureMotivatorDynamicImage.scss");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./FamilyMotivatorDynamicImage.scss", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./FamilyMotivatorDynamicImage.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13072,8 +13122,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./MasteryMotivatorDynamicImage.scss", function() {
-			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./MasteryMotivatorDynamicImage.scss");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./FearOfFailureMotivatorDynamicImage.scss", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./FearOfFailureMotivatorDynamicImage.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13103,8 +13153,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./MoneyMotivatorDynamicImage.scss", function() {
-			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./MoneyMotivatorDynamicImage.scss");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./MasteryMotivatorDynamicImage.scss", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./MasteryMotivatorDynamicImage.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13134,8 +13184,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./OptionsMotivatorDynamicImage.scss", function() {
-			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./OptionsMotivatorDynamicImage.scss");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./MoneyMotivatorDynamicImage.scss", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./MoneyMotivatorDynamicImage.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13165,8 +13215,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./SelfDevelopmentMotivatorDynamicImage.scss", function() {
-			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./SelfDevelopmentMotivatorDynamicImage.scss");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./OptionsMotivatorDynamicImage.scss", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./OptionsMotivatorDynamicImage.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13196,8 +13246,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./AttainmentMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./AttainmentMotivatorIcon.scss");
+		module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./SelfDevelopmentMotivatorDynamicImage.scss", function() {
+			var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/sass-loader/lib/loader.js!./SelfDevelopmentMotivatorDynamicImage.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13227,8 +13277,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./CareerMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./CareerMotivatorIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./AttainmentMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./AttainmentMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13258,8 +13308,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FamilyMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FamilyMotivatorIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./CareerMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./CareerMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13289,8 +13339,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FearOfFailureMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FearOfFailureMotivatorIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FamilyMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FamilyMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13320,8 +13370,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./MasteryMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./MasteryMotivatorIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FearOfFailureMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./FearOfFailureMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13351,8 +13401,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./MoneyMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./MoneyMotivatorIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./MasteryMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./MasteryMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13382,8 +13432,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./OptionsMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./OptionsMotivatorIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./MoneyMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./MoneyMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13413,8 +13463,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./ProfessionalCommunityMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./ProfessionalCommunityMotivatorIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./OptionsMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./OptionsMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13444,8 +13494,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./SelfDevelopmentMotivatorIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./SelfDevelopmentMotivatorIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./ProfessionalCommunityMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./ProfessionalCommunityMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13475,8 +13525,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./RecommendationIcon.scss", function() {
-			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./RecommendationIcon.scss");
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./SelfDevelopmentMotivatorIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./SelfDevelopmentMotivatorIcon.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -13506,6 +13556,37 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
+		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./RecommendationIcon.scss", function() {
+			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./RecommendationIcon.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 175 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(151);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(2)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
 		module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./PersonalThemeScene.scss", function() {
 			var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/sass-loader/lib/loader.js!./PersonalThemeScene.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
@@ -13517,7 +13598,7 @@ if(false) {
 }
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports) {
 
 
@@ -13610,12 +13691,6 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
-
-/***/ }),
-/* 176 */
-/***/ (function(module, exports) {
-
-module.exports = __WEBPACK_EXTERNAL_MODULE_176__;
 
 /***/ })
 /******/ ]);
